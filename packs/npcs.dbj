@@ -1,0 +1,2952 @@
+[
+  {
+    "name": "Lord Mayor Alden Rutherford",
+    "type": "character",
+    "img": "icons/npcs/mayor.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Highstone",
+        "triggers": [],
+        "visualMotif": "Tall stone walls, banners of river and sheaf, flickering lanterns",
+        "faction": "Greyhaven Leadership",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Lord Mayor Alden Rutherford",
+        "questHooks": [
+          {
+            "id": "qh_mayor_safety_net",
+            "title": "The Safety Net",
+            "type": "political",
+            "start": "Discreetly reduce north-road robberies without scandal.",
+            "advanceClocks": [
+              {
+                "clockId": "clock_greyhaven_stability",
+                "delta": -1
+              }
+            ],
+            "complications": [
+              "Zhents redirect PCs",
+              "Magistrate demands public punishment"
+            ]
+          }
+        ],
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask about town law",
+            "table": "Town Rumors",
+            "bonus": "+0",
+            "note": "He emphasizes order and the spellcasting ban."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Captain Elira Voss",
+    "type": "character",
+    "img": "icons/npcs/guard-captain.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Highstone",
+        "triggers": [],
+        "visualMotif": "Polished shields, clipped voices, watchful eyes in lamplight",
+        "faction": "Town Militia / Harpers",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Captain Elira Voss",
+        "questHooks": [
+          {
+            "id": "qh_voss_courier",
+            "title": "Intercept the Courier",
+            "type": "stealth",
+            "start": "A Harper courier is overdue; find them before Zhents do.",
+            "advanceClocks": [
+              {
+                "clockId": "clock_harpers_intel",
+                "delta": 2
+              }
+            ],
+            "complications": [
+              "Courier blight-sick",
+              "Captured under false names at inn"
+            ]
+          }
+        ],
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask about roads",
+            "table": "Random North Road Encounters",
+            "bonus": "+1",
+            "note": "Updated patrol intel."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "High Priestess Selene Dawnbreak",
+    "type": "character",
+    "img": "icons/npcs/priestess.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Old Quarter",
+        "triggers": [],
+        "visualMotif": "Warm candlelight, sunburst carvings, clean linen and incense",
+        "faction": "Shrine of Lathander",
+        "gmOnlyJournal": "NPC DOSSIER (GM): High Priestess Selene Dawnbreak"
+      }
+    }
+  },
+  {
+    "name": "Dora Bramblefoot",
+    "type": "character",
+    "img": "icons/npcs/halfling-matriarch.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Market Green",
+        "triggers": [],
+        "visualMotif": "Bright awnings, tidy ledgers, a smile that weighs you",
+        "faction": "Bramblefoot Family",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Dora Bramblefoot"
+      }
+    }
+  },
+  {
+    "name": "Roderick Smithson",
+    "type": "character",
+    "img": "icons/npcs/drunk.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Dockside",
+        "triggers": [],
+        "visualMotif": "River stink, wet wood, muttered songs and empty bottles",
+        "faction": "None",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Roderick Smithson"
+      }
+    }
+  },
+  {
+    "name": "Zhentarim Handler Varron Dusk",
+    "type": "character",
+    "img": "icons/npcs/zhent.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Market Green",
+        "triggers": [],
+        "visualMotif": "Soft boots, gloved hands, eyes like tally marks",
+        "faction": "Zhentarim",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Zhentarim Handler Varron Dusk"
+      }
+    }
+  },
+  {
+    "name": "Gildon Farrow",
+    "type": "character",
+    "img": "icons/npcs/merchant.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Market Green",
+        "triggers": [],
+        "visualMotif": "Crates, scales, ink-stained fingers, anxious glances",
+        "faction": "Merchants",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Gildon Farrow"
+      }
+    }
+  },
+  {
+    "name": "Bessa Wainwright",
+    "type": "character",
+    "img": "icons/npcs/carpenter.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Southgate Ward",
+        "triggers": [],
+        "visualMotif": "Fresh-cut wood, iron nails, sawdust in sunbeams",
+        "faction": "Tradesfolk",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Bessa Wainwright"
+      }
+    }
+  },
+  {
+    "name": "Cyril “Crowsong” Mott",
+    "type": "character",
+    "img": "icons/npcs/bard.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Market Green",
+        "triggers": [],
+        "visualMotif": "Laughter like smoke, a crow feather tucked in a cuff",
+        "faction": "Harpers",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Cyril “Crowsong” Mott"
+      }
+    }
+  },
+  {
+    "name": "Sergeant Brinna Holt",
+    "type": "character",
+    "img": "icons/npcs/sergeant.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Highstone",
+        "triggers": [],
+        "visualMotif": "Orderly lines, clipped commands, a hand near the baton",
+        "faction": "Town Militia",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Sergeant Brinna Holt"
+      }
+    }
+  },
+  {
+    "name": "Watchman Pell Tarrow",
+    "type": "character",
+    "img": "icons/npcs/watchman.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Eastgate",
+        "triggers": [],
+        "visualMotif": "Lantern glow, fog-beaded stone, nervous footsteps",
+        "faction": "Town Militia",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Watchman Pell Tarrow"
+      }
+    }
+  },
+  {
+    "name": "Brother Harun of the Dawn",
+    "type": "character",
+    "img": "icons/npcs/acolyte.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Old Quarter",
+        "triggers": [],
+        "visualMotif": "Bell chimes, ledger ink, sunlit dust motes",
+        "faction": "Shrine of Lathander",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Brother Harun of the Dawn"
+      }
+    }
+  },
+  {
+    "name": "Hilda Greenbottle",
+    "type": "character",
+    "img": "icons/npcs/grocer.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Lowstone",
+        "triggers": [],
+        "visualMotif": "Spice scents, warm tea, sharp eyes behind kindness",
+        "faction": "Stoutheart Network",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Hilda Greenbottle"
+      }
+    }
+  },
+  {
+    "name": "Odo Stoutheart",
+    "type": "character",
+    "img": "icons/npcs/farmer.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Lowstone",
+        "triggers": [],
+        "visualMotif": "Mud boots, callused hands, wary gaze toward treeline",
+        "faction": "Stoutheart Family",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Odo Stoutheart"
+      }
+    }
+  },
+  {
+    "name": "Kellan Pike",
+    "type": "character",
+    "img": "icons/npcs/kid.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Dockside",
+        "triggers": [],
+        "visualMotif": "Skipping stones, river wind, a pocket that hums at night",
+        "faction": "None",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Kellan Pike"
+      }
+    }
+  },
+  {
+    "name": "Caravan Master Sorn Dellik",
+    "type": "character",
+    "img": "icons/npcs/caravan.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Northgate Ward",
+        "triggers": [],
+        "visualMotif": "Canvas tarps, tired eyes, coin-counting hands",
+        "faction": "Caravaners",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Caravan Master Sorn Dellik"
+      }
+    }
+  },
+  {
+    "name": "Roadwarden ‘Old’ Sera Lann",
+    "type": "character",
+    "img": "icons/npcs/scout.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Northgate Ward",
+        "triggers": [],
+        "visualMotif": "Weathered cloak, scarred map case, listening pauses",
+        "faction": "Roadwardens",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Roadwarden ‘Old’ Sera Lann"
+      }
+    }
+  },
+  {
+    "name": "Zhentarim Cutter Vesk",
+    "type": "character",
+    "img": "icons/npcs/enforcer.png",
+    "system": {
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": {
+          "calc": "default",
+          "flat": null
+        },
+        "init": {
+          "ability": "",
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          },
+          "bonus": ""
+        },
+        "movement": {
+          "units": null,
+          "hover": false,
+          "ignoredDifficultTerrain": []
+        },
+        "attunement": {
+          "max": 3
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "hp": {
+          "max": 11,
+          "temp": null,
+          "tempmax": null,
+          "value": 11,
+          "formula": ""
+        }
+      },
+      "details": {
+        "biography": {
+          "value": "",
+          "public": ""
+        },
+        "alignment": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "race": "",
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "habitat": {
+          "value": [],
+          "custom": ""
+        },
+        "cr": 0,
+        "treasure": {
+          "value": []
+        }
+      },
+      "resources": {
+        "legact": {
+          "max": 0,
+          "spent": 0
+        },
+        "legres": {
+          "max": 0,
+          "spent": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": null,
+          "inside": false
+        }
+      },
+      "source": {
+        "revision": 1,
+        "rules": "2024"
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dr": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dv": {
+          "value": [],
+          "custom": "",
+          "bypasses": []
+        },
+        "dm": {
+          "amount": {},
+          "bypasses": []
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "",
+          "communication": {}
+        },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "greyhaven": {
+        "district": "Market Green",
+        "triggers": [],
+        "visualMotif": "A polite smile that never reaches the eyes",
+        "faction": "Zhentarim",
+        "gmOnlyJournal": "NPC DOSSIER (GM): Zhentarim Cutter Vesk"
+      }
+    }
+  }
+]

@@ -1,0 +1,501 @@
+[
+  {
+    "name": "FACTIONS: Overview & Clock Index (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "How to Use Clocks",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Advance clocks by 1–3 segments when triggers occur. When a clock hits a milestone, run the matching Clock Consequence scene.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Greyhaven Leadership (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Greyhaven Stability</b> (8 segments). Current: 3.</p><p><b>Triggers:</b> North Road robbery succeeds, Food theft at granary, Public humiliation escalates, Rumor: Mayor-Zhent deal confirmed</p><p><b>Milestones:</b></p><ul><li>@4: Rationing begins; militia patrols double.</li><li>@6: Curfew enforced; outsiders searched; punishments escalate.</li><li>@8: Town crisis: riot OR martial law OR scapegoat purge.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_greyhaven_stability",
+            "name": "Greyhaven Stability",
+            "segments": 8,
+            "current": 3,
+            "type": "pressure",
+            "triggers": [
+              "North Road robbery succeeds",
+              "Food theft at granary",
+              "Public humiliation escalates",
+              "Rumor: Mayor-Zhent deal confirmed"
+            ],
+            "milestones": [
+              {
+                "at": 4,
+                "effect": "Rationing begins; militia patrols double."
+              },
+              {
+                "at": 6,
+                "effect": "Curfew enforced; outsiders searched; punishments escalate."
+              },
+              {
+                "at": 8,
+                "effect": "Town crisis: riot OR martial law OR scapegoat purge."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Town Militia (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Militia Authority</b> (6 segments). Current: 2.</p><p><b>Triggers:</b> PCs assist patrols, Bandit leader captured, Spellcasting arrest handled publicly, Mayor grants emergency powers</p><p><b>Milestones:</b></p><ul><li>@3: Checkpoints at gates; papers requested.</li><li>@5: Raids on suspected fronts.</li><li>@6: Militia splinters; captain chooses.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_militia_authority",
+            "name": "Militia Authority",
+            "segments": 6,
+            "current": 2,
+            "type": "power",
+            "triggers": [
+              "PCs assist patrols",
+              "Bandit leader captured",
+              "Spellcasting arrest handled publicly",
+              "Mayor grants emergency powers"
+            ],
+            "milestones": [
+              {
+                "at": 3,
+                "effect": "Checkpoints at gates; papers requested."
+              },
+              {
+                "at": 5,
+                "effect": "Raids on suspected fronts."
+              },
+              {
+                "at": 6,
+                "effect": "Militia splinters; captain chooses."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Zhentarim (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Black Network Grip</b> (8 segments). Current: 3.</p><p><b>Triggers:</b> Contraband shipment succeeds, PCs accept Zhent job, Harper courier intercepted, Mayor covers for Zhent</p><p><b>Milestones:</b></p><ul><li>@4: Protection fees begin.</li><li>@6: A key NPC is framed/blackmailed.</li><li>@8: Soft coup attempt.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_zhent_grip",
+            "name": "Black Network Grip",
+            "segments": 8,
+            "current": 3,
+            "type": "influence",
+            "triggers": [
+              "Contraband shipment succeeds",
+              "PCs accept Zhent job",
+              "Harper courier intercepted",
+              "Mayor covers for Zhent"
+            ],
+            "milestones": [
+              {
+                "at": 4,
+                "effect": "Protection fees begin."
+              },
+              {
+                "at": 6,
+                "effect": "A key NPC is framed/blackmailed."
+              },
+              {
+                "at": 8,
+                "effect": "Soft coup attempt."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Harpers (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Harper Intelligence</b> (6 segments). Current: 1.</p><p><b>Triggers:</b> PCs deliver proof, Zhent route discovered, Gloomwaste artifact recovered, Secret meeting succeeds</p><p><b>Milestones:</b></p><ul><li>@2: Safehouse access and coded contacts.</li><li>@4: Reveal lich hypothesis; request strike.</li><li>@6: Coordinated raid/exposure.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_harpers_intel",
+            "name": "Harper Intelligence",
+            "segments": 6,
+            "current": 1,
+            "type": "progress",
+            "triggers": [
+              "PCs deliver proof",
+              "Zhent route discovered",
+              "Gloomwaste artifact recovered",
+              "Secret meeting succeeds"
+            ],
+            "milestones": [
+              {
+                "at": 2,
+                "effect": "Safehouse access and coded contacts."
+              },
+              {
+                "at": 4,
+                "effect": "Reveal lich hypothesis; request strike."
+              },
+              {
+                "at": 6,
+                "effect": "Coordinated raid/exposure."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Bloodcrust Orcs (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Bloodcrust Raiding Season</b> (6 segments). Current: 2.</p><p><b>Triggers:</b> Orc camp survives, Lich agent gifts weapons, PCs ignore raid signs, Food runs low in camps</p><p><b>Milestones:</b></p><ul><li>@3: Small raid; 1 farm burned.</li><li>@5: Road ambush; trade worsens.</li><li>@6: Major raid event.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_bloodcrust_raids",
+            "name": "Bloodcrust Raiding Season",
+            "segments": 6,
+            "current": 2,
+            "type": "threat",
+            "triggers": [
+              "Orc camp survives",
+              "Lich agent gifts weapons",
+              "PCs ignore raid signs",
+              "Food runs low in camps"
+            ],
+            "milestones": [
+              {
+                "at": 3,
+                "effect": "Small raid; 1 farm burned."
+              },
+              {
+                "at": 5,
+                "effect": "Road ambush; trade worsens."
+              },
+              {
+                "at": 6,
+                "effect": "Major raid event."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Bramblefoot Family (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Bramblefoot Leverage</b> (6 segments). Current: 2.</p><p><b>Triggers:</b> PCs do family favors, Trade deal secured, Stoutheart scandal spreads, Bloodline secret threatened</p><p><b>Milestones:</b></p><ul><li>@3: Discounts, hirelings, social cover.</li><li>@5: Push new ordinance.</li><li>@6: Drastic move: exile/bribery/purge.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_bramblefoot_leverage",
+            "name": "Bramblefoot Leverage",
+            "segments": 6,
+            "current": 2,
+            "type": "influence",
+            "triggers": [
+              "PCs do family favors",
+              "Trade deal secured",
+              "Stoutheart scandal spreads",
+              "Bloodline secret threatened"
+            ],
+            "milestones": [
+              {
+                "at": 3,
+                "effect": "Discounts, hirelings, social cover."
+              },
+              {
+                "at": 5,
+                "effect": "Push new ordinance."
+              },
+              {
+                "at": 6,
+                "effect": "Drastic move: exile/bribery/purge."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "FACTION: Stoutheart Family (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock Summary",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Stoutheart Resentment</b> (6 segments). Current: 1.</p><p><b>Triggers:</b> Rationing hits Lowstone first, Policy benefits Bramblefoots, Militia abuses halfling, Mayor deal rumor confirmed</p><p><b>Milestones:</b></p><ul><li>@2: Lowstone refuses taxes; rumor intensifies.</li><li>@4: Strike/slowdown.</li><li>@6: Flashpoint confrontation.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_stoutheart_resentment",
+            "name": "Stoutheart Resentment",
+            "segments": 6,
+            "current": 1,
+            "type": "pressure",
+            "triggers": [
+              "Rationing hits Lowstone first",
+              "Policy benefits Bramblefoots",
+              "Militia abuses halfling",
+              "Mayor deal rumor confirmed"
+            ],
+            "milestones": [
+              {
+                "at": 2,
+                "effect": "Lowstone refuses taxes; rumor intensifies."
+              },
+              {
+                "at": 4,
+                "effect": "Strike/slowdown."
+              },
+              {
+                "at": 6,
+                "effect": "Flashpoint confrontation."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  }
+]

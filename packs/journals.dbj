@@ -1,0 +1,1660 @@
+[
+  {
+    "name": "GM CLOCK BOARD: Greyhaven",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Active Clocks",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Quick reference.</b> Track current segments in your faction journals. Use Clock Consequence journals when milestones hit.</p><ul><li><b>Greyhaven Stability</b> (8): shortages, unrest, over-policing</li><li><b>Black Network Grip</b> (8): smuggling, coercion, ‘protection’</li><li><b>Harper Intelligence</b> (6): evidence, couriers, lore</li><li><b>Bloodcrust Raiding Season</b> (6): raids, tainted aid, camp survival</li><li><b>Bramblefoot Leverage</b> (6): policy, favors, secrets</li><li><b>Stoutheart Resentment</b> (6): inequality, humiliation, hunger</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Forecast",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Forecast prompts:</b></p><ul><li>If Stability rises: curfews, searches, scapegoats.</li><li>If Zhent Grip rises: protection fees, framing, soft coup.</li><li>If Harper Intel rises: strikes on routes and a lich theory reveal.</li><li>If Bloodcrust rises: farm burnings, ambush, major raid.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "Gloomwaste: Entry Horror Pack (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "First Contact",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>When PCs first cross into the <b>Gloomwaste</b>:</p><ul><li>Birds go silent.</li><li>Breath fogs even in warmth.</li><li>Footsteps sound too loud.</li></ul><p>Ask each PC what childhood memory flashes unbidden. The lich is brushing the edge of their minds.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Environmental Dread",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Each hour, choose or roll 1d6:</p><ol><li>A dead animal twitches.</li><li>Fog whispers a PC’s name.</li><li>Bootprints lead backward.</li><li>A tree bleeds black sap.</li><li>A shadow moves wrong.</li><li>A rune glows faintly under soil.</li></ol>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 300000,
+        "name": "Exposure Escalation",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>After 3 failed Blight saves (or equivalent exposure events):</p><ul><li>PC dreams of the keep.</li><li>They hear a distant woman’s voice.</li><li>The lich can scry them 1/day.</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "location": "Gloomwaste"
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "LICH SYSTEM: Early Influence Tracker (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Influence Level",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Lich Awareness Level</b> is tracked by you (GM). Start at 1. Increase by +1 when PCs:</p><ul><li>Enter the Gloomwaste</li><li>Recover a ruin artifact</li><li>Kill a tainted creature</li><li>Break a key ward</li></ul><p>At higher levels, the lich responds faster and more personally.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Levels",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<ol><li><b>Whispers</b>: dreams, fog, humming</li><li><b>Eyes</b>: undead scouts, ravens, possessed animals</li><li><b>Hands</b>: cultists, tainted orcs, undead</li><li><b>Voice</b>: speaks through NPCs, sends bargains</li><li><b>Avatar</b>: projection or lieutenant appears</li></ol>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 300000,
+        "name": "Reaction Menu",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>When PCs interfere:</p><ul><li>Send a tainted encounter tailored to their fears</li><li>Offer a bargain via a friendly NPC</li><li>Corrupt a faction asset (aid shipment, rumor, arrest)</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "villain": "The Gloom Lich"
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "LAW: Spellcasting in Greyhaven",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Public Notice",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>NOTICE TO ALL VISITORS AND RESIDENTS</b></p><p>By order of the Lord Mayor and Town Council: <b>public spellcasting is prohibited</b> unless authorized by the militia for immediate defense of life.</p><p>Unauthorized spellcasting may result in warning, confiscation, confinement, banishment, or worse.</p><p><b>Practical guidance:</b> Healing is permitted only at the shrine or under militia direction. Illusions and charms are treated as suspicious.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": false,
+        "playerFacing": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "SYSTEM: Spellcasting Enforcement (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Detection & Suspicion",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>When a spell is cast in town:</b></p><ol><li>Decide witnesses (militia, townsfolk, faction watcher).</li><li>Assign <b>Suspicion</b> based on spell and context.</li><li>Apply response tier.</li></ol><p><b>Suspicion modifiers:</b> harmless cantrip +1; healing in public +2; illusion/enchantment +3; damage spell +4; visible weirdness +2; outsider +1; goodwill -1 to -2.</p><p><b>Clock:</b> Each incident usually advances <b>Greyhaven Stability +1</b>, unless it prevents a public disaster (then Stability -1).</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Response Tiers",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Tier 1 (1–2):</b> warning + name recorded.</p><p><b>Tier 2 (3–4):</b> detainment 1d4 hours, minor fine/confiscation; rumor spreads.</p><p><b>Tier 3 (5–6):</b> public example (humiliation or overnight confinement); Mayor notified.</p><p><b>Tier 4 (7+):</b> banishment or worse; faction move triggers.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 300000,
+        "name": "Faction Interference",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Zhentarim:</b> make it ‘go away’ for a job (Zhent Grip +1 if accepted).</p><p><b>Harpers:</b> offer safe route/disguise (Harper Intel +1 if accepted).</p><p><b>Bramblefoots:</b> push stricter ordinance (Bramblefoot Leverage +1; Stoutheart Resentment +1).</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "SYSTEM: Clock Milestone Consequences (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "How to Use",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>When a clock reaches a milestone, run the matching scene prompt in the related <b>CLOCK CONSEQUENCES</b> journal.</p><p>Apply listed outcomes immediately (shift clocks, create new problems).</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "CLOCK CONSEQUENCES: Greyhaven Stability (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Milestone 4: Ration Lines",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Ration line at granary. Tempers flare. Child faints. NPC anchors: Hilda, Brinna, Gildon. If solved peacefully: Stability -1. If violence: Stability +1 and Resentment +1. If Zhents ‘fix’: Zhent Grip +1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Milestone 6: Curfew and Searches",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Curfew posted. Checkpoints. Harper courier nearly caught; Zhent shipment moves. If PCs reveal exploitation: Zhent Grip -1 and Harper Intel +1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 300000,
+        "name": "Milestone 8: Riot or Martial Law",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Pick: Riot, Martial Law, or Scapegoat Purge. If PCs defuse with truth: Stability resets to 4 and Harper Intel +1. If Zhents restore order: Zhent Grip +2.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clockId": "clock_greyhaven_stability",
+        "clockName": "Greyhaven Stability"
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "CLOCK CONSEQUENCES: Black Network Grip (Zhentarim) (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Milestone 4: Protection Fees",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Merchants get ‘security contracts’. Phrase: ‘for your peace of mind’. If PCs expose collector: Zhent Grip -1 (retaliation begins). If accept work: Zhent Grip +1 and PCs gain heat.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Milestone 6: Framed",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>A respected local is framed. If PCs prove it: Zhent Grip -2 and Harper Intel +1. If fail: Militia Authority +1 and Stability +1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 300000,
+        "name": "Milestone 8: Soft Coup",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Zhents install ‘advisor’ beside Mayor. Stop publicly: Stability +1, Zhent Grip -2. Stop quietly: Zhent Grip -1, Harper Intel +1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clockId": "clock_zhent_grip",
+        "clockName": "Black Network Grip"
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "CLOCK CONSEQUENCES: Harper Intelligence (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Milestone 2: Tools on the Table",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Harpers provide contact phrase and meeting location (song sheet, inn ledger, shrine margin). PCs gain one Harper Favor.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Milestone 4: Lich Hypothesis",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Harpers share theory: Gloomwaste maintained by undead intelligence with planar aims. Offer targeted strike.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 300000,
+        "name": "Milestone 6: Open Move",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 2
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Harpers raid a Zhent front or extract captive. Success: Zhent Grip -2 and Stability -1. Failure: Zhent Grip +1 and Harpers go dark.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "clockId": "clock_harpers_intel",
+        "clockName": "Harper Intelligence"
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Lord Mayor Alden Rutherford",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> permits Zhentarim movement for safety promises. <b>Leverage:</b> receipts/meeting notes. <b>If confronted:</b> offers a deal; public confrontation sparks crackdown.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Lord Mayor Alden Rutherford",
+        "links": [
+          "Clock:Greyhaven Stability",
+          "Clock:Black Network Grip"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Captain Elira Voss",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Harper operative. <b>Leverage:</b> her identity is dangerous; she holds counter-evidence. <b>If betrayed:</b> Harpers vanish; Zhent Grip +2.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Captain Elira Voss",
+        "links": [
+          "Clock:Harper Intelligence",
+          "Clock:Militia Authority"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Dora Bramblefoot",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> bloodline touches the lich’s mortal identity. <b>Leverage:</b> heirloom records/rune inscriptions. <b>If threatened:</b> pushes harsher policy.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Dora Bramblefoot",
+        "links": [
+          "Clock:Bramblefoot Leverage"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Roderick Smithson",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>True:</b> saw outer concentric walls and intact keep; heard a ‘chorus’ in fog. <b>False:</b> gold river, talking statues. <b>If sobered:</b> sketches approach tells.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Roderick Smithson",
+        "links": [
+          "Clock:Harper Intelligence"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Zhentarim Handler Varron Dusk",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> not top of chain; answers to a higher ‘scribe’. <b>Operations:</b> uses Market fronts and north cavern waystation. <b>If exposed:</b> burns pawns, relocates.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Zhentarim Handler Varron Dusk",
+        "links": [
+          "Clock:Black Network Grip"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Gildon Farrow",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> launders Zhent coin through freight fees. <b>Leverage:</b> false-bottom ledgers and wax seals. <b>If threatened:</b> informs Varron.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Gildon Farrow",
+        "links": [
+          "Clock:Black Network Grip",
+          "Clock:Greyhaven Stability"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Bessa Wainwright",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> repaired ‘mystery wagons’ for Zhents; keeps notch-code ledger. <b>Tell:</b> can identify sour sap/taint in wood.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Bessa Wainwright",
+        "links": [
+          "Clock:Greyhaven Stability"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Cyril “Crowsong” Mott",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Harper courier; ‘crow verses’ are codes. <b>If betrayed:</b> Harpers withdraw; Zhent Grip +2.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Cyril “Crowsong” Mott",
+        "links": [
+          "Clock:Harper Intelligence",
+          "Clock:Black Network Grip"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Sergeant Brinna Holt",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> fears magic from past accident. <b>Pressure:</b> supports harsher measures if Stability worsens. <b>If PCs help:</b> shields them from zealots.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Sergeant Brinna Holt",
+        "links": [
+          "Clock:Militia Authority",
+          "Clock:Stoutheart Resentment"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Watchman Pell Tarrow",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> hears real harmonic from east fog (planar side-effect). If mocked: stops reporting; next incident worsens (Stability +1).</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Watchman Pell Tarrow",
+        "links": [
+          "Clock:Greyhaven Stability"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Brother Harun of the Dawn",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> old ledger margins suggest a will behind the blight. Risk: leaks secrets if panicked.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Brother Harun of the Dawn",
+        "links": [
+          "Clock:Harper Intelligence",
+          "Clock:Greyhaven Stability"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Hilda Greenbottle",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> rumor broker of Lowstone; can turn neighborhood mood. Alienate her and rumors turn fast.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Hilda Greenbottle",
+        "links": [
+          "Clock:Stoutheart Resentment"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Odo Stoutheart",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> sets illegal traps on outskirts. If ignored, becomes vigilante leader.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Odo Stoutheart",
+        "links": [
+          "Clock:Stoutheart Resentment",
+          "Clock:Greyhaven Stability"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Kellan Pike",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> found a humming shard; draws curiosity; can resonate near ruin glyphs. If ignored, returns and gets hurt.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Kellan Pike",
+        "links": [
+          "Clock:Harper Intelligence"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Caravan Master Sorn Dellik",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> attacked by tainted highwaymen (black nails, wrong fear response). If he quits, Stability worsens weekly.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Caravan Master Sorn Dellik",
+        "links": [
+          "Clock:Greyhaven Stability",
+          "Clock:Black Network Grip"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Roadwarden ‘Old’ Sera Lann",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> believes Gloomwaste is maintained like a machine. Refuses heavy fog. Shares warning signs if respected.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Roadwarden ‘Old’ Sera Lann",
+        "links": [
+          "Clock:Greyhaven Stability"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Zhentarim Cutter Vesk",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> knows landmark tells to reach cavern waystation. Fears Varron more than death; may crack if offered protection.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true,
+        "npc": "Zhentarim Cutter Vesk",
+        "links": [
+          "Clock:Black Network Grip"
+        ]
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "SESSION 1: Welcome to Greyhaven (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "GM Dashboard",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Run order:</b> Arrival → First Night → Market Day.</p><ul><li>Roll/pick 1 Market Hook</li><li>Give 1 rumor per PC</li><li>If magic is cast, use Spellcasting Enforcement</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "Greyhaven: Arrival",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Through the Gates",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>The road curves between fields and low stone walls. Greyhaven rises around a slow river, banners above heavy gates. A patrol watches travelers with careful eyes. To the east, gray-green fog stains the horizon where a road vanishes into nothing.</p><p>The air smells of grain, smoke, and something faintly sour.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": false
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "SCENE: Arrival at Greyhaven (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "What’s Really Happening",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>The east road’s fog pulses faintly. Pell hears it humming. Brinna Holt is tense after contraband slipped past checkpoints.</p><p>If PCs look east: birds go silent. If PCs ask about rules: emphasize spellcasting ban.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Hooks",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>If PCs bribe/charm their way past: Zhent Grip +1. If they help openly and calm things: Stability -1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "Greyhaven: First Night",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Lanterns and Whispers",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Greyhaven quiets after sunset. Lanterns glow along the streets. Near the east gate, fog coils strangely against stone. A drunk laughs too loudly. Somewhere, a child cries.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": false
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "SCENE: First Night (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Choose or Roll",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Roll 1d4:</p><ol><li>Pell reports singing fog.</li><li>Vesk tests PCs socially.</li><li>A Stoutheart farmer is arrested.</li><li>A Harper courier slips a note to Cyril.</li></ol>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Spellcasting Incident",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>If a PC casts magic in public: militia intervenes; questioning; crowd gathers. Usually Stability +1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "Greyhaven: Market Day",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "The Green",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>The market is alive with shouting vendors, bread and spices, and the tension of too few goods for too many people. Militia patrols weave through stalls. Rumors move faster than coin.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": false
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  },
+  {
+    "name": "SCENE: Market Day (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Market Hooks",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>Pick 2:</p><ul><li>Hilda complains about tainted spices</li><li>Sorn offers escort work</li><li>Dora eyes the PCs</li><li>Zhent runner delivers a package</li><li>A blight-tainted animal is found</li></ul>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Pressure",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>If prices spike/panic spreads: Resentment +1. If PCs solve a public problem: Stability -1.</p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Blight Mechanics Index (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Index",
+        "type": "text",
+        "system": {},
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p>This module includes Gloomwaste horror tools and an influence tracker. Add your full Blight mechanics journal here if desired.</p><p>See: <b>Gloomwaste: Entry Horror Pack (GM)</b></p>"
+        },
+        "video": {
+          "controls": true,
+          "volume": 0.5
+        },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "greyhaven": {
+        "gmOnly": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    }
+  }
+]
