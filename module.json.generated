@@ -1,0 +1,41 @@
+{
+  "name": "grayhaven-all",
+  "title": "Grayhaven: Blight and Intrigue (All Current JSON)",
+  "description": "A JSON-pack module containing all Grayhaven content generated in this chat: Session 1 kit, spellcasting enforcement, clocks, consequences, Gloomwaste horror, lich influence tracker, faction clocks, NPC dossiers, and core NPC actors.",
+  "version": "1.0.0",
+  "author": "ChatGPT",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "packs": [
+    {
+      "name": "npcs",
+      "label": "Grayhaven NPCs (JSON)",
+      "path": "packs/npcs.dbj",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "Grayhaven Journals (JSON)",
+      "path": "packs/journals.dbj",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "factions",
+      "label": "Grayhaven Factions & Clocks (JSON)",
+      "path": "packs/factions.dbj",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "blight",
+      "label": "Grayhaven Blight (JSON)",
+      "path": "packs/blight.dbj",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "tables",
+      "label": "Grayhaven Tables (JSON)",
+      "path": "packs/tables.dbj",
+      "entity": "RollTable"
+    }
+  ]
+}
