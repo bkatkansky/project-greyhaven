@@ -1,0 +1,899 @@
+[
+  {
+    "name": "Lord Mayor Alden Rutherford",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Lord Mayor Alden Rutherford",
+        "rumorTriggers": [
+          { "trigger": "PCs ask about town law", "table": "Town Rumors", "bonus": "+0", "note": "He emphasizes spellcasting ban + ‘order’." },
+          { "trigger": "PCs mention Zhentarim", "table": "Town Rumors", "bonus": "+2", "note": "He deflects; a slip reveals fear of losing control." }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_mayor_safety_net",
+            "title": "The Safety Net",
+            "type": "political",
+            "start": "Mayor requests discreet help reducing north-road robberies without public scandal.",
+            "advanceClocks": [{ "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "complications": ["Zhentarim try to redirect PCs toward a rival bandit crew.", "Magistrate demands a public punishment regardless of evidence."]
+          },
+          {
+            "id": "qh_mayor_dirty_receipts",
+            "title": "Receipts in the Rain",
+            "type": "investigation",
+            "start": "A ledger page goes missing from the Mayor’s office. He wants it recovered quietly.",
+            "advanceClocks": [{ "clockId": "clock_zhent_grip", "delta": -1 }, { "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "complications": ["The page is already with Harpers.", "Or with Varron Dusk, baiting PCs."]
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "name": "Captain Elira Voss",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Captain Elira Voss",
+        "rumorTriggers": [
+          { "trigger": "PCs ask about roads", "table": "Random North Road Encounters", "bonus": "+1", "note": "She has updated patrol intel." },
+          { "trigger": "PCs show proof of Zhent activity", "table": "Town Rumors", "bonus": "+2", "note": "She turns it into actionable leads." }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_voss_courier",
+            "title": "Intercept the Courier",
+            "type": "stealth",
+            "start": "A Harper courier is overdue. Voss wants PCs to find them before Zhents do.",
+            "advanceClocks": [{ "clockId": "clock_harpers_intel", "delta": 2 }],
+            "complications": ["Courier is alive but blight-sick.", "Courier is captured at the inn under false names."]
+          },
+          {
+            "id": "qh_voss_patrol_gap",
+            "title": "The Patrol Gap",
+            "type": "tactical",
+            "start": "Voss needs bodies for one night to cover a gap while she runs an ‘inspection’.",
+            "advanceClocks": [{ "clockId": "clock_militia_authority", "delta": 1 }],
+            "complications": ["Highwaymen test the gap.", "A Zhent shipment moves during the same window."]
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "name": "High Priestess Selene Dawnbreak",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): High Priestess Selene Dawnbreak",
+        "rumorTriggers": [
+          { "trigger": "PCs ask about the Gloomwaste", "table": "Town Rumors", "bonus": "+1", "note": "She knows the oldest oral history fragments." },
+          { "trigger": "PCs mention undead", "table": "Gloomwaste Encounters", "bonus": "+1", "note": "She provides wards and warnings." }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_selene_dawnward",
+            "title": "Dawnward Rite",
+            "type": "ritual",
+            "start": "Selene asks PCs to retrieve clean springwater from a north-forest source for a warding rite.",
+            "advanceClocks": [{ "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "complications": ["Source is tainted (quietly).", "Owlbear signs near the spring."]
+          },
+          {
+            "id": "qh_selene_false_miracle",
+            "title": "A False Miracle",
+            "type": "mystery",
+            "start": "Someone in town claims a ‘miracle cure’ for blight-sickness. Selene suspects a trap.",
+            "advanceClocks": [{ "clockId": "clock_zhent_grip", "delta": -1 }],
+            "complications": ["It’s a lich agent’s lure.", "The seller is just desperate and wrong."]
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "name": "Dora Bramblefoot",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Dora Bramblefoot",
+        "rumorTriggers": [
+          { "trigger": "PCs ask about town politics", "table": "Town Rumors", "bonus": "+1", "note": "She trades truth for favors." },
+          { "trigger": "PCs show ruin glyph rubbings", "table": "Town Rumors", "bonus": "+2", "note": "She recognizes a family-linked symbol." }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_dora_family_lockbox",
+            "title": "The Family Lockbox",
+            "type": "social",
+            "start": "Dora wants a sealed heirloom box recovered from an abandoned east farm before someone else finds it.",
+            "advanceClocks": [{ "clockId": "clock_bramblefoot_leverage", "delta": 1 }],
+            "complications": ["Box is watched by a lich-tainted scavenger.", "Stouthearts think it’s stolen goods."]
+          },
+          {
+            "id": "qh_dora_quiet_survey",
+            "title": "Quiet Survey",
+            "type": "exploration",
+            "start": "Dora hires PCs to mark where blight is creeping toward the nearest fields.",
+            "advanceClocks": [{ "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "complications": ["Maps fail in the Gloomwaste fringe.", "A ‘friendly’ Zhent offers to accompany them."]
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "name": "Roderick Smithson",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Roderick Smithson",
+        "rumorTriggers": [
+          { "trigger": "PCs buy him a drink", "table": "Town Rumors", "bonus": "+2", "note": "He mixes truth and lies; GM can seed real ruin details." },
+          { "trigger": "PCs sober him (care, magic, or kindness)", "table": "Town Rumors", "bonus": "+4", "note": "He can provide a mostly-accurate approach sketch." }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_roderick_token",
+            "title": "A Dead Friend’s Token",
+            "type": "recovery",
+            "start": "Roderick begs PCs to retrieve a token he dropped fleeing the outer walls.",
+            "advanceClocks": [{ "clockId": "clock_harpers_intel", "delta": 1 }],
+            "complications": ["Token is on a corpse that now walks.", "Token is bait placed by a lich agent."]
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "name": "Zhentarim Handler Varron Dusk",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Zhentarim Handler Varron Dusk",
+        "rumorTriggers": [
+          { "trigger": "PCs ask around about ‘merchant protection’", "table": "Town Rumors", "bonus": "+2", "note": "He hears quickly; a ‘friendly’ offer arrives." },
+          { "trigger": "PCs interfere with a shipment", "table": "Random North Road Encounters", "bonus": "+2", "note": "Retaliation escalates." }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_varron_clean_job",
+            "title": "A Clean Job (Not Clean)",
+            "type": "crime",
+            "start": "Varron offers paid escort for ‘medicine’ crates to the north road.",
+            "advanceClocks": [{ "clockId": "clock_zhent_grip", "delta": 2 }],
+            "complications": ["Crates are contraband or cursed.", "Harpers tail the PCs."]
+          },
+          {
+            "id": "qh_varron_burn_rival",
+            "title": "Burn a Rival Crew",
+            "type": "manipulation",
+            "start": "He asks PCs to expose a ‘bandit’ group (actually his rivals) to the militia.",
+            "advanceClocks": [{ "clockId": "clock_zhent_grip", "delta": 1 }, { "clockId": "clock_militia_authority", "delta": 1 }],
+            "complications": ["PCs become complicit.", "Rivals are innocents framed as bandits."]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Gildon Farrow",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Gildon Farrow",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask about trade or shortages",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He frames everything as ‘logistics’ and lets a real truth slip."
+          },
+          {
+            "trigger": "PCs mention the north road or highwaymen",
+            "table": "Random North Road Encounters",
+            "bonus": "+1",
+            "note": "He knows recent caravan losses and names."
+          },
+          {
+            "trigger": "PCs press about contraband",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "He deflects, but gives a ‘wrong’ warehouse location that is actually a test."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_gildon_missing_manifest",
+            "title": "The Missing Manifest",
+            "type": "investigation",
+            "start": "A shipment manifest vanished after the market closed. Gildon hires the PCs to recover it before it reaches the wrong hands.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "The manifest proves a Zhentarim shipment (Gildon didn’t know, or pretends he didn’t).",
+              "A militia clerk already copied it.",
+              "The manifest is bait to identify nosy outsiders."
+            ]
+          },
+          {
+            "id": "qh_gildon_price_war",
+            "title": "A Quiet Price War",
+            "type": "social",
+            "start": "Gildon asks PCs to convince a stubborn supplier (or intimidate a rival broker) so food prices don’t spike this week.",
+            "advanceClocks": [
+              { "clockId": "clock_stoutheart_resentment", "delta": -1 }
+            ],
+            "complications": [
+              "Supplier is threatened by highwaymen.",
+              "Bramblefoots want the price spike to justify an ordinance.",
+              "Zhents offer ‘help’ that increases their grip."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Gildon launders Zhent payments through ‘freight fees’ and ‘loss insurance’. He is not loyal to Zhent ideology, only to solvency."
+      }
+    }
+  },
+
+  {
+    "name": "Bessa Wainwright",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Bessa Wainwright",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask about wagons, repairs, or travel gear",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "She shares road gossip with practical details."
+          },
+          {
+            "trigger": "PCs mention the east road or Gloomwaste",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "She’s heard the ‘wood warps overnight’ stories (some true)."
+          },
+          {
+            "trigger": "PCs show unusual splinters, rot, or blight-taint on wood",
+            "table": "Gloomwaste Encounters",
+            "bonus": "+1",
+            "note": "She recognizes ‘sour sap’ as a bad sign."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_bessa_broken_axle",
+            "title": "Axle in the Mud",
+            "type": "rescue",
+            "start": "A south-road patrol wagon snapped an axle near the river bend. Bessa needs escort to deliver parts and bring the team home.",
+            "advanceClocks": [
+              { "clockId": "clock_militia_authority", "delta": 1 }
+            ],
+            "complications": [
+              "Bandits shadow the repair team.",
+              "A ‘helpful’ stranger offers a shortcut (lich agent).",
+              "The broken axle shows signs of unnatural brittleness."
+            ]
+          },
+          {
+            "id": "qh_bessa_ghost_cart",
+            "title": "The Ghost Cart",
+            "type": "mystery",
+            "start": "A cart returned from the east road by itself, harness still warm, wood stained gray-green. Bessa asks PCs to investigate before the militia burns it.",
+            "advanceClocks": [
+              { "clockId": "clock_harpers_intel", "delta": 1 }
+            ],
+            "complications": [
+              "Cart carries a hidden compartment with a ruin fragment.",
+              "Touching it risks Blight exposure.",
+              "Zhents want the compartment."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Bessa is a soft counterweight to harsh law: she can vouch for PCs to militia if they help her crews."
+      }
+    }
+  },
+
+  {
+    "name": "Cyril “Crowsong” Mott",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Cyril “Crowsong” Mott",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs applaud, tip well, or buy him a meal",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "He ‘accidentally’ shares a true rumor wrapped in a joke."
+          },
+          {
+            "trigger": "PCs mention Voss or show militia papers",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He tests them with a coded phrase."
+          },
+          {
+            "trigger": "PCs ask about hidden roads or safehouses",
+            "table": "Wilderness Encounters",
+            "bonus": "+1",
+            "note": "He provides a meeting sign and a false trail."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_cyril_crowverse",
+            "title": "A Crow Verse for a Friend",
+            "type": "delivery",
+            "start": "Cyril asks PCs to deliver a ‘song sheet’ to the innkeeper. It’s a coded Harper message.",
+            "advanceClocks": [
+              { "clockId": "clock_harpers_intel", "delta": 1 }
+            ],
+            "complications": [
+              "Zhentarim Cutter Vesk intercepts it.",
+              "Innkeeper is watched by militia.",
+              "The code references the cavern waystation by metaphor."
+            ]
+          },
+          {
+            "id": "qh_cyril_false_ballad",
+            "title": "The False Ballad",
+            "type": "deception",
+            "start": "Cyril needs a staged rumor to flush out a Zhent listener. PCs must spread it convincingly.",
+            "advanceClocks": [
+              { "clockId": "clock_zhent_grip", "delta": -1 }
+            ],
+            "complications": [
+              "The rumor enrages Stouthearts.",
+              "The mayor hears it and panics.",
+              "The lich’s agents exploit the chaos."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Cyril uses ‘crow verses’ to identify targets. If PCs earn trust, he can confirm which rumors are seeded by Harpers."
+      }
+    }
+  },
+
+  {
+    "name": "Sergeant Brinna Holt",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Sergeant Brinna Holt",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask for patrol work or guard jobs",
+            "table": "Random South Road Encounters",
+            "bonus": "+1",
+            "note": "She assigns practical work first, then tests reliability."
+          },
+          {
+            "trigger": "PCs ask about spellcasting laws",
+            "table": "Town Rumors",
+            "bonus": "+0",
+            "note": "She repeats policy and warns about public humiliation."
+          },
+          {
+            "trigger": "PCs mention orcs or raids",
+            "table": "Random Wilderness Encounters",
+            "bonus": "+1",
+            "note": "She gives a recent incident location."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_holt_checkpoint",
+            "title": "Checkpoint Night",
+            "type": "security",
+            "start": "Brinna needs extra eyes at a temporary checkpoint after reports of contraband slipping in.",
+            "advanceClocks": [
+              { "clockId": "clock_militia_authority", "delta": 1 }
+            ],
+            "complications": [
+              "Zhents attempt to bribe PCs.",
+              "A Harper courier is nearly caught.",
+              "A blight-tainted traveler collapses, causing panic."
+            ]
+          },
+          {
+            "id": "qh_holt_missing_patrol",
+            "title": "The Missing Patrol",
+            "type": "rescue",
+            "start": "A two-person patrol hasn’t reported in from the south road. Brinna orders a discreet search before the mayor hears.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "The patrol found evidence of a lich agent.",
+              "Highwaymen set a trap using militia uniforms.",
+              "The patrol is alive but refuses to speak (fear, curse, or blackmail)."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Brinna is not corrupt, but she can be pushed into escalating force if Stability clock worsens."
+      }
+    }
+  },
+
+  {
+    "name": "Watchman Pell Tarrow",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Watchman Pell Tarrow",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs walk the streets at night",
+            "table": "Non-Combat Town Encounters",
+            "bonus": "+1",
+            "note": "Pell shows up with lantern and nervous questions."
+          },
+          {
+            "trigger": "PCs ask about strange sounds or omens",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "He describes the ‘east singing’ (true, but misunderstood)."
+          },
+          {
+            "trigger": "PCs mention fog, runes, or humming stones",
+            "table": "Gloomwaste Encounters",
+            "bonus": "+1",
+            "note": "He’s a conduit for omen hooks."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_pell_lanterns",
+            "title": "Lanterns That Won’t Stay Lit",
+            "type": "investigation",
+            "start": "Lanterns near the east gate keep going out. Pell begs the PCs to help before people decide it’s ‘witchcraft’.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "It’s a minor lich agent’s warding charm.",
+              "A prank is masking a real phenomenon.",
+              "Militia suspects spellcasters and escalates."
+            ]
+          },
+          {
+            "id": "qh_pell_missing_child",
+            "title": "Tiny Footprints",
+            "type": "search",
+            "start": "A child’s footprints lead toward the disused east road in the fog. Pell is too frightened to go alone.",
+            "advanceClocks": [
+              { "clockId": "clock_bloodcrust_raids", "delta": -1 }
+            ],
+            "complications": [
+              "It’s an owlbear false trail set by a scavenger.",
+              "A Zhent runner is using the child as a decoy.",
+              "The child is lured by a humming shard (Gloomwaste influence)."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "His ‘singing’ is a planar harmonic. If PCs bring proof, Harper Intelligence advances +1."
+      }
+    }
+  },
+
+  {
+    "name": "Brother Harun of the Dawn",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Brother Harun of the Dawn",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask at the shrine about blessings or cures",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He shares old stories recorded in the shrine ledger."
+          },
+          {
+            "trigger": "PCs show a blight symptom or tainted object",
+            "table": "Gloomwaste Encounters",
+            "bonus": "+2",
+            "note": "He reacts strongly and requests Selene’s help."
+          },
+          {
+            "trigger": "PCs ask about ‘ancient curses’",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He quotes scripture, sometimes misapplied."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_harun_ledger",
+            "title": "The Ledger of Dawn",
+            "type": "research",
+            "start": "Harun asks PCs to recover a missing page from the shrine’s old ledger describing the first blight sightings.",
+            "advanceClocks": [
+              { "clockId": "clock_harpers_intel", "delta": 1 }
+            ],
+            "complications": [
+              "The page implicates someone’s ancestor (Bramblefoot connection).",
+              "Zhents want it to blackmail Selene.",
+              "The page is encoded in a hymn stanza."
+            ]
+          },
+          {
+            "id": "qh_harun_mercy",
+            "title": "Mercy for the Condemned",
+            "type": "social",
+            "start": "A suspected ‘spellcaster’ is about to be publicly humiliated. Harun begs the PCs to find the truth fast.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 },
+              { "clockId": "clock_militia_authority", "delta": -1 }
+            ],
+            "complications": [
+              "The accused is innocent but hiding a Harper tie.",
+              "The accused is guilty but controlled by a tainted charm.",
+              "The crowd is one spark from riot."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Harun is a truth engine: he can ‘surface’ lore via records and accidentally leak it to the wrong ears."
+      }
+    }
+  },
+
+  {
+    "name": "Hilda Greenbottle",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Hilda Greenbottle",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs buy spices, tea, or chat kindly",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "Hilda trades gossip for warmth, not coin."
+          },
+          {
+            "trigger": "PCs mention Bramblefoots",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "She shares Stoutheart grievances and Lowstone sentiment."
+          },
+          {
+            "trigger": "PCs ask about missing animals or odd smells",
+            "table": "Random Wilderness Encounters",
+            "bonus": "+1",
+            "note": "She notices taint before others do."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_hilda_sour_sack",
+            "title": "The Sour Sack",
+            "type": "mystery",
+            "start": "A spice sack arrived smelling like damp graves. Hilda wants it traced before it’s used in food.",
+            "advanceClocks": [
+              { "clockId": "clock_stoutheart_resentment", "delta": -1 }
+            ],
+            "complications": [
+              "It’s tainted from a Gloomwaste fringe route.",
+              "Zhents planted it to discredit Stouthearts.",
+              "A lich agent uses it as a subtle vector."
+            ]
+          },
+          {
+            "id": "qh_hilda_lowstone_meeting",
+            "title": "Lowstone Meeting",
+            "type": "social",
+            "start": "Hilda invites PCs to a Lowstone gathering where locals debate vigilantism. PCs can defuse or inflame tensions.",
+            "advanceClocks": [
+              { "clockId": "clock_stoutheart_resentment", "delta": -2 }
+            ],
+            "complications": [
+              "A disguised Zhent agitator pushes violence.",
+              "Militia arrives and escalates.",
+              "A real crime interrupts, turning debate into action."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Hilda is a pressure valve for resentment. If PCs alienate her, Stoutheart Resentment advances +1."
+      }
+    }
+  },
+
+  {
+    "name": "Odo Stoutheart",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Odo Stoutheart",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs visit the outskirts farms",
+            "table": "Random Wilderness Encounters",
+            "bonus": "+1",
+            "note": "Odo points out tracks and warns about the treeline."
+          },
+          {
+            "trigger": "PCs ask about missing livestock",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He tells the owlbear story (true)."
+          },
+          {
+            "trigger": "PCs mention Bramblefoots’ influence",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "He offers harsh opinions, some accurate, some not."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_odo_owlsnatch",
+            "title": "Owlbear at the Fold",
+            "type": "hunt",
+            "start": "Odo’s goats were taken. He wants the owlbear driven off or slain, and a claw as proof.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "The owlbear is blight-tainted (harder, stranger behavior).",
+              "A second predator follows the first.",
+              "The ‘den’ hides a ruin shard."
+            ]
+          },
+          {
+            "id": "qh_odo_black_grass",
+            "title": "Black Grass Line",
+            "type": "exploration",
+            "start": "Odo found a line of blackened grass advancing overnight. He wants PCs to mark and investigate before his fields go next.",
+            "advanceClocks": [
+              { "clockId": "clock_harpers_intel", "delta": 1 }
+            ],
+            "complications": [
+              "Maps become unreliable near the fringe.",
+              "Orc scouts test defenses.",
+              "Militia blames ‘witchcraft’ and threatens arrests."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Odo can become a community leader if PCs help. If ignored, he drifts into vigilantism when resentment rises."
+      }
+    }
+  },
+
+  {
+    "name": "Kellan Pike",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Kellan Pike",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs befriend Kellan or show kindness",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He shares what adults say when they think kids aren’t listening."
+          },
+          {
+            "trigger": "PCs ask about the riverbank or strange stones",
+            "table": "Wilderness Encounters",
+            "bonus": "+1",
+            "note": "He can lead them to a humming shard location."
+          },
+          {
+            "trigger": "PCs mention the east road at night",
+            "table": "Gloomwaste Encounters",
+            "bonus": "+1",
+            "note": "He’s seen fog ‘flow uphill’ (true omen)."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_kellan_humming_stone",
+            "title": "The Humming Stone",
+            "type": "discovery",
+            "start": "Kellan begs the PCs to help retrieve a humming stone he dropped near the river bend after seeing ‘lights’ in the fog.",
+            "advanceClocks": [
+              { "clockId": "clock_harpers_intel", "delta": 1 }
+            ],
+            "complications": [
+              "The shard attracts undead wildlife.",
+              "A Zhent scout wants it.",
+              "Keeping it risks subtle blight exposure."
+            ]
+          },
+          {
+            "id": "qh_kellan_night_dare",
+            "title": "A Fool’s Dare",
+            "type": "rescue",
+            "start": "Kellan and friends dared each other to touch the east road marker stone. One didn’t come back.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "The missing child is hidden but tainted.",
+              "A lich agent ‘helps’ and demands a favor later.",
+              "Militia panics and starts arresting ‘spellcasters’."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Kellan can become a recurring ‘innocent witness’ and a vector for shards. If PCs ignore him, he will try again and get hurt."
+      }
+    }
+  },
+
+  {
+    "name": "Caravan Master Sorn Dellik",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Caravan Master Sorn Dellik",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask for escort work",
+            "table": "Random North Road Encounters",
+            "bonus": "+2",
+            "note": "He has immediate paid leads."
+          },
+          {
+            "trigger": "PCs ask about highwaymen or ‘black nails’",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "He describes tainted raiders and odd behaviors."
+          },
+          {
+            "trigger": "PCs mention trade declining",
+            "table": "Town Rumors",
+            "bonus": "+1",
+            "note": "He blames safety, but hints at ‘something worse than bandits’."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_sorn_last_wagon",
+            "title": "The Last Wagon North",
+            "type": "escort",
+            "start": "Sorn needs a one-trip escort north with high-value goods that keep the town’s economy alive.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "Highwaymen are tainted and don’t flee like normal humans.",
+              "Zhents demand a ‘fee’ to guarantee safety.",
+              "A storm forces a detour into the northwest woods."
+            ]
+          },
+          {
+            "id": "qh_sorn_blood_on_tarps",
+            "title": "Blood on the Tarps",
+            "type": "investigation",
+            "start": "Sorn found congealed black blood on his tarps after an overnight stop. He wants to know if it’s a curse.",
+            "advanceClocks": [
+              { "clockId": "clock_harpers_intel", "delta": 1 }
+            ],
+            "complications": [
+              "It’s from a blight-undeath creature passing nearby.",
+              "It’s planted by a lich agent to steer the caravan.",
+              "Selene’s shrine can test it, but doing so draws attention."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Sorn is a key Stability lever. If he quits, Grayhaven Stability advances +1 each week until trade resumes."
+      }
+    }
+  },
+
+  {
+    "name": "Roadwarden ‘Old’ Sera Lann",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Roadwarden ‘Old’ Sera Lann",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs ask about wilderness routes or scouting",
+            "table": "Wilderness Encounters",
+            "bonus": "+2",
+            "note": "She provides a safe route and a dangerous truth."
+          },
+          {
+            "trigger": "PCs mention the east road ‘mouth’ phrase",
+            "table": "Town Rumors",
+            "bonus": "+2",
+            "note": "She recognizes them as ‘in the know’ and shares more."
+          },
+          {
+            "trigger": "PCs bring her a blight-tainted token",
+            "table": "Gloomwaste Encounters",
+            "bonus": "+2",
+            "note": "She warns about ‘harmonics’ and refuses to touch it."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_sera_scout_contract",
+            "title": "Scout Contract",
+            "type": "exploration",
+            "start": "Sera offers a paid scouting run to confirm whether a new bandit camp exists along the north road.",
+            "advanceClocks": [
+              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+            ],
+            "complications": [
+              "Camp is actually Bloodcrust scouts.",
+              "Camp is a Zhent decoy to frame rivals.",
+              "Sera refuses to enter a fog pocket, forcing PCs to go alone."
+            ]
+          },
+          {
+            "id": "qh_sera_whistle",
+            "title": "The Old Whistle",
+            "type": "recovery",
+            "start": "Sera’s patrol whistle was stolen. She believes the thief is using it to lure travelers into ambush.",
+            "advanceClocks": [
+              { "clockId": "clock_bloodcrust_raids", "delta": -1 }
+            ],
+            "complications": [
+              "The whistle is used by a lich agent to gather victims.",
+              "Militia thinks Sera staged it and tries to arrest her.",
+              "Recovering it reveals a hidden trail toward the Gloomwaste fringe."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Sera suspects the Gloomwaste isn’t ‘a curse’ but ‘a machine’. She can seed planar-work hints without naming a lich."
+      }
+    }
+  },
+
+  {
+    "name": "Zhentarim Cutter Vesk",
+    "flags": {
+      "grayhaven": {
+        "gmOnlyJournal": "NPC DOSSIER (GM): Zhentarim Cutter Vesk",
+        "rumorTriggers": [
+          {
+            "trigger": "PCs snoop around warehouses or the stable",
+            "table": "Non-Combat Town Encounters",
+            "bonus": "+2",
+            "note": "Vesk or his watchers appear to ‘chat’ and assess."
+          },
+          {
+            "trigger": "PCs interfere with a Zhent deal",
+            "table": "Town Rumors",
+            "bonus": "+0",
+            "note": "Rumors turn hostile and precise, as if guided."
+          },
+          {
+            "trigger": "PCs ask about a ‘cavern’ or ‘split pine’",
+            "table": "Wilderness Encounters",
+            "bonus": "+1",
+            "note": "A decoy clue is planted."
+          }
+        ],
+        "questHooks": [
+          {
+            "id": "qh_vesk_warning",
+            "title": "A Friendly Warning",
+            "type": "intimidation",
+            "start": "Vesk approaches PCs with a ‘warning’ to stop asking questions. He offers coin for cooperation.",
+            "advanceClocks": [
+              { "clockId": "clock_zhent_grip", "delta": 1 }
+            ],
+            "complications": [
+              "Refusal triggers surveillance; future encounters skew toward Zhent pressure.",
+              "Acceptance creates a paper trail that Harpers can exploit.",
+              "Vesk tests them with a small ‘harmless’ job that isn’t harmless."
+            ]
+          },
+          {
+            "id": "qh_vesk_waystation_run",
+            "title": "Waystation Run",
+            "type": "crime",
+            "start": "Vesk orders a delivery to the north-road cavern waystation. Payment is good; questions are not.",
+            "advanceClocks": [
+              { "clockId": "clock_zhent_grip", "delta": 2 }
+            ],
+            "complications": [
+              "The cargo includes blight-tainted reagents (lich agent supply).",
+              "Harpers shadow the run, offering a double-cross option.",
+              "Orcs raid the route, forcing a choice of priorities."
+            ]
+          }
+        ],
+        "gmOnlyNotes": "Vesk knows the waystation signs and can identify Harper code phrases. If captured, he bargains with partial truths."
+      }
+    }
+  }
+]
