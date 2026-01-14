@@ -72,8 +72,8 @@
     },
     "details": {
       "biography": {
-        "value": "Mayor of Grayhaven",
-        "public": "Public biography: Mayor of Grayhaven"
+        "value": "Mayor of Greyhaven",
+        "public": "Public biography: Mayor of Greyhaven"
       },
       "alignment": "",
       "ideal": "pragmatic",
@@ -150,11 +150,11 @@
   "items": [],
   "effects": [],
   "flags": {
-    "grayhaven": {
+    "greyhaven": {
       "district": "Highstone",
       "triggers": ["Faction Clock", "Political Intrigue"],
       "visualMotif": "Tall stone walls, banners of river and sheaf, flickering lanterns",
-      "faction": "Grayhaven Leadership"
+      "faction": "Greyhaven Leadership"
     }
   }
 }

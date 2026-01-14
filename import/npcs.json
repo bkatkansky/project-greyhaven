@@ -17,10 +17,10 @@
         "hp": { "max": 110, "temp": null, "tempmax": null, "value": 110, "formula": "" }
       },
       "details": {
-        "biography": { "value": "Lord Mayor of Grayhaven. Pragmatic, publicly clean, privately compromised for peace.", "public": "Lord Mayor of Grayhaven" },
+        "biography": { "value": "Lord Mayor of Greyhaven. Pragmatic, publicly clean, privately compromised for peace.", "public": "Lord Mayor of Greyhaven" },
         "alignment": "LN",
         "ideal": "pragmatic",
-        "bond": "Grayhaven’s survival",
+        "bond": "Greyhaven’s survival",
         "flaw": "Allows Zhentarim smuggling to keep the town safe",
         "race": "human",
         "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
@@ -43,7 +43,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Faction Clock", "Political Intrigue"], "visualMotif": "Tall stone walls, civic banners, sealed ledgers", "faction": "Grayhaven Leadership" } }
+    "flags": { "greyhaven": { "district": "Highstone", "triggers": ["Faction Clock", "Political Intrigue"], "visualMotif": "Tall stone walls, civic banners, sealed ledgers", "faction": "Greyhaven Leadership" } }
   },
 
   {
@@ -64,7 +64,7 @@
         "hp": { "max": 85, "temp": null, "tempmax": null, "value": 85, "formula": "" }
       },
       "details": {
-        "biography": { "value": "Captain of the Grayhaven Militia and covert Harper operative.", "public": "Captain of the town guard" },
+        "biography": { "value": "Captain of the Greyhaven Militia and covert Harper operative.", "public": "Captain of the town guard" },
         "alignment": "NG",
         "ideal": "Truth must survive power",
         "bond": "The Harpers",
@@ -90,7 +90,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Harper Missions", "Militia Response"], "visualMotif": "Well-kept armor, eyes always scanning", "faction": "Harpers" } }
+    "flags": { "greyhaven": { "district": "Highstone", "triggers": ["Harper Missions", "Militia Response"], "visualMotif": "Well-kept armor, eyes always scanning", "faction": "Harpers" } }
   },
 
   {
@@ -111,7 +111,7 @@
         "hp": { "max": 55, "temp": null, "tempmax": null, "value": 55, "formula": "" }
       },
       "details": {
-        "biography": { "value": "Devotee of Lathander. Leads the shrine and watches the Gloomwaste with wary faith.", "public": "Spiritual leader of Grayhaven (Lathander)" },
+        "biography": { "value": "Devotee of Lathander. Leads the shrine and watches the Gloomwaste with wary faith.", "public": "Spiritual leader of Greyhaven (Lathander)" },
         "alignment": "LG",
         "ideal": "Light returns",
         "bond": "Her congregation",
@@ -137,7 +137,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Sanctuary", "Undead Omen"], "visualMotif": "Incense, dawn-sun iconography, warm candlelight", "faction": "Church of Lathander" } }
+    "flags": { "greyhaven": { "district": "Old Quarter", "triggers": ["Sanctuary", "Undead Omen"], "visualMotif": "Incense, dawn-sun iconography, warm candlelight", "faction": "Church of Lathander" } }
   },
 
   {
@@ -184,7 +184,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Rumors", "Jobs"], "visualMotif": "Pipe smoke, scarred oak bar, low laughter", "faction": "Independent" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Rumors", "Jobs"], "visualMotif": "Pipe smoke, scarred oak bar, low laughter", "faction": "Independent" } }
   },
 
   {
@@ -231,7 +231,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Road News", "Caravan Leads"], "visualMotif": "Stew-scented air, clean sheets, travel-stained boots by the hearth", "faction": "Independent" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Road News", "Caravan Leads"], "visualMotif": "Stew-scented air, clean sheets, travel-stained boots by the hearth", "faction": "Independent" } }
   },
 
   {
@@ -278,7 +278,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Lost Lore", "Ruins Revelation"], "visualMotif": "Shaking hands, scarred knuckles, haunted stare", "faction": "None", "gmOnlyNotes": "Some of his 'lies' are true: he saw concentric walls and a keep that looked untouched by time." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Lost Lore", "Ruins Revelation"], "visualMotif": "Shaking hands, scarred knuckles, haunted stare", "faction": "None", "gmOnlyNotes": "Some of his 'lies' are true: he saw concentric walls and a keep that looked untouched by time." } }
   },
 
   {
@@ -325,7 +325,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Family Politics", "Hidden Lore"], "visualMotif": "Warm smile, sharper eyes, immaculate ledgers", "faction": "Bramblefoot Family", "gmOnlyNotes": "Bloodline tie to the lich’s mortal identity; Dora suppresses inherited arcane tendencies in the family." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Family Politics", "Hidden Lore"], "visualMotif": "Warm smile, sharper eyes, immaculate ledgers", "faction": "Bramblefoot Family", "gmOnlyNotes": "Bloodline tie to the lich’s mortal identity; Dora suppresses inherited arcane tendencies in the family." } }
   },
 
   {
@@ -363,7 +363,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Caravan Contract", "North Road News"], "visualMotif": "Ink-stained fingers, tidy vest, quick arithmetic", "faction": "Bramblefoot Family" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Caravan Contract", "North Road News"], "visualMotif": "Ink-stained fingers, tidy vest, quick arithmetic", "faction": "Bramblefoot Family" } }
   },
 
   {
@@ -401,7 +401,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Lowstone", "triggers": ["Halfling Politics", "Neighborhood Aid"], "visualMotif": "Flour-dusted sleeves, iron keyring, steady gaze", "faction": "Stoutheart Family" } }
+    "flags": { "greyhaven": { "district": "Lowstone", "triggers": ["Halfling Politics", "Neighborhood Aid"], "visualMotif": "Flour-dusted sleeves, iron keyring, steady gaze", "faction": "Stoutheart Family" } }
   },
 
   {
@@ -439,7 +439,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Lowstone", "triggers": ["Hireling", "South Road Escort"], "visualMotif": "Short cloak, quick hands, bright buttons", "faction": "Stoutheart Family" } }
+    "flags": { "greyhaven": { "district": "Lowstone", "triggers": ["Hireling", "South Road Escort"], "visualMotif": "Short cloak, quick hands, bright buttons", "faction": "Stoutheart Family" } }
   },
 
   {
@@ -477,7 +477,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Rumors", "Supply Shortage"], "visualMotif": "Bunches of herbs, chalkboard prices, jingling scale weights", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Rumors", "Supply Shortage"], "visualMotif": "Bunches of herbs, chalkboard prices, jingling scale weights", "faction": "Town Commerce" } }
   },
 
   {
@@ -515,7 +515,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Owlbear Hook", "Farm Trouble"], "visualMotif": "Apron stained dark, cleaver thump, salted meat smell", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Owlbear Hook", "Farm Trouble"], "visualMotif": "Apron stained dark, cleaver thump, salted meat smell", "faction": "Town Commerce" } }
   },
 
   {
@@ -553,7 +553,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Gear Up", "Contraband Whispers"], "visualMotif": "Wall of rope and lanterns, locked glass case, ledger under elbow", "faction": "Town Commerce", "gmOnlyNotes": "Zhentarim sometimes use her back room for ‘short meetings’ without her consent." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Gear Up", "Contraband Whispers"], "visualMotif": "Wall of rope and lanterns, locked glass case, ledger under elbow", "faction": "Town Commerce", "gmOnlyNotes": "Zhentarim sometimes use her back room for ‘short meetings’ without her consent." } }
   },
 
   {
@@ -600,7 +600,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Repair Gear", "Bandit Bounty"], "visualMotif": "Sparks, hammer-ring, soot-black hands", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Old Quarter", "triggers": ["Repair Gear", "Bandit Bounty"], "visualMotif": "Sparks, hammer-ring, soot-black hands", "faction": "Town Commerce" } }
   },
 
   {
@@ -638,7 +638,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Apprentice Trouble", "East Road Dares"], "visualMotif": "Soot-smudged cheeks, bright eyes, too-big gloves", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Old Quarter", "triggers": ["Apprentice Trouble", "East Road Dares"], "visualMotif": "Soot-smudged cheeks, bright eyes, too-big gloves", "faction": "Town Commerce" } }
   },
 
   {
@@ -658,7 +658,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Southend", "triggers": ["Repairs", "Blight Encroachment"], "visualMotif": "Saw dust, measuring cord, nails in a mouth-corner", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Southend", "triggers": ["Repairs", "Blight Encroachment"], "visualMotif": "Saw dust, measuring cord, nails in a mouth-corner", "faction": "Town Commerce" } }
   },
 
   {
@@ -678,7 +678,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Disguises", "Noble Attire"], "visualMotif": "Measuring tape, neat pins, whispering shears", "faction": "Town Commerce", "gmOnlyNotes": "Sometimes asked to alter clothes for Zhentarim; he pretends not to notice." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Disguises", "Noble Attire"], "visualMotif": "Measuring tape, neat pins, whispering shears", "faction": "Town Commerce", "gmOnlyNotes": "Sometimes asked to alter clothes for Zhentarim; he pretends not to notice." } }
   },
 
   {
@@ -698,7 +698,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Trail Clues", "Gloom Dust"], "visualMotif": "Leather scraps, sharp awl, boots lined like soldiers", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Old Quarter", "triggers": ["Trail Clues", "Gloom Dust"], "visualMotif": "Leather scraps, sharp awl, boots lined like soldiers", "faction": "Town Commerce" } }
   },
 
   {
@@ -718,7 +718,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Southend", "triggers": ["Hide Trade", "Predator Signs"], "visualMotif": "Sharp tannin smell, hanging hides, barking dogs", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Southend", "triggers": ["Hide Trade", "Predator Signs"], "visualMotif": "Sharp tannin smell, hanging hides, barking dogs", "faction": "Town Commerce" } }
   },
 
   {
@@ -738,7 +738,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Forest Work", "Missing Loggers"], "visualMotif": "Fresh sap, saw whine, splintered gloves", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Outskirts", "triggers": ["Forest Work", "Missing Loggers"], "visualMotif": "Fresh sap, saw whine, splintered gloves", "faction": "Town Commerce" } }
   },
 
   {
@@ -758,7 +758,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Food Shortage", "River Trouble"], "visualMotif": "Flour dust, creaking wheel, river spray", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Outskirts", "triggers": ["Food Shortage", "River Trouble"], "visualMotif": "Flour dust, creaking wheel, river spray", "faction": "Town Commerce" } }
   },
 
   {
@@ -778,7 +778,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Rationing", "Theft Investigation"], "visualMotif": "Rope-sealed sacks, tally marks, dry grain smell", "faction": "Grayhaven Leadership" } }
+    "flags": { "greyhaven": { "district": "Highstone", "triggers": ["Rationing", "Theft Investigation"], "visualMotif": "Rope-sealed sacks, tally marks, dry grain smell", "faction": "Greyhaven Leadership" } }
   },
 
   {
@@ -798,7 +798,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Mounts", "Road Warnings"], "visualMotif": "Hay dust, leather tack, anxious snorts", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Mounts", "Road Warnings"], "visualMotif": "Hay dust, leather tack, anxious snorts", "faction": "Town Commerce" } }
   },
 
   {
@@ -818,7 +818,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Militia Patrol", "South Road Security"], "visualMotif": "Worn spear haft, stern jaw, rain-stained cloak", "faction": "Town Militia" } }
+    "flags": { "greyhaven": { "district": "Highstone", "triggers": ["Militia Patrol", "South Road Security"], "visualMotif": "Worn spear haft, stern jaw, rain-stained cloak", "faction": "Town Militia" } }
   },
 
   {
@@ -831,14 +831,14 @@
       "bonuses": {},
       "skills": {},
       "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 30, "temp": null, "tempmax": null, "value": 30, "formula": "" } },
-      "details": { "biography": { "value": "Town magistrate. Oversees punishments for disorder and spellcasting violations.", "public": "Magistrate of Grayhaven" }, "alignment": "LN", "ideal": "Law is a wall", "bond": "The town charter", "flaw": "Sees mercy as weakness", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 1, "treasure": { "value": [] } },
+      "details": { "biography": { "value": "Town magistrate. Oversees punishments for disorder and spellcasting violations.", "public": "Magistrate of Greyhaven" }, "alignment": "LN", "ideal": "Law is a wall", "bond": "The town charter", "flaw": "Sees mercy as weakness", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 1, "treasure": { "value": [] } },
       "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Spellcasting Ban", "Public Humiliation"], "visualMotif": "Ink-black robe trim, iron seal, cold smile", "faction": "Grayhaven Leadership" } }
+    "flags": { "greyhaven": { "district": "Highstone", "triggers": ["Spellcasting Ban", "Public Humiliation"], "visualMotif": "Ink-black robe trim, iron seal, cold smile", "faction": "Greyhaven Leadership" } }
   },
 
   {
@@ -851,14 +851,14 @@
       "bonuses": {},
       "skills": {},
       "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 52, "temp": null, "tempmax": null, "value": 52, "formula": "" } },
-      "details": { "biography": { "value": "A courteous ‘merchant’ who never sweats. Coordinates Zhentarim logistics around Grayhaven.", "public": "Traveling merchant" }, "alignment": "LE", "ideal": "Control", "bond": "The Black Network", "flaw": "Overconfident", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 3, "treasure": { "value": [] } },
+      "details": { "biography": { "value": "A courteous ‘merchant’ who never sweats. Coordinates Zhentarim logistics around Greyhaven.", "public": "Traveling merchant" }, "alignment": "LE", "ideal": "Control", "bond": "The Black Network", "flaw": "Overconfident", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 3, "treasure": { "value": [] } },
       "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Faction Clock:Zhentarim", "Smuggling Lead"], "visualMotif": "Clean gloves, polite bow, eyes like ink", "faction": "Zhentarim", "gmOnlyNotes": "Direct contact for the Mayor’s ‘deal’. Knows the way to the north-road cavern waystation." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Faction Clock:Zhentarim", "Smuggling Lead"], "visualMotif": "Clean gloves, polite bow, eyes like ink", "faction": "Zhentarim", "gmOnlyNotes": "Direct contact for the Mayor’s ‘deal’. Knows the way to the north-road cavern waystation." } }
   },
 
   {
@@ -878,7 +878,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Faction Clock:Harpers", "Safehouse"], "visualMotif": "Clean apron, wary smile, coded quilting patterns", "faction": "Harpers", "gmOnlyNotes": "Harper hideout is her farmhouse. Knock pattern required: short-short-long." } }
+    "flags": { "greyhaven": { "district": "Outskirts", "triggers": ["Faction Clock:Harpers", "Safehouse"], "visualMotif": "Clean apron, wary smile, coded quilting patterns", "faction": "Harpers", "gmOnlyNotes": "Harper hideout is her farmhouse. Knock pattern required: short-short-long." } }
   },
 
   {
@@ -898,7 +898,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Gloomwaste", "triggers": ["Raid", "Faction Clock:Bloodcrust"], "visualMotif": "Crusted red warpaint, bone charms, iron teeth", "faction": "Bloodcrust Orcs", "gmOnlyNotes": "The lich’s agents occasionally ‘gift’ Mogra weapons in exchange for raids and sacrifices." } }
+    "flags": { "greyhaven": { "district": "Gloomwaste", "triggers": ["Raid", "Faction Clock:Bloodcrust"], "visualMotif": "Crusted red warpaint, bone charms, iron teeth", "faction": "Bloodcrust Orcs", "gmOnlyNotes": "The lich’s agents occasionally ‘gift’ Mogra weapons in exchange for raids and sacrifices." } }
   },
   {
     "name": "Gildon Farrow",
@@ -945,7 +945,7 @@
     "items": [],
     "effects": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "district": "Market Green",
         "triggers": ["Caravan Leads", "Trade Dispute"],
         "visualMotif": "Wax seals, folded contracts, ink-stained cuffs",
@@ -990,7 +990,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Southend", "triggers": ["Wagon Repair", "South Road Escort"], "visualMotif": "Fresh-cut oak, iron-rim wheels, grease-black thumbs", "faction": "Town Commerce" } }
+    "flags": { "greyhaven": { "district": "Southend", "triggers": ["Wagon Repair", "South Road Escort"], "visualMotif": "Fresh-cut oak, iron-rim wheels, grease-black thumbs", "faction": "Town Commerce" } }
   },
 
   {
@@ -1028,7 +1028,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Faction Clock:Harpers", "Secret Message"], "visualMotif": "Black feather charm, soft boots, too-bright grin", "faction": "Harpers", "gmOnlyNotes": "Delivers coded songs to Captain Voss. Uses ‘crow verses’ to name targets." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Faction Clock:Harpers", "Secret Message"], "visualMotif": "Black feather charm, soft boots, too-bright grin", "faction": "Harpers", "gmOnlyNotes": "Delivers coded songs to Captain Voss. Uses ‘crow verses’ to name targets." } }
   },
 
   {
@@ -1066,7 +1066,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["South Road Patrol", "Bandit Report"], "visualMotif": "Stamped roster sheets, whetstone rasp, scuffed greaves", "faction": "Town Militia" } }
+    "flags": { "greyhaven": { "district": "Highstone", "triggers": ["South Road Patrol", "Bandit Report"], "visualMotif": "Stamped roster sheets, whetstone rasp, scuffed greaves", "faction": "Town Militia" } }
   },
 
   {
@@ -1104,7 +1104,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Lowstone", "triggers": ["Night Incident", "Gloomwaste Omen"], "visualMotif": "Lantern halo, rattling keys, fog-wet cloak", "faction": "Town Militia", "gmOnlyNotes": "His ‘singing’ is a faint planar harmonic from the lich’s work." } }
+    "flags": { "greyhaven": { "district": "Lowstone", "triggers": ["Night Incident", "Gloomwaste Omen"], "visualMotif": "Lantern halo, rattling keys, fog-wet cloak", "faction": "Town Militia", "gmOnlyNotes": "His ‘singing’ is a faint planar harmonic from the lich’s work." } }
   },
 
   {
@@ -1135,7 +1135,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Blessing Request", "Undead Report"], "visualMotif": "Sunburst pin, ink-smudged prayerbook, nervous cough", "faction": "Church of Lathander" } }
+    "flags": { "greyhaven": { "district": "Old Quarter", "triggers": ["Blessing Request", "Undead Report"], "visualMotif": "Sunburst pin, ink-smudged prayerbook, nervous cough", "faction": "Church of Lathander" } }
   },
 
   {
@@ -1166,7 +1166,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Town Rumors", "Halfling Chatter"], "visualMotif": "Cinnamon haze, tiny brass scoops, quick laughter", "faction": "Stoutheart Family" } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Town Rumors", "Halfling Chatter"], "visualMotif": "Cinnamon haze, tiny brass scoops, quick laughter", "faction": "Stoutheart Family" } }
   },
 
   {
@@ -1197,7 +1197,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Farm Trouble", "Forest Signs"], "visualMotif": "Goat bells, muddy boots, sharpened hoe on shoulder", "faction": "Stoutheart Family" } }
+    "flags": { "greyhaven": { "district": "Outskirts", "triggers": ["Farm Trouble", "Forest Signs"], "visualMotif": "Goat bells, muddy boots, sharpened hoe on shoulder", "faction": "Stoutheart Family" } }
   },
 
   {
@@ -1228,7 +1228,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Strange Stone", "Night Sneak"], "visualMotif": "Pocketful of pebbles, river smell, restless feet", "faction": "Independent", "gmOnlyNotes": "The ‘humming’ stone is a tiny blight-tainted shard (safe for now). Could become a plot key." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Strange Stone", "Night Sneak"], "visualMotif": "Pocketful of pebbles, river smell, restless feet", "faction": "Independent", "gmOnlyNotes": "The ‘humming’ stone is a tiny blight-tainted shard (safe for now). Could become a plot key." } }
   },
 
   {
@@ -1259,7 +1259,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["North Road Job", "Highwaymen"], "visualMotif": "Leather map tube, whip crack, tired eyes", "faction": "Town Commerce", "gmOnlyNotes": "The ‘black nails’ are early blight-undeath signs: the highwaymen may be tainted." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["North Road Job", "Highwaymen"], "visualMotif": "Leather map tube, whip crack, tired eyes", "faction": "Town Commerce", "gmOnlyNotes": "The ‘black nails’ are early blight-undeath signs: the highwaymen may be tainted." } }
   },
 
   {
@@ -1290,7 +1290,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["North Road Intel", "Wilderness Escort"], "visualMotif": "Grey braid, foxfur collar, notched arrows", "faction": "Independent" } }
+    "flags": { "greyhaven": { "district": "Outskirts", "triggers": ["North Road Intel", "Wilderness Escort"], "visualMotif": "Grey braid, foxfur collar, notched arrows", "faction": "Independent" } }
   },
 
   {
@@ -1321,7 +1321,7 @@
     },
     "items": [],
     "effects": [],
-    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Zhentarim Pressure", "Smuggling Escort"], "visualMotif": "Knuckle scars, serpent ring, calm threat", "faction": "Zhentarim", "gmOnlyNotes": "Knows the cavern waystation route landmarks: ‘split pine’, ‘three stones’, ‘cold breath’." } }
+    "flags": { "greyhaven": { "district": "Market Green", "triggers": ["Zhentarim Pressure", "Smuggling Escort"], "visualMotif": "Knuckle scars, serpent ring, calm threat", "faction": "Zhentarim", "gmOnlyNotes": "Knows the cavern waystation route landmarks: ‘split pine’, ‘three stones’, ‘cold breath’." } }
   }
 ]
 

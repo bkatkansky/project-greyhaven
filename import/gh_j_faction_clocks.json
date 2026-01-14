@@ -11,7 +11,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Clocks</b> are tracked in <code>flags.grayhaven.clocks</code> on each faction journal. When a trigger fires (noted on NPCs, locations, or outcomes), advance the appropriate clock by 1–3 segments.</p><p><b>Rule of thumb:</b> 1 segment for minor info/actions, 2 for meaningful wins/losses, 3 for dramatic turning points.</p><p><b>When a clock fills:</b> apply the listed consequence immediately, then either (a) reset with escalation, or (b) replace it with a new clock.</p>"
+          "content": "<p><b>Clocks</b> are tracked in <code>flags.greyhaven.clocks</code> on each faction journal. When a trigger fires (noted on NPCs, locations, or outcomes), advance the appropriate clock by 1–3 segments.</p><p><b>Rule of thumb:</b> 1 segment for minor info/actions, 2 for meaningful wins/losses, 3 for dramatic turning points.</p><p><b>When a clock fills:</b> apply the listed consequence immediately, then either (a) reset with escalation, or (b) replace it with a new clock.</p>"
         },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
@@ -21,16 +21,16 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true } },
+    "flags": { "greyhaven": { "gmOnly": true } },
     "ownership": { "default": 0 }
   },
 
   {
-    "name": "FACTION: Grayhaven Leadership (GM)",
+    "name": "FACTION: Greyhaven Leadership (GM)",
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock: Grayhaven Stability",
+        "name": "Clock: Greyhaven Stability",
         "type": "text",
         "system": {},
         "title": { "show": true, "level": 1 },
@@ -48,12 +48,12 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {
-            "id": "clock_grayhaven_stability",
-            "name": "Grayhaven Stability",
+            "id": "clock_greyhaven_stability",
+            "name": "Greyhaven Stability",
             "segments": 8,
             "current": 3,
             "type": "pressure",
@@ -96,7 +96,7 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {
@@ -135,7 +135,7 @@
         "system": {},
         "title": { "show": true, "level": 1 },
         "image": {},
-        "text": { "format": 1, "content": "<p><b>What it represents:</b> Smuggling capacity, leverage over officials, control of rumor and supply.</p><p><b>When full:</b> the Zhentarim effectively run Grayhaven’s trade. They can ‘buy’ arrests or disappearances.</p>" },
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> Smuggling capacity, leverage over officials, control of rumor and supply.</p><p><b>When full:</b> the Zhentarim effectively run Greyhaven’s trade. They can ‘buy’ arrests or disappearances.</p>" },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
         "category": null,
@@ -145,7 +145,7 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {
@@ -193,7 +193,7 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {
@@ -242,7 +242,7 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {
@@ -291,7 +291,7 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {
@@ -339,7 +339,7 @@
     "folder": null,
     "categories": [],
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnly": true,
         "clocks": [
           {

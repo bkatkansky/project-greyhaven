@@ -21,7 +21,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Lord Mayor Alden Rutherford", "links": ["Clock:Grayhaven Stability", "Clock:Black Network Grip"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Lord Mayor Alden Rutherford", "links": ["Clock:Greyhaven Stability", "Clock:Black Network Grip"] } },
     "ownership": { "default": 0 }
   },
 
@@ -47,7 +47,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Captain Elira Voss", "links": ["Clock:Harper Intelligence", "Clock:Militia Authority"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Captain Elira Voss", "links": ["Clock:Harper Intelligence", "Clock:Militia Authority"] } },
     "ownership": { "default": 0 }
   },
 
@@ -73,7 +73,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Dora Bramblefoot", "links": ["Clock:Bramblefoot Leverage"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Dora Bramblefoot", "links": ["Clock:Bramblefoot Leverage"] } },
     "ownership": { "default": 0 }
   },
 
@@ -99,7 +99,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Roderick Smithson", "links": ["Clock:Harper Intelligence"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Roderick Smithson", "links": ["Clock:Harper Intelligence"] } },
     "ownership": { "default": 0 }
   },
 
@@ -125,7 +125,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Zhentarim Handler Varron Dusk", "links": ["Clock:Black Network Grip"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Zhentarim Handler Varron Dusk", "links": ["Clock:Black Network Grip"] } },
     "ownership": { "default": 0 }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "name": "Lord Mayor Alden Rutherford",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Lord Mayor Alden Rutherford",
         "rumorTriggers": [
           { "trigger": "PCs ask about town law", "table": "Town Rumors", "bonus": "+0", "note": "He emphasizes spellcasting ban + ‘order’." },
@@ -14,7 +14,7 @@
             "title": "The Safety Net",
             "type": "political",
             "start": "Mayor requests discreet help reducing north-road robberies without public scandal.",
-            "advanceClocks": [{ "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "advanceClocks": [{ "clockId": "clock_greyhaven_stability", "delta": -1 }],
             "complications": ["Zhentarim try to redirect PCs toward a rival bandit crew.", "Magistrate demands a public punishment regardless of evidence."]
           },
           {
@@ -22,7 +22,7 @@
             "title": "Receipts in the Rain",
             "type": "investigation",
             "start": "A ledger page goes missing from the Mayor’s office. He wants it recovered quietly.",
-            "advanceClocks": [{ "clockId": "clock_zhent_grip", "delta": -1 }, { "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "advanceClocks": [{ "clockId": "clock_zhent_grip", "delta": -1 }, { "clockId": "clock_greyhaven_stability", "delta": -1 }],
             "complications": ["The page is already with Harpers.", "Or with Varron Dusk, baiting PCs."]
           }
         ]
@@ -33,7 +33,7 @@
   {
     "name": "Captain Elira Voss",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Captain Elira Voss",
         "rumorTriggers": [
           { "trigger": "PCs ask about roads", "table": "Random North Road Encounters", "bonus": "+1", "note": "She has updated patrol intel." },
@@ -64,7 +64,7 @@
   {
     "name": "High Priestess Selene Dawnbreak",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): High Priestess Selene Dawnbreak",
         "rumorTriggers": [
           { "trigger": "PCs ask about the Gloomwaste", "table": "Town Rumors", "bonus": "+1", "note": "She knows the oldest oral history fragments." },
@@ -76,7 +76,7 @@
             "title": "Dawnward Rite",
             "type": "ritual",
             "start": "Selene asks PCs to retrieve clean springwater from a north-forest source for a warding rite.",
-            "advanceClocks": [{ "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "advanceClocks": [{ "clockId": "clock_greyhaven_stability", "delta": -1 }],
             "complications": ["Source is tainted (quietly).", "Owlbear signs near the spring."]
           },
           {
@@ -95,7 +95,7 @@
   {
     "name": "Dora Bramblefoot",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Dora Bramblefoot",
         "rumorTriggers": [
           { "trigger": "PCs ask about town politics", "table": "Town Rumors", "bonus": "+1", "note": "She trades truth for favors." },
@@ -115,7 +115,7 @@
             "title": "Quiet Survey",
             "type": "exploration",
             "start": "Dora hires PCs to mark where blight is creeping toward the nearest fields.",
-            "advanceClocks": [{ "clockId": "clock_grayhaven_stability", "delta": -1 }],
+            "advanceClocks": [{ "clockId": "clock_greyhaven_stability", "delta": -1 }],
             "complications": ["Maps fail in the Gloomwaste fringe.", "A ‘friendly’ Zhent offers to accompany them."]
           }
         ]
@@ -126,7 +126,7 @@
   {
     "name": "Roderick Smithson",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Roderick Smithson",
         "rumorTriggers": [
           { "trigger": "PCs buy him a drink", "table": "Town Rumors", "bonus": "+2", "note": "He mixes truth and lies; GM can seed real ruin details." },
@@ -149,7 +149,7 @@
   {
     "name": "Zhentarim Handler Varron Dusk",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Zhentarim Handler Varron Dusk",
         "rumorTriggers": [
           { "trigger": "PCs ask around about ‘merchant protection’", "table": "Town Rumors", "bonus": "+2", "note": "He hears quickly; a ‘friendly’ offer arrives." },
@@ -179,7 +179,7 @@
   {
     "name": "Gildon Farrow",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Gildon Farrow",
         "rumorTriggers": [
           {
@@ -208,7 +208,7 @@
             "type": "investigation",
             "start": "A shipment manifest vanished after the market closed. Gildon hires the PCs to recover it before it reaches the wrong hands.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "The manifest proves a Zhentarim shipment (Gildon didn’t know, or pretends he didn’t).",
@@ -239,7 +239,7 @@
   {
     "name": "Bessa Wainwright",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Bessa Wainwright",
         "rumorTriggers": [
           {
@@ -299,7 +299,7 @@
   {
     "name": "Cyril “Crowsong” Mott",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Cyril “Crowsong” Mott",
         "rumorTriggers": [
           {
@@ -359,7 +359,7 @@
   {
     "name": "Sergeant Brinna Holt",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Sergeant Brinna Holt",
         "rumorTriggers": [
           {
@@ -402,7 +402,7 @@
             "type": "rescue",
             "start": "A two-person patrol hasn’t reported in from the south road. Brinna orders a discreet search before the mayor hears.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "The patrol found evidence of a lich agent.",
@@ -419,7 +419,7 @@
   {
     "name": "Watchman Pell Tarrow",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Watchman Pell Tarrow",
         "rumorTriggers": [
           {
@@ -448,7 +448,7 @@
             "type": "investigation",
             "start": "Lanterns near the east gate keep going out. Pell begs the PCs to help before people decide it’s ‘witchcraft’.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "It’s a minor lich agent’s warding charm.",
@@ -479,7 +479,7 @@
   {
     "name": "Brother Harun of the Dawn",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Brother Harun of the Dawn",
         "rumorTriggers": [
           {
@@ -522,7 +522,7 @@
             "type": "social",
             "start": "A suspected ‘spellcaster’ is about to be publicly humiliated. Harun begs the PCs to find the truth fast.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 },
+              { "clockId": "clock_greyhaven_stability", "delta": -1 },
               { "clockId": "clock_militia_authority", "delta": -1 }
             ],
             "complications": [
@@ -540,7 +540,7 @@
   {
     "name": "Hilda Greenbottle",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Hilda Greenbottle",
         "rumorTriggers": [
           {
@@ -600,7 +600,7 @@
   {
     "name": "Odo Stoutheart",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Odo Stoutheart",
         "rumorTriggers": [
           {
@@ -629,7 +629,7 @@
             "type": "hunt",
             "start": "Odo’s goats were taken. He wants the owlbear driven off or slain, and a claw as proof.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "The owlbear is blight-tainted (harder, stranger behavior).",
@@ -660,7 +660,7 @@
   {
     "name": "Kellan Pike",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Kellan Pike",
         "rumorTriggers": [
           {
@@ -703,7 +703,7 @@
             "type": "rescue",
             "start": "Kellan and friends dared each other to touch the east road marker stone. One didn’t come back.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "The missing child is hidden but tainted.",
@@ -720,7 +720,7 @@
   {
     "name": "Caravan Master Sorn Dellik",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Caravan Master Sorn Dellik",
         "rumorTriggers": [
           {
@@ -749,7 +749,7 @@
             "type": "escort",
             "start": "Sorn needs a one-trip escort north with high-value goods that keep the town’s economy alive.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "Highwaymen are tainted and don’t flee like normal humans.",
@@ -772,7 +772,7 @@
             ]
           }
         ],
-        "gmOnlyNotes": "Sorn is a key Stability lever. If he quits, Grayhaven Stability advances +1 each week until trade resumes."
+        "gmOnlyNotes": "Sorn is a key Stability lever. If he quits, Greyhaven Stability advances +1 each week until trade resumes."
       }
     }
   },
@@ -780,7 +780,7 @@
   {
     "name": "Roadwarden ‘Old’ Sera Lann",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Roadwarden ‘Old’ Sera Lann",
         "rumorTriggers": [
           {
@@ -809,7 +809,7 @@
             "type": "exploration",
             "start": "Sera offers a paid scouting run to confirm whether a new bandit camp exists along the north road.",
             "advanceClocks": [
-              { "clockId": "clock_grayhaven_stability", "delta": -1 }
+              { "clockId": "clock_greyhaven_stability", "delta": -1 }
             ],
             "complications": [
               "Camp is actually Bloodcrust scouts.",
@@ -840,7 +840,7 @@
   {
     "name": "Zhentarim Cutter Vesk",
     "flags": {
-      "grayhaven": {
+      "greyhaven": {
         "gmOnlyJournal": "NPC DOSSIER (GM): Zhentarim Cutter Vesk",
         "rumorTriggers": [
           {
