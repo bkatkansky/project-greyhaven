@@ -127,5 +127,475 @@
     "categories": [],
     "flags": { "greyhaven": { "gmOnly": true, "npc": "Zhentarim Handler Varron Dusk", "links": ["Clock:Black Network Grip"] } },
     "ownership": { "default": 0 }
+  },
+  {
+    "name": "NPC DOSSIER (GM): Gildon Farrow",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Gildon quietly launders Zhentarim coin through ‘freight fees’ and ‘loss insurance’ and has done so long enough to be scared of stopping.</p><p><b>Leverage on him:</b> His private ledgers (kept in a false-bottom lockbox) and a set of wax seals matching Zhentarim contracts.</p><p><b>What he wants:</b> Stability. He will sell out anyone if it keeps markets open.</p><p><b>If PCs befriend him:</b> He provides accurate supply forecasts and can point to who benefits from shortages.</p><p><b>If PCs threaten him:</b> He plays dumb, then secretly informs Varron Dusk.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Gildon completes a ‘quiet’ shipment, PCs accept his ‘no questions’ job, or he reports PCs to Zhentarim.</p><p><b>Reduce</b> <i>Grayhaven Stability</i> risk by -1 when: PCs secure a caravan deal via Gildon or stop a price spike.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Gildon Farrow", "links": ["Clock:Black Network Grip", "Clock:Grayhaven Stability"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Bessa Wainwright",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Secrets & Leverage",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Bessa has repaired two ‘mystery wagons’ for Zhentarim clients but refuses to know what was inside. Her shop marks those jobs with a private notch code.</p><p><b>Leverage:</b> The notch code ledger, and a set of wheel spokes made from wood that ‘shouldn’t exist’ (tainted, slightly warm at night).</p><p><b>What she wants:</b> To keep travelers alive. She hates politics and will resist being used as a pawn.</p><p><b>If PCs earn trust:</b> She reveals which merchants are quietly moving goods at odd hours.</p><p><b>If PCs cross her:</b> She refuses service and warns others, causing equipment costs/time to rise.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Blight Tell",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p>Bessa can identify early material taint: <b>sour sap</b>, <b>gray-green stains</b>, and <b>wood that splinters like chalk</b>. If PCs bring samples, she can point them toward the Gloomwaste fringe without saying the word ‘lich’.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Bessa Wainwright", "links": ["Clock:Grayhaven Stability"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Cyril “Crowsong” Mott",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Cover Identity & Codes",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Cyril is a Harper courier. His ‘crow verses’ are codes: certain rhymes indicate meeting points, and certain refrains name targets.</p><p><b>Leverage:</b> A page of lyrics in thieves’ cant, or catching him passing a feather charm to Captain Voss.</p><p><b>What he wants:</b> Actionable intel. He is bold, sometimes reckless.</p><p><b>If PCs prove themselves:</b> He offers a Harper contact phrase and a safe meeting route to the south farmhouse hideout.</p><p><b>If PCs betray him:</b> Harpers withdraw. ‘Helpful rumors’ dry up. <i>Black Network Grip</i> advances +2.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Harper Intelligence</i> by +1 when: PCs deliver coded messages successfully, protect Cyril, or bring him proof.</p><p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Cyril is compromised, tailed, or forced to flee.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Cyril “Crowsong” Mott", "links": ["Clock:Harper Intelligence", "Clock:Black Network Grip"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Sergeant Brinna Holt",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Temper & Pressure Points",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Brinna has a quiet fear of magic. She witnessed a spell accident years ago and never healed from it.</p><p><b>Leverage:</b> None external. The leverage is emotional: show competence, protect civilians, and keep things orderly.</p><p><b>What she wants:</b> Clean patrols, fewer surprises, and proof before accusations.</p><p><b>If Stability worsens:</b> She will support harsher measures, even if she dislikes them.</p><p><b>If PCs help her:</b> She becomes a steady ally and can shield them from overzealous arrests.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Militia Authority</i> by +1 when: PCs assist checkpoints/patrols successfully.</p><p><b>Advance</b> <i>Stoutheart Resentment</i> by +1 when: Brinna humiliates a halfling publicly or a patrol harms a civilian.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Sergeant Brinna Holt", "links": ["Clock:Militia Authority", "Clock:Stoutheart Resentment"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Watchman Pell Tarrow",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "The ‘Singing’",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Pell hears a faint harmonic from the east during heavy fog. It is real: a side-effect of the lich’s planar projection work.</p><p><b>Leverage:</b> Pell is motivated by fear for his family, especially his newborn daughter. Reassurance and protection win him.</p><p><b>What he wants:</b> Someone brave to validate him.</p><p><b>If PCs investigate:</b> the trail points to a fog pocket that behaves unnaturally (good omen lead into Gloomwaste mechanics).</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Escalation",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p>If Pell is mocked or dismissed repeatedly, he stops reporting. The next east-gate incident becomes worse (missing child, tainted animal, or fog surge). Advance <i>Grayhaven Stability</i> +1.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Watchman Pell Tarrow", "links": ["Clock:Grayhaven Stability"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Brother Harun of the Dawn",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Records & Accidents",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Harun’s ledger copies contain marginal notes from a long-dead priest who suspected ‘a will behind the blight’ (lich-adjacent truth).</p><p><b>Leverage:</b> Protect the shrine’s reputation and people. He will trade access to records for help.</p><p><b>What he wants:</b> A narrative that preserves hope without lies.</p><p><b>Risk:</b> Harun can leak secrets accidentally if questioned harshly or if he panics.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Harper Intelligence</i> by +1 when: Harun provides ledger pages or old testimonies.</p><p><b>Advance</b> <i>Grayhaven Stability</i> by +1 when: a shrine scandal breaks or a public humiliation occurs outside the shrine doors.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Brother Harun of the Dawn", "links": ["Clock:Harper Intelligence", "Clock:Grayhaven Stability"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Hilda Greenbottle",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Gossip Web",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Hilda isn’t ‘just’ a spice seller. She keeps a mental map of who owes whom favors in Lowstone and can turn the neighborhood mood like a weather vane.</p><p><b>Leverage:</b> Earn her trust. Protect her people. Pay fairly. Don’t threaten her family.</p><p><b>What she wants:</b> Fairness. She dislikes Bramblefoot dominance but fears open conflict.</p><p><b>If PCs alienate her:</b> the rumor mill turns against them quickly, even if she doesn’t intend harm.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Reduce</b> <i>Stoutheart Resentment</i> by -1 when: PCs help Lowstone materially or respectfully.</p><p><b>Advance</b> <i>Stoutheart Resentment</i> by +1 when: militia humiliates locals or Bramblefoots impose policy.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Hilda Greenbottle", "links": ["Clock:Stoutheart Resentment"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Odo Stoutheart",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Vigilance & Violence",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Odo has started setting illegal snares and pits on the outskirts without telling the militia. He believes officials won’t protect Lowstone farms.</p><p><b>Leverage:</b> Offer real protection and respect. He will listen to those who act, not those who promise.</p><p><b>What he wants:</b> His herd safe and his people not treated like expendable labor.</p><p><b>If ignored:</b> he becomes a leader of ‘neighborhood justice’ (dangerous but understandable).</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Stoutheart Resentment</i> by +1 when: Odo’s traps injure someone or militia dismisses farm losses.</p><p><b>Reduce</b> <i>Grayhaven Stability</i> risk by -1 when: PCs solve the owlbear or protect farms.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Odo Stoutheart", "links": ["Clock:Stoutheart Resentment", "Clock:Grayhaven Stability"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Kellan Pike",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Shard Kid",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Kellan found a tiny blight-tainted shard at the riverbank. It emits a faint hum at night and subtly draws curiosity.</p><p><b>Leverage:</b> Care and honesty. He responds badly to threats, but strongly to protection.</p><p><b>What he wants:</b> To be taken seriously, and to be brave.</p><p><b>If PCs leave him alone:</b> he returns to the river or east marker stone and gets into real danger.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Shard Utility",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p>The shard can be a plot key: it resonates near specific ruin glyphs, briefly clarifying direction even when maps fail. Prolonged exposure risks Blight Affliction checks (GM uses your Gloomwaste mechanics).</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Kellan Pike", "links": ["Clock:Harper Intelligence"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Caravan Master Sorn Dellik",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "The Black Nails",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Sorn’s ‘highwaymen’ weren’t normal: the attackers fought like starving men but didn’t flinch properly, and had blackened nails and bruised veins. Early blight-taint or controlled pawns.</p><p><b>Leverage:</b> Sorn will pay for safety and hates being forced to deal with Zhents, but he will if desperate.</p><p><b>What he wants:</b> One successful run so he can keep his crew employed.</p><p><b>If PCs fail him:</b> he considers quitting, which worsens trade and pushes Stability down.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Reduce</b> <i>Grayhaven Stability</i> risk by -1 when: PCs escort Sorn successfully.</p><p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Sorn is forced to buy ‘protection’.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Caravan Master Sorn Dellik", "links": ["Clock:Grayhaven Stability", "Clock:Black Network Grip"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Roadwarden ‘Old’ Sera Lann",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "What She Knows",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Sera believes the Gloomwaste is maintained, not accidental. She has seen fog pockets behave like ‘doors’ and heard the harmonic ‘chorus’ too.</p><p><b>Leverage:</b> Respect her boundaries. She refuses to enter heavy fog or the east road marker area.</p><p><b>What she wants:</b> To keep people alive, not to ‘win’ against the blight.</p><p><b>If PCs push her into fog:</b> she panics or flees. If PCs respect her, she shares her best routes and warning signs.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Trail Signs",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p>Sera can teach PCs a few consistent ‘tells’ outside the Gloomwaste: birds go silent first, then insects vanish, then fog thickens, then direction feels ‘sticky’. These are early warning stages.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Roadwarden ‘Old’ Sera Lann", "links": ["Clock:Grayhaven Stability"] } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "NPC DOSSIER (GM): Zhentarim Cutter Vesk",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Enforcer Profile",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Secret:</b> Vesk has personally walked the route to the cavern waystation and can identify three landmark tells: <i>split pine</i>, <i>three stones</i>, and <i>cold breath</i> (a draft from the cavern mouth).</p><p><b>Leverage:</b> He fears Varron more than death. Promise protection and a new identity and he might crack.</p><p><b>What he wants:</b> To complete assignments cleanly and move up.</p><p><b>If PCs capture him:</b> he bargains with partial truths and tries to set a trap for whoever comes to retrieve him.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      },
+      {
+        "sort": 200000,
+        "name": "Clock Interactions",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 2 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Vesk intimidates or buys off an NPC successfully.</p><p><b>Reduce</b> <i>Black Network Grip</i> by -1 when: PCs publicly embarrass Vesk without killing him (reduces fear aura).</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true, "npc": "Zhentarim Cutter Vesk", "links": ["Clock:Black Network Grip"] } },
+    "ownership": { "default": 0 }
   }
 ]
