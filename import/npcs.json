@@ -4,49 +4,46 @@
     "type": "character",
     "img": "icons/npcs/mayor.png",
     "system": {
-      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
-      "abilities": {
-        "str": { "value": 10 },
-        "dex": { "value": 10 },
-        "con": { "value": 10 },
-        "int": { "value": 12 },
-        "wis": { "value": 12 },
-        "cha": { "value": 14 }
-      },
+      "currency": { "pp": 0, "gp": 35, "ep": 0, "sp": 40, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 10 }, "con": { "value": 10 }, "int": { "value": 12 }, "wis": { "value": 12 }, "cha": { "value": 14 } },
+      "bonuses": {},
+      "skills": {},
       "attributes": {
         "ac": { "calc": "default", "flat": null },
-        "hp": { "max": 110, "value": 110 }
+        "init": { "ability": "", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 110, "temp": null, "tempmax": null, "value": 110, "formula": "" }
       },
       "details": {
-        "biography": {
-          "value": "Pragmatic Lord Mayor of Grayhaven who quietly tolerates criminal elements to prevent civil collapse.",
-          "public": "Lord Mayor of Grayhaven"
-        },
+        "biography": { "value": "Lord Mayor of Grayhaven. Pragmatic, publicly clean, privately compromised for peace.", "public": "Lord Mayor of Grayhaven" },
         "alignment": "LN",
-        "ideal": "Order must endure",
-        "bond": "The city of Grayhaven",
-        "flaw": "Compromised by smuggling interests",
+        "ideal": "pragmatic",
+        "bond": "Grayhaven’s survival",
+        "flaw": "Allows Zhentarim smuggling to keep the town safe",
         "race": "human",
-        "type": { "value": "humanoid", "subtype": "Human" },
-        "cr": 1
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
       },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": {
         "size": "med",
-        "languages": { "value": ["common"], "custom": "" },
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "", "communication": {} },
         "important": true
       }
     },
     "items": [],
     "effects": [],
-    "flags": {
-      "grayhaven": {
-        "district": "Highstone",
-        "triggers": ["Faction Clock", "Political Intrigue"],
-        "visualMotif": "Polished stone, civic banners, sealed ledgers",
-        "faction": "Grayhaven Leadership"
-      }
-    }
+    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Faction Clock", "Political Intrigue"], "visualMotif": "Tall stone walls, civic banners, sealed ledgers", "faction": "Grayhaven Leadership" } }
   },
 
   {
@@ -55,96 +52,92 @@
     "img": "icons/npcs/guard_female.png",
     "system": {
       "currency": { "pp": 0, "gp": 12, "ep": 0, "sp": 18, "cp": 0 },
-      "abilities": {
-        "str": { "value": 14 },
-        "dex": { "value": 13 },
-        "con": { "value": 14 },
-        "int": { "value": 12 },
-        "wis": { "value": 14 },
-        "cha": { "value": 11 }
-      },
+      "abilities": { "str": { "value": 14 }, "dex": { "value": 13 }, "con": { "value": 14 }, "int": { "value": 12 }, "wis": { "value": 14 }, "cha": { "value": 11 } },
+      "bonuses": {},
+      "skills": {},
       "attributes": {
-        "hp": { "max": 85, "value": 85 }
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 85, "temp": null, "tempmax": null, "value": 85, "formula": "" }
       },
       "details": {
-        "biography": {
-          "value": "Commander of the Grayhaven Watch and covert Harper agent monitoring undead activity.",
-          "public": "Captain of the Town Guard"
-        },
+        "biography": { "value": "Captain of the Grayhaven Militia and covert Harper operative.", "public": "Captain of the town guard" },
         "alignment": "NG",
-        "ideal": "Truth over comfort",
+        "ideal": "Truth must survive power",
         "bond": "The Harpers",
-        "flaw": "Operates without approval",
+        "flaw": "Keeps too many secrets",
         "race": "human",
-        "type": { "value": "humanoid", "subtype": "Human" },
-        "cr": 2
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 2,
+        "treasure": { "value": [] }
       },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": {
         "size": "med",
-        "languages": { "value": ["common"], "custom": "thieves' cant" },
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "thieves' cant", "communication": {} },
         "important": true
       }
     },
     "items": [],
     "effects": [],
-    "flags": {
-      "grayhaven": {
-        "district": "Highstone",
-        "triggers": ["Harper Operations", "Militia Escalation"],
-        "visualMotif": "Well-kept armor, alert posture",
-        "faction": "Harpers"
-      }
-    }
+    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Harper Missions", "Militia Response"], "visualMotif": "Well-kept armor, eyes always scanning", "faction": "Harpers" } }
   },
 
   {
-    "name": "Brother Halven",
+    "name": "High Priestess Selene Dawnbreak",
     "type": "character",
     "img": "icons/npcs/priest.png",
     "system": {
-      "currency": { "pp": 0, "gp": 20, "ep": 0, "sp": 40, "cp": 0 },
-      "abilities": {
-        "str": { "value": 9 },
-        "dex": { "value": 10 },
-        "con": { "value": 12 },
-        "int": { "value": 11 },
-        "wis": { "value": 15 },
-        "cha": { "value": 13 }
-      },
+      "currency": { "pp": 0, "gp": 8, "ep": 0, "sp": 20, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 10 }, "con": { "value": 12 }, "int": { "value": 14 }, "wis": { "value": 16 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
       "attributes": {
-        "hp": { "max": 55, "value": 55 }
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 55, "temp": null, "tempmax": null, "value": 55, "formula": "" }
       },
       "details": {
-        "biography": {
-          "value": "Caretaker priest of the Old Chapel who senses the dead stirring beneath the Gloomwaste.",
-          "public": "Local priest and spiritual guide"
-        },
+        "biography": { "value": "Devotee of Lathander. Leads the shrine and watches the Gloomwaste with wary faith.", "public": "Spiritual leader of Grayhaven (Lathander)" },
         "alignment": "LG",
-        "ideal": "Faith is vigilance",
-        "bond": "The Chapel",
-        "flaw": "Terrified of necromancy",
+        "ideal": "Light returns",
+        "bond": "Her congregation",
+        "flaw": "Overzealous about town’s anti-spellcasting law",
         "race": "human",
-        "type": { "value": "humanoid", "subtype": "Human" },
-        "cr": 1
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
       },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": {
         "size": "med",
-        "languages": { "value": ["common", "celestial"], "custom": "" },
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "celestial", "communication": {} },
         "important": true
       }
     },
     "items": [],
     "effects": [],
-    "flags": {
-      "grayhaven": {
-        "district": "Old Quarter",
-        "triggers": ["Undead Omen", "Sanctified Ground"],
-        "visualMotif": "Cracked stone, incense smoke, guttering candles",
-        "faction": "Church of the Light"
-      }
-    }
+    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Sanctuary", "Undead Omen"], "visualMotif": "Incense, dawn-sun iconography, warm candlelight", "faction": "Church of Lathander" } }
   },
 
   {
@@ -153,96 +146,92 @@
     "img": "icons/npcs/tavern_female.png",
     "system": {
       "currency": { "pp": 0, "gp": 55, "ep": 0, "sp": 120, "cp": 30 },
-      "abilities": {
-        "str": { "value": 11 },
-        "dex": { "value": 12 },
-        "con": { "value": 13 },
-        "int": { "value": 13 },
-        "wis": { "value": 14 },
-        "cha": { "value": 15 }
-      },
+      "abilities": { "str": { "value": 11 }, "dex": { "value": 12 }, "con": { "value": 13 }, "int": { "value": 13 }, "wis": { "value": 14 }, "cha": { "value": 15 } },
+      "bonuses": {},
+      "skills": {},
       "attributes": {
-        "hp": { "max": 45, "value": 45 }
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 45, "temp": null, "tempmax": null, "value": 45, "formula": "" }
       },
       "details": {
-        "biography": {
-          "value": "Proprietor of the Rusty Tankard and primary rumor broker in Grayhaven.",
-          "public": "Tavern keeper"
-        },
+        "biography": { "value": "Owner of the Rusty Tankard. Keeps a soft ledger and a hard smile.", "public": "Tavern keeper" },
         "alignment": "CN",
-        "ideal": "Information is leverage",
+        "ideal": "Information is currency",
         "bond": "Her tavern",
-        "flaw": "Knows when to lie",
+        "flaw": "Knows too much and sells it too easily",
         "race": "human",
-        "type": { "value": "humanoid", "subtype": "Human" },
-        "cr": 0
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
       },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": {
         "size": "med",
-        "languages": { "value": ["common"], "custom": "" },
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "", "communication": {} },
         "important": false
       }
     },
     "items": [],
     "effects": [],
-    "flags": {
-      "grayhaven": {
-        "district": "Market Green",
-        "triggers": ["Rumors", "Side Quests"],
-        "visualMotif": "Low ceilings, pipe smoke, scarred oak",
-        "faction": "Independent"
-      }
-    }
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Rumors", "Jobs"], "visualMotif": "Pipe smoke, scarred oak bar, low laughter", "faction": "Independent" } }
   },
 
   {
-    "name": "Dora Bramblefoot",
+    "name": "Innkeeper Marla Dune",
     "type": "character",
-    "img": "icons/npcs/halfling_matriarch.png",
+    "img": "icons/npcs/innkeeper.png",
     "system": {
-      "currency": { "pp": 0, "gp": 240, "ep": 0, "sp": 300, "cp": 0 },
-      "abilities": {
-        "str": { "value": 8 },
-        "dex": { "value": 12 },
-        "con": { "value": 11 },
-        "int": { "value": 14 },
-        "wis": { "value": 15 },
-        "cha": { "value": 16 }
-      },
+      "currency": { "pp": 0, "gp": 18, "ep": 0, "sp": 90, "cp": 0 },
+      "abilities": { "str": { "value": 12 }, "dex": { "value": 11 }, "con": { "value": 13 }, "int": { "value": 10 }, "wis": { "value": 12 }, "cha": { "value": 14 } },
+      "bonuses": {},
+      "skills": {},
       "attributes": {
-        "hp": { "max": 50, "value": 50 }
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 38, "temp": null, "tempmax": null, "value": 38, "formula": "" }
       },
       "details": {
-        "biography": {
-          "value": "Matriarch of the Bramblefoot family whose lineage is tied to the ancient lich.",
-          "public": "Prominent merchant matron"
-        },
-        "alignment": "LN",
-        "ideal": "Legacy endures",
-        "bond": "The Bramblefoot bloodline",
-        "flaw": "Fears what sleeps in her ancestry",
-        "race": "halfling",
-        "type": { "value": "humanoid", "subtype": "Halfling" },
-        "cr": 1
+        "biography": { "value": "Innkeeper of the Wayfarer’s Rest. A magnet for road-news and quiet bargains.", "public": "Innkeeper" },
+        "alignment": "NG",
+        "ideal": "Hospitality is a shield",
+        "bond": "Her staff and guests",
+        "flaw": "Will hide trouble if it keeps rooms full",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
       },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": {
-        "size": "sm",
-        "languages": { "value": ["common", "halfling"], "custom": "" },
-        "important": true
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "", "communication": {} },
+        "important": false
       }
     },
     "items": [],
     "effects": [],
-    "flags": {
-      "grayhaven": {
-        "district": "Market Green",
-        "triggers": ["Hidden Bloodline", "Ancient Lore"],
-        "visualMotif": "Warm smiles, guarded eyes",
-        "faction": "Bramblefoot Family"
-      }
-    }
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Road News", "Caravan Leads"], "visualMotif": "Stew-scented air, clean sheets, travel-stained boots by the hearth", "faction": "Independent" } }
   },
 
   {
@@ -251,35 +240,706 @@
     "img": "icons/npcs/drunk_merc.png",
     "system": {
       "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 7, "cp": 19 },
-      "abilities": {
-        "str": { "value": 13 },
-        "dex": { "value": 11 },
-        "con": { "value": 12 },
-        "int": { "value": 10 },
-        "wis": { "value": 9 },
-        "cha": { "value": 8 }
-      },
+      "abilities": { "str": { "value": 13 }, "dex": { "value": 11 }, "con": { "value": 12 }, "int": { "value": 10 }, "wis": { "value": 9 }, "cha": { "value": 8 } },
+      "bonuses": {},
+      "skills": {},
       "attributes": {
-        "hp": { "max": 60, "value": 60 }
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 60, "temp": null, "tempmax": null, "value": 60, "formula": "" }
       },
       "details": {
-        "biography": {
-          "value": "Former adventurer who survived the Gloomwaste ruins and drinks to forget.",
-          "public": "Local drunk"
-        },
+        "biography": { "value": "Former mercenary and adventurer. The only living local who has seen the outer ruins and returned.", "public": "Town drunk and storyteller" },
         "alignment": "CN",
         "ideal": "Truth hurts",
-        "bond": "Fallen companions",
-        "flaw": "Alcoholic",
+        "bond": "Memories of the dead",
+        "flaw": "Alcohol ruins his credibility",
         "race": "human",
-        "type": { "value": "humanoid", "subtype": "Human" },
-        "cr": 1
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
       },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
       "source": { "revision": 1, "rules": "2024" },
       "traits": {
         "size": "med",
-        "languages": { "value": ["common"], "custom": "" },
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "", "communication": {} },
         "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Lost Lore", "Ruins Revelation"], "visualMotif": "Shaking hands, scarred knuckles, haunted stare", "faction": "None", "gmOnlyNotes": "Some of his 'lies' are true: he saw concentric walls and a keep that looked untouched by time." } }
+  },
+
+  {
+    "name": "Dora Bramblefoot",
+    "type": "character",
+    "img": "icons/npcs/halfling_matriarch.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 240, "ep": 0, "sp": 300, "cp": 0 },
+      "abilities": { "str": { "value": 8 }, "dex": { "value": 12 }, "con": { "value": 11 }, "int": { "value": 14 }, "wis": { "value": 15 }, "cha": { "value": 16 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 50, "temp": null, "tempmax": null, "value": 50, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Matriarch of the Bramblefoot family, influential merchants and landholders.", "public": "Prominent halfling merchant matron" },
+        "alignment": "LN",
+        "ideal": "Legacy endures",
+        "bond": "The Bramblefoot name",
+        "flaw": "Fears what her bloodline may awaken",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "sm",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common", "halfling"], "custom": "", "communication": {} },
+        "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Family Politics", "Hidden Lore"], "visualMotif": "Warm smile, sharper eyes, immaculate ledgers", "faction": "Bramblefoot Family", "gmOnlyNotes": "Bloodline tie to the lich’s mortal identity; Dora suppresses inherited arcane tendencies in the family." } }
+  },
+
+  {
+    "name": "Perrin Bramblefoot",
+    "type": "character",
+    "img": "icons/npcs/halfling_merchant.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 35, "ep": 0, "sp": 80, "cp": 0 },
+      "abilities": { "str": { "value": 9 }, "dex": { "value": 14 }, "con": { "value": 11 }, "int": { "value": 12 }, "wis": { "value": 12 }, "cha": { "value": 13 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 34, "temp": null, "tempmax": null, "value": 34, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Dora’s eldest. Handles caravans and keeps the family’s hands clean-ish.", "public": "Bramblefoot caravan coordinator" },
+        "alignment": "LN",
+        "ideal": "Profit without panic",
+        "bond": "The Bramblefoot ledgers",
+        "flaw": "Underestimates supernatural threats",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "sm", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common", "halfling"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Caravan Contract", "North Road News"], "visualMotif": "Ink-stained fingers, tidy vest, quick arithmetic", "faction": "Bramblefoot Family" } }
+  },
+
+  {
+    "name": "Willa Stoutheart",
+    "type": "character",
+    "img": "icons/npcs/halfling_guard.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 22, "ep": 0, "sp": 50, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 13 }, "con": { "value": 14 }, "int": { "value": 11 }, "wis": { "value": 12 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 44, "temp": null, "tempmax": null, "value": 44, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Head of the Stoutheart household. Proud, stubborn, quietly generous.", "public": "Respected Stoutheart elder" },
+        "alignment": "NG",
+        "ideal": "Community over coin",
+        "bond": "Her extended family",
+        "flaw": "Holds grudges (especially against Bramblefoots)",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "sm", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common", "halfling"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Lowstone", "triggers": ["Halfling Politics", "Neighborhood Aid"], "visualMotif": "Flour-dusted sleeves, iron keyring, steady gaze", "faction": "Stoutheart Family" } }
+  },
+
+  {
+    "name": "Tilda Swiftfoot",
+    "type": "character",
+    "img": "icons/npcs/halfling_hireling.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 6, "ep": 0, "sp": 15, "cp": 0 },
+      "abilities": { "str": { "value": 8 }, "dex": { "value": 16 }, "con": { "value": 12 }, "int": { "value": 10 }, "wis": { "value": 12 }, "cha": { "value": 14 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 25, "temp": null, "tempmax": null, "value": 25, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Halfling scout-for-hire. Fast feet, faster grin.", "public": "Hireling scout" },
+        "alignment": "NG",
+        "ideal": "Freedom",
+        "bond": "Her friends in Lowstone",
+        "flaw": "Naive about organized crime",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "sm", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common", "halfling"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Lowstone", "triggers": ["Hireling", "South Road Escort"], "visualMotif": "Short cloak, quick hands, bright buttons", "faction": "Stoutheart Family" } }
+  },
+
+  {
+    "name": "Jessa Fernwhistle",
+    "type": "character",
+    "img": "icons/npcs/grocer.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 9, "ep": 0, "sp": 70, "cp": 0 },
+      "abilities": { "str": { "value": 9 }, "dex": { "value": 12 }, "con": { "value": 11 }, "int": { "value": 12 }, "wis": { "value": 12 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 22, "temp": null, "tempmax": null, "value": 22, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Grocer on Market Green. Keeps the freshest produce and the freshest gossip.", "public": "Grocer" },
+        "alignment": "N",
+        "ideal": "Practical kindness",
+        "bond": "Her shop and suppliers",
+        "flaw": "Cannot resist eavesdropping",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Rumors", "Supply Shortage"], "visualMotif": "Bunches of herbs, chalkboard prices, jingling scale weights", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Bram Kettleson",
+    "type": "character",
+    "img": "icons/npcs/butcher.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 6, "ep": 0, "sp": 40, "cp": 0 },
+      "abilities": { "str": { "value": 14 }, "dex": { "value": 10 }, "con": { "value": 13 }, "int": { "value": 10 }, "wis": { "value": 11 }, "cha": { "value": 9 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 30, "temp": null, "tempmax": null, "value": 30, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Butcher. Knows what predators do to livestock by the bite marks alone.", "public": "Butcher" },
+        "alignment": "N",
+        "ideal": "No waste",
+        "bond": "His aging mother in Lowstone",
+        "flaw": "Quick temper",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Owlbear Hook", "Farm Trouble"], "visualMotif": "Apron stained dark, cleaver thump, salted meat smell", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Tamsin Pike",
+    "type": "character",
+    "img": "icons/npcs/general_store.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 14, "ep": 0, "sp": 55, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 11 }, "con": { "value": 11 }, "int": { "value": 13 }, "wis": { "value": 12 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 24, "temp": null, "tempmax": null, "value": 24, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "General store owner. Buys and sells everything legal, and asks careful questions.", "public": "General store proprietor" },
+        "alignment": "N",
+        "ideal": "Preparedness",
+        "bond": "Her teenage son, Kellan",
+        "flaw": "Paranoid about magic",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Gear Up", "Contraband Whispers"], "visualMotif": "Wall of rope and lanterns, locked glass case, ledger under elbow", "faction": "Town Commerce", "gmOnlyNotes": "Zhentarim sometimes use her back room for ‘short meetings’ without her consent." } }
+  },
+
+  {
+    "name": "Rurik Anvilhand",
+    "type": "character",
+    "img": "icons/npcs/blacksmith.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 25, "ep": 0, "sp": 90, "cp": 0 },
+      "abilities": { "str": { "value": 16 }, "dex": { "value": 10 }, "con": { "value": 15 }, "int": { "value": 11 }, "wis": { "value": 12 }, "cha": { "value": 9 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 58, "temp": null, "tempmax": null, "value": 58, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Smith. Repairs militia gear and quietly hates bandits.", "public": "Town blacksmith" },
+        "alignment": "LG",
+        "ideal": "Craft is oath",
+        "bond": "His apprentice, Nessa",
+        "flaw": "Will pick fights with bullies",
+        "race": "dwarf",
+        "type": { "value": "humanoid", "subtype": "Dwarf", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 2,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "dwarvish", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Repair Gear", "Bandit Bounty"], "visualMotif": "Sparks, hammer-ring, soot-black hands", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Nessa Anvilhand",
+    "type": "character",
+    "img": "icons/npcs/apprentice.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 1, "ep": 0, "sp": 15, "cp": 0 },
+      "abilities": { "str": { "value": 12 }, "dex": { "value": 13 }, "con": { "value": 12 }, "int": { "value": 12 }, "wis": { "value": 10 }, "cha": { "value": 11 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 24, "temp": null, "tempmax": null, "value": 24, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Apprentice smith. Curious about the forbidden east road.", "public": "Smith’s apprentice" },
+        "alignment": "NG",
+        "ideal": "Prove myself",
+        "bond": "Rurik (mentor)",
+        "flaw": "Recklessly curious",
+        "race": "dwarf",
+        "type": { "value": "humanoid", "subtype": "Dwarf", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "dwarvish", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Apprentice Trouble", "East Road Dares"], "visualMotif": "Soot-smudged cheeks, bright eyes, too-big gloves", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Carpenter Jory Lark",
+    "type": "character",
+    "img": "icons/npcs/carpenter.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 11, "ep": 0, "sp": 30, "cp": 0 },
+      "abilities": { "str": { "value": 12 }, "dex": { "value": 12 }, "con": { "value": 12 }, "int": { "value": 11 }, "wis": { "value": 11 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 28, "temp": null, "tempmax": null, "value": 28, "formula": "" } },
+      "details": { "biography": { "value": "Carpenter and builder. Reinforces homes near the eastern edge.", "public": "Carpenter" }, "alignment": "N", "ideal": "Build to last", "bond": "His younger sister, Lysa", "flaw": "Overworks and snaps", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 0, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Southend", "triggers": ["Repairs", "Blight Encroachment"], "visualMotif": "Saw dust, measuring cord, nails in a mouth-corner", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Tailor Fennick Vale",
+    "type": "character",
+    "img": "icons/npcs/tailor.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 13, "ep": 0, "sp": 60, "cp": 0 },
+      "abilities": { "str": { "value": 8 }, "dex": { "value": 14 }, "con": { "value": 10 }, "int": { "value": 12 }, "wis": { "value": 12 }, "cha": { "value": 13 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 20, "temp": null, "tempmax": null, "value": 20, "formula": "" } },
+      "details": { "biography": { "value": "Tailor. Can stitch hidden pockets or repair travel gear discreetly.", "public": "Tailor" }, "alignment": "N", "ideal": "Details matter", "bond": "His reputation", "flaw": "Gossips to feel important", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 0, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Disguises", "Noble Attire"], "visualMotif": "Measuring tape, neat pins, whispering shears", "faction": "Town Commerce", "gmOnlyNotes": "Sometimes asked to alter clothes for Zhentarim; he pretends not to notice." } }
+  },
+
+  {
+    "name": "Cobbler Dain Rook",
+    "type": "character",
+    "img": "icons/npcs/cobbler.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 7, "ep": 0, "sp": 35, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 12 }, "con": { "value": 11 }, "int": { "value": 11 }, "wis": { "value": 13 }, "cha": { "value": 9 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 22, "temp": null, "tempmax": null, "value": 22, "formula": "" } },
+      "details": { "biography": { "value": "Cobbler. Notices mud, ash, and strange dust on travelers’ boots.", "public": "Cobbler" }, "alignment": "N", "ideal": "Keep moving", "bond": "His workshop", "flaw": "Too suspicious", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 0, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Trail Clues", "Gloom Dust"], "visualMotif": "Leather scraps, sharp awl, boots lined like soldiers", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Tanner Orla Sedge",
+    "type": "character",
+    "img": "icons/npcs/tanner.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 10, "ep": 0, "sp": 25, "cp": 0 },
+      "abilities": { "str": { "value": 11 }, "dex": { "value": 11 }, "con": { "value": 13 }, "int": { "value": 10 }, "wis": { "value": 12 }, "cha": { "value": 8 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 30, "temp": null, "tempmax": null, "value": 30, "formula": "" } },
+      "details": { "biography": { "value": "Tanner on the town’s edge. Her vats stink; her knives are immaculate.", "public": "Tanner" }, "alignment": "N", "ideal": "Hard work", "bond": "Her hunting hounds", "flaw": "Ruthless in bargaining", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 0, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Southend", "triggers": ["Hide Trade", "Predator Signs"], "visualMotif": "Sharp tannin smell, hanging hides, barking dogs", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Sawmill Foreman Hank Alder",
+    "type": "character",
+    "img": "icons/npcs/sawmill.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 12, "ep": 0, "sp": 15, "cp": 0 },
+      "abilities": { "str": { "value": 15 }, "dex": { "value": 11 }, "con": { "value": 14 }, "int": { "value": 10 }, "wis": { "value": 12 }, "cha": { "value": 9 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 42, "temp": null, "tempmax": null, "value": 42, "formula": "" } },
+      "details": { "biography": { "value": "Runs the sawmill. His crews won’t cut near the Gloomwaste anymore.", "public": "Sawmill foreman" }, "alignment": "N", "ideal": "Safety first", "bond": "His workers", "flaw": "Superstitious", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 1, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Forest Work", "Missing Loggers"], "visualMotif": "Fresh sap, saw whine, splintered gloves", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Miller Oren Slate",
+    "type": "character",
+    "img": "icons/npcs/miller.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 9, "ep": 0, "sp": 55, "cp": 0 },
+      "abilities": { "str": { "value": 12 }, "dex": { "value": 10 }, "con": { "value": 12 }, "int": { "value": 11 }, "wis": { "value": 12 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 28, "temp": null, "tempmax": null, "value": 28, "formula": "" } },
+      "details": { "biography": { "value": "Runs the mill. Grain from east farms stopped years ago.", "public": "Miller" }, "alignment": "N", "ideal": "Keep the wheels turning", "bond": "His millstones (family heirloom)", "flaw": "Will cut corners", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 0, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Food Shortage", "River Trouble"], "visualMotif": "Flour dust, creaking wheel, river spray", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Granary Keeper Lysa Lark",
+    "type": "character",
+    "img": "icons/npcs/granary.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 6, "ep": 0, "sp": 25, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 12 }, "con": { "value": 11 }, "int": { "value": 12 }, "wis": { "value": 13 }, "cha": { "value": 11 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 24, "temp": null, "tempmax": null, "value": 24, "formula": "" } },
+      "details": { "biography": { "value": "Keeps the grain and ration ledgers. Knows exactly when the town will start to starve.", "public": "Granary keeper" }, "alignment": "LN", "ideal": "Order saves lives", "bond": "Her brother Jory", "flaw": "Unforgiving about theft", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 0, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Rationing", "Theft Investigation"], "visualMotif": "Rope-sealed sacks, tally marks, dry grain smell", "faction": "Grayhaven Leadership" } }
+  },
+
+  {
+    "name": "Stablemaster Kreeg Holt",
+    "type": "character",
+    "img": "icons/npcs/stablemaster.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 10, "ep": 0, "sp": 70, "cp": 0 },
+      "abilities": { "str": { "value": 13 }, "dex": { "value": 11 }, "con": { "value": 13 }, "int": { "value": 10 }, "wis": { "value": 14 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 35, "temp": null, "tempmax": null, "value": 35, "formula": "" } },
+      "details": { "biography": { "value": "Runs the stables. Horses spook when the wind blows from the Gloomwaste.", "public": "Stablemaster" }, "alignment": "N", "ideal": "Animals don’t lie", "bond": "His favorite mare, Brindle", "flaw": "Terrified of undead", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 1, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Mounts", "Road Warnings"], "visualMotif": "Hay dust, leather tack, anxious snorts", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Lieutenant Garran Hesp",
+    "type": "character",
+    "img": "icons/npcs/guard_male.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 6, "ep": 0, "sp": 25, "cp": 0 },
+      "abilities": { "str": { "value": 14 }, "dex": { "value": 12 }, "con": { "value": 13 }, "int": { "value": 10 }, "wis": { "value": 12 }, "cha": { "value": 11 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 45, "temp": null, "tempmax": null, "value": 45, "formula": "" } },
+      "details": { "biography": { "value": "Militia lieutenant. Loyal to Captain Voss, skeptical of the Mayor’s ‘arrangements’.", "public": "Militia lieutenant" }, "alignment": "LG", "ideal": "Duty", "bond": "The militia oath", "flaw": "Rigid and confrontational", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 2, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Militia Patrol", "South Road Security"], "visualMotif": "Worn spear haft, stern jaw, rain-stained cloak", "faction": "Town Militia" } }
+  },
+
+  {
+    "name": "Magistrate Ilyra Fen",
+    "type": "character",
+    "img": "icons/npcs/magistrate.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 18, "ep": 0, "sp": 30, "cp": 0 },
+      "abilities": { "str": { "value": 8 }, "dex": { "value": 10 }, "con": { "value": 10 }, "int": { "value": 15 }, "wis": { "value": 13 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 30, "temp": null, "tempmax": null, "value": 30, "formula": "" } },
+      "details": { "biography": { "value": "Town magistrate. Oversees punishments for disorder and spellcasting violations.", "public": "Magistrate of Grayhaven" }, "alignment": "LN", "ideal": "Law is a wall", "bond": "The town charter", "flaw": "Sees mercy as weakness", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 1, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["Spellcasting Ban", "Public Humiliation"], "visualMotif": "Ink-black robe trim, iron seal, cold smile", "faction": "Grayhaven Leadership" } }
+  },
+
+  {
+    "name": "Zhentarim Handler Varron Dusk",
+    "type": "character",
+    "img": "icons/npcs/zhent_agent.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 65, "ep": 0, "sp": 10, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 14 }, "con": { "value": 12 }, "int": { "value": 13 }, "wis": { "value": 12 }, "cha": { "value": 15 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 52, "temp": null, "tempmax": null, "value": 52, "formula": "" } },
+      "details": { "biography": { "value": "A courteous ‘merchant’ who never sweats. Coordinates Zhentarim logistics around Grayhaven.", "public": "Traveling merchant" }, "alignment": "LE", "ideal": "Control", "bond": "The Black Network", "flaw": "Overconfident", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 3, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Faction Clock:Zhentarim", "Smuggling Lead"], "visualMotif": "Clean gloves, polite bow, eyes like ink", "faction": "Zhentarim", "gmOnlyNotes": "Direct contact for the Mayor’s ‘deal’. Knows the way to the north-road cavern waystation." } }
+  },
+
+  {
+    "name": "Harper Safehouse Keeper Eda Moor",
+    "type": "character",
+    "img": "icons/npcs/farmer_female.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 4, "ep": 0, "sp": 12, "cp": 0 },
+      "abilities": { "str": { "value": 11 }, "dex": { "value": 12 }, "con": { "value": 12 }, "int": { "value": 13 }, "wis": { "value": 14 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 32, "temp": null, "tempmax": null, "value": 32, "formula": "" } },
+      "details": { "biography": { "value": "Quiet farmwife south of town. Always has an extra bowl of stew for the right traveler.", "public": "Farmer south of town" }, "alignment": "NG", "ideal": "Freedom", "bond": "The Harpers", "flaw": "Too cautious to act quickly", "race": "human", "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 1, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Faction Clock:Harpers", "Safehouse"], "visualMotif": "Clean apron, wary smile, coded quilting patterns", "faction": "Harpers", "gmOnlyNotes": "Harper hideout is her farmhouse. Knock pattern required: short-short-long." } }
+  },
+
+  {
+    "name": "Bloodcrust Chieftain Mogra Skullcrust",
+    "type": "character",
+    "img": "icons/npcs/orc_chief.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": { "str": { "value": 18 }, "dex": { "value": 12 }, "con": { "value": 16 }, "int": { "value": 9 }, "wis": { "value": 12 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" }, "hp": { "max": 95, "temp": null, "tempmax": null, "value": 95, "formula": "" } },
+      "details": { "biography": { "value": "Leader of the Bloodcrust Orcs. Raids when the Gloomwaste ‘permits’ it.", "public": "Orc chieftain" }, "alignment": "CE", "ideal": "Strength", "bond": "The Bloodcrust clan", "flaw": "Pride blinds tactics", "race": "orc", "type": { "value": "humanoid", "subtype": "Orc", "swarm": "", "custom": "" }, "habitat": { "value": [], "custom": "" }, "cr": 5, "treasure": { "value": [] } },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "orc", "communication": {} }, "important": true }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Gloomwaste", "triggers": ["Raid", "Faction Clock:Bloodcrust"], "visualMotif": "Crusted red warpaint, bone charms, iron teeth", "faction": "Bloodcrust Orcs", "gmOnlyNotes": "The lich’s agents occasionally ‘gift’ Mogra weapons in exchange for raids and sacrifices." } }
+  },
+  {
+    "name": "Gildon Farrow",
+    "type": "character",
+    "img": "icons/npcs/merchant.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 22, "ep": 0, "sp": 80, "cp": 0 },
+      "abilities": { "str": { "value": 9 }, "dex": { "value": 12 }, "con": { "value": 10 }, "int": { "value": 14 }, "wis": { "value": 11 }, "cha": { "value": 13 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 24, "temp": null, "tempmax": null, "value": 24, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Market broker who connects farmers to caravans. Talks like a ledger and smiles like a lock.", "public": "Market broker" },
+        "alignment": "N",
+        "ideal": "Stability through trade",
+        "bond": "His network of suppliers",
+        "flaw": "Will betray friends for solvency",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": [], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": [], "custom": "" },
+        "languages": { "value": ["common"], "custom": "", "communication": {} },
+        "important": false
       }
     },
     "items": [],
@@ -287,10 +947,381 @@
     "flags": {
       "grayhaven": {
         "district": "Market Green",
-        "triggers": ["Ruins Revelation", "Gloomwaste Lore"],
-        "visualMotif": "Shaking hands, haunted stare",
-        "faction": "None"
+        "triggers": ["Caravan Leads", "Trade Dispute"],
+        "visualMotif": "Wax seals, folded contracts, ink-stained cuffs",
+        "faction": "Town Commerce",
+        "gmOnlyNotes": "Occasionally launders Zhentarim payments through ‘freight fees’."
       }
     }
+  },
+
+  {
+    "name": "Bessa Wainwright",
+    "type": "character",
+    "img": "icons/npcs/carpenter_female.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 9, "ep": 0, "sp": 25, "cp": 0 },
+      "abilities": { "str": { "value": 12 }, "dex": { "value": 12 }, "con": { "value": 12 }, "int": { "value": 11 }, "wis": { "value": 13 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 28, "temp": null, "tempmax": null, "value": 28, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Wagonwright and carpenter. Keeps the south road wagons moving and the north road ones patched.", "public": "Wagonwright" },
+        "alignment": "NG",
+        "ideal": "Fix what breaks",
+        "bond": "Her father’s tools",
+        "flaw": "Can’t say no to a sob story",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Southend", "triggers": ["Wagon Repair", "South Road Escort"], "visualMotif": "Fresh-cut oak, iron-rim wheels, grease-black thumbs", "faction": "Town Commerce" } }
+  },
+
+  {
+    "name": "Cyril “Crowsong” Mott",
+    "type": "character",
+    "img": "icons/npcs/bard_spy.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 16, "ep": 0, "sp": 30, "cp": 0 },
+      "abilities": { "str": { "value": 8 }, "dex": { "value": 14 }, "con": { "value": 10 }, "int": { "value": 13 }, "wis": { "value": 12 }, "cha": { "value": 15 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 26, "temp": null, "tempmax": null, "value": 26, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "A traveling minstrel who ‘just happens’ to be in the right taverns. Harper courier and rumor-gatherer.", "public": "Traveling bard" },
+        "alignment": "CG",
+        "ideal": "Secrets should belong to the free",
+        "bond": "The Harpers’ cause",
+        "flaw": "Flirts with danger for the story",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Faction Clock:Harpers", "Secret Message"], "visualMotif": "Black feather charm, soft boots, too-bright grin", "faction": "Harpers", "gmOnlyNotes": "Delivers coded songs to Captain Voss. Uses ‘crow verses’ to name targets." } }
+  },
+
+  {
+    "name": "Sergeant Brinna Holt",
+    "type": "character",
+    "img": "icons/npcs/guard_sergeant.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 5, "ep": 0, "sp": 18, "cp": 0 },
+      "abilities": { "str": { "value": 13 }, "dex": { "value": 12 }, "con": { "value": 13 }, "int": { "value": 10 }, "wis": { "value": 13 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 40, "temp": null, "tempmax": null, "value": 40, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Militia sergeant. Runs the south road patrol roster and hates paperwork more than bandits.", "public": "Militia sergeant" },
+        "alignment": "LN",
+        "ideal": "Discipline",
+        "bond": "Her patrol squad",
+        "flaw": "Dismisses ‘strange magic’ reports",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 2,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Highstone", "triggers": ["South Road Patrol", "Bandit Report"], "visualMotif": "Stamped roster sheets, whetstone rasp, scuffed greaves", "faction": "Town Militia" } }
+  },
+
+  {
+    "name": "Watchman Pell Tarrow",
+    "type": "character",
+    "img": "icons/npcs/watchman.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 2, "ep": 0, "sp": 14, "cp": 0 },
+      "abilities": { "str": { "value": 11 }, "dex": { "value": 12 }, "con": { "value": 12 }, "int": { "value": 9 }, "wis": { "value": 12 }, "cha": { "value": 9 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+        "hp": { "max": 22, "temp": null, "tempmax": null, "value": 22, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Night watch. Swears he hears ‘singing’ from the east when the fog rolls in.", "public": "Town watchman" },
+        "alignment": "N",
+        "ideal": "Keep the peace",
+        "bond": "His newborn daughter",
+        "flaw": "Jumps at shadows",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Lowstone", "triggers": ["Night Incident", "Gloomwaste Omen"], "visualMotif": "Lantern halo, rattling keys, fog-wet cloak", "faction": "Town Militia", "gmOnlyNotes": "His ‘singing’ is a faint planar harmonic from the lich’s work." } }
+  },
+
+  {
+    "name": "Brother Harun of the Dawn",
+    "type": "character",
+    "img": "icons/npcs/acolyte.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 1, "ep": 0, "sp": 8, "cp": 0 },
+      "abilities": { "str": { "value": 9 }, "dex": { "value": 10 }, "con": { "value": 11 }, "int": { "value": 12 }, "wis": { "value": 14 }, "cha": { "value": 11 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 18, "temp": null, "tempmax": null, "value": 18, "formula": "" } },
+      "details": {
+        "biography": { "value": "Selene’s acolyte. Earnest. Keeps records of ‘miracles’ and ‘curses’.", "public": "Shrine acolyte" },
+        "alignment": "LG",
+        "ideal": "Hope",
+        "bond": "High Priestess Selene",
+        "flaw": "Overly literal",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "celestial", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Old Quarter", "triggers": ["Blessing Request", "Undead Report"], "visualMotif": "Sunburst pin, ink-smudged prayerbook, nervous cough", "faction": "Church of Lathander" } }
+  },
+
+  {
+    "name": "Hilda Greenbottle",
+    "type": "character",
+    "img": "icons/npcs/halfling_merchant.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 9, "ep": 0, "sp": 28, "cp": 0 },
+      "abilities": { "str": { "value": 8 }, "dex": { "value": 14 }, "con": { "value": 10 }, "int": { "value": 12 }, "wis": { "value": 11 }, "cha": { "value": 13 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 20, "temp": null, "tempmax": null, "value": 20, "formula": "" } },
+      "details": {
+        "biography": { "value": "Halfling spice-seller. Her stall is always fragrant and always surrounded.", "public": "Spice merchant" },
+        "alignment": "NG",
+        "ideal": "Neighbors first",
+        "bond": "The Stoutheart neighborhood",
+        "flaw": "Easily spooked",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "sm", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common", "halfling"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Town Rumors", "Halfling Chatter"], "visualMotif": "Cinnamon haze, tiny brass scoops, quick laughter", "faction": "Stoutheart Family" } }
+  },
+
+  {
+    "name": "Odo Stoutheart",
+    "type": "character",
+    "img": "icons/npcs/halfling_farmer.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 4, "ep": 0, "sp": 12, "cp": 0 },
+      "abilities": { "str": { "value": 10 }, "dex": { "value": 13 }, "con": { "value": 12 }, "int": { "value": 10 }, "wis": { "value": 13 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 24, "temp": null, "tempmax": null, "value": 24, "formula": "" } },
+      "details": {
+        "biography": { "value": "Stoutheart farmer. Keeps goats on the north edge and watches the treeline like it owes him money.", "public": "Farmer" },
+        "alignment": "NG",
+        "ideal": "Self-reliance",
+        "bond": "His herd",
+        "flaw": "Distrusts outsiders",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "sm", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common", "halfling"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["Farm Trouble", "Forest Signs"], "visualMotif": "Goat bells, muddy boots, sharpened hoe on shoulder", "faction": "Stoutheart Family" } }
+  },
+
+  {
+    "name": "Kellan Pike",
+    "type": "character",
+    "img": "icons/npcs/teen.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 6, "cp": 0 },
+      "abilities": { "str": { "value": 9 }, "dex": { "value": 13 }, "con": { "value": 10 }, "int": { "value": 12 }, "wis": { "value": 11 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 18, "temp": null, "tempmax": null, "value": 18, "formula": "" } },
+      "details": {
+        "biography": { "value": "Tamsin Pike’s teenage son. Collects weird stones from the riverbank and swears one ‘hums’.", "public": "Shopkeeper’s son" },
+        "alignment": "CG",
+        "ideal": "Curiosity",
+        "bond": "His mother, Tamsin",
+        "flaw": "Sneaks out at night",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 0,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Strange Stone", "Night Sneak"], "visualMotif": "Pocketful of pebbles, river smell, restless feet", "faction": "Independent", "gmOnlyNotes": "The ‘humming’ stone is a tiny blight-tainted shard (safe for now). Could become a plot key." } }
+  },
+
+  {
+    "name": "Caravan Master Sorn Dellik",
+    "type": "character",
+    "img": "icons/npcs/caravan_master.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 40, "ep": 0, "sp": 10, "cp": 0 },
+      "abilities": { "str": { "value": 12 }, "dex": { "value": 12 }, "con": { "value": 13 }, "int": { "value": 12 }, "wis": { "value": 13 }, "cha": { "value": 12 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 48, "temp": null, "tempmax": null, "value": 48, "formula": "" } },
+      "details": {
+        "biography": { "value": "Runs a dwindling trade caravan on the north road. Has scars where ‘highwaymen’ had strange, black nails.", "public": "Caravan master" },
+        "alignment": "N",
+        "ideal": "Keep the wheels turning",
+        "bond": "His wagon crew",
+        "flaw": "Gambles when stressed",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 2,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["North Road Job", "Highwaymen"], "visualMotif": "Leather map tube, whip crack, tired eyes", "faction": "Town Commerce", "gmOnlyNotes": "The ‘black nails’ are early blight-undeath signs: the highwaymen may be tainted." } }
+  },
+
+  {
+    "name": "Roadwarden ‘Old’ Sera Lann",
+    "type": "character",
+    "img": "icons/npcs/ranger.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 8, "ep": 0, "sp": 20, "cp": 0 },
+      "abilities": { "str": { "value": 11 }, "dex": { "value": 15 }, "con": { "value": 12 }, "int": { "value": 12 }, "wis": { "value": 14 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 52, "temp": null, "tempmax": null, "value": 52, "formula": "" } },
+      "details": {
+        "biography": { "value": "Independent roadwarden who scouts the north road for a fee. Calls the east road ‘a mouth that learned to chew.’", "public": "Roadwarden" },
+        "alignment": "NG",
+        "ideal": "Protect travelers",
+        "bond": "Her old patrol whistle",
+        "flaw": "Won’t enter towns during daylight (paranoia)",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 3,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Outskirts", "triggers": ["North Road Intel", "Wilderness Escort"], "visualMotif": "Grey braid, foxfur collar, notched arrows", "faction": "Independent" } }
+  },
+
+  {
+    "name": "Zhentarim Cutter Vesk",
+    "type": "character",
+    "img": "icons/npcs/thug.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 12, "ep": 0, "sp": 5, "cp": 0 },
+      "abilities": { "str": { "value": 15 }, "dex": { "value": 12 }, "con": { "value": 14 }, "int": { "value": 9 }, "wis": { "value": 10 }, "cha": { "value": 10 } },
+      "bonuses": {},
+      "skills": {},
+      "attributes": { "ac": { "calc": "default", "flat": null }, "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" }, "movement": { "units": null, "hover": false, "ignoredDifficultTerrain": [] }, "attunement": { "max": 3 }, "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" }, "hp": { "max": 55, "temp": null, "tempmax": null, "value": 55, "formula": "" } },
+      "details": {
+        "biography": { "value": "A quiet enforcer attached to Varron Dusk. Wears a ring with a tiny black serpent.", "public": "Dockhand" },
+        "alignment": "LE",
+        "ideal": "Obedience",
+        "bond": "Varron’s protection",
+        "flaw": "Violent temper under pressure",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "" },
+        "cr": 2,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": { "size": "med", "di": { "value": [], "custom": "", "bypasses": [] }, "dr": { "value": [], "custom": "", "bypasses": [] }, "dv": { "value": [], "custom": "", "bypasses": [] }, "dm": { "amount": {}, "bypasses": [] }, "ci": { "value": [], "custom": "" }, "languages": { "value": ["common"], "custom": "", "communication": {} }, "important": false }
+    },
+    "items": [],
+    "effects": [],
+    "flags": { "grayhaven": { "district": "Market Green", "triggers": ["Zhentarim Pressure", "Smuggling Escort"], "visualMotif": "Knuckle scars, serpent ring, calm threat", "faction": "Zhentarim", "gmOnlyNotes": "Knows the cavern waystation route landmarks: ‘split pine’, ‘three stones’, ‘cold breath’." } }
   }
 ]
+
