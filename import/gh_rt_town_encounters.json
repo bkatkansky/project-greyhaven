@@ -1,0 +1,28 @@
+{
+  "name": "Greyhaven Town Encounters",
+  "description": "Random encounters for the town of Greyhaven",
+  "img": "icons/encounters/greyhaven.png",
+  "formula": "1d20",
+  "results": [
+    {"range": [1, 0], "text": "Militia patrol passes by, keeping watch."},
+    {"range": [2, 0], "text": "Roderick Smithson tells a story, some true, some false."},
+    {"range": [3, 0], "text": "Children run through Market Green, nearly colliding with adventurers."},
+    {"range": [4, 0], "text": "Bramblefoot/Stoutheart rivalry erupts into minor squabble."},
+    {"range": [5, 0], "text": "Tavern Keeper Mara offers a side quest or rumor."},
+    {"range": [6, 0], "text": "Merchant caravan arrives with exotic goods."},
+    {"range": [7, 0], "text": "Small street fight breaks out; militia intervenes."},
+    {"range": [8, 0], "text": "Minor magical mishap discovered (warning, not severe)."},
+    {"range": [9, 0], "text": "Pickpocket attempts theft."},
+    {"range": [10, 0], "text": "A lost traveler asks for directions."},
+    {"range": [11, 0], "text": "Animal escape: horse or goat runs through streets."},
+    {"range": [12, 0], "text": "Harper agent observes a suspicious Zhentarim courier."},
+    {"range": [13, 0], "text": "Orc raiding party spotted approaching town outskirts."},
+    {"range": [14, 0], "text": "Town festival or market celebration event."},
+    {"range": [15, 0], "text": "Minor quarrel between townsfolk escalates."},
+    {"range": [16, 0], "text": "Tanner Ivor requests help with a shipment."},
+    {"range": [17, 0], "text": "Blacksmith Torin asks for rare ore or materials."},
+    {"range": [18, 0], "text": "A wandering adventurer seeks work or rumors."},
+    {"range": [19, 0], "text": "A sudden storm or environmental hazard occurs."},
+    {"range": [20, 0], "text": "Stray dog or cat causes a minor distraction."}
+  ]
+}

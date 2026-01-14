@@ -1,0 +1,130 @@
+{
+  "name": "Gloomwaste",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A corrupted wasteland maintained by a lich formerly a powerful sorcerer. Dead trees, twisted plants, and corrupted animals dominate. Eastern road passes through, but few survive the journey.</p><p></p><p>visualMotif: Twisted, leafless trees; gray-green fog; faint glowing runes; shriveled corpses and animals</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {}
+    },
+    {
+      "sort": 200000,
+      "name": "Rumors",
+      "type": "rule",
+      "system": {
+        "tooltip": "",
+        "type": "rule"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p></p><p>\"rumors\": [</p><p>\"The Blight grows slowly but steadily eastward (true)\",</p><p>\"Nothing lives long here (true)\",</p><p>\"The Blight is punishment from the gods (false)\",</p><p>\"Powerful sorcerer-turned-lich maintains this region (true)\"</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {}
+    },
+    {
+      "sort": 400000,
+      "name": "Blight Affliction",
+      "type": "rule",
+      "system": {
+        "tooltip": "<p>Disadvantage on ability checks and attack rolls</p><p>Hit point reduction by 5% per day if untreated</p><p>Discoloration or deformity in visible limbs</p>",
+        "type": "condition"
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Effects:</p><p></p><p>Disadvantage on ability checks and attack rolls</p><p>Hit point reduction by 5% per day if untreated</p><p>Discoloration or deformity in visible limbs</p><p></p><p>Cure:</p><p></p><p>Remove Curse or Greater Restoration</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {}
+    },
+    {
+      "sort": 500000,
+      "name": "Terrain Effects",
+      "type": "rule",
+      "system": {
+        "tooltip": "",
+        "type": "rule"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>\"mechanics\": {</p><p>\"environmentalHazard\": {</p><p>\"description\": \"Exposure to the Blight causes 1d6 poison damage per hour and requires a DC 15 Constitution saving throw at the end of each hour. On a failed save, adventurers gain the 'Blight Affliction' condition.\",</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {}
+    },
+    {
+      "sort": 300000,
+      "name": "Exploration Hazard",
+      "type": "rule",
+      "system": {
+        "tooltip": "",
+        "type": "rule"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>\"mechanics\": {</p><p>\"environmentalHazard\": {</p><p>\"description\": \"Exposure to the Blight causes 1d6 poison damage per hour and requires a DC 15 Constitution saving throw at the end of each hour. On a failed save, adventurers gain the 'Blight Affliction' condition.\",</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "flags": {}
+}

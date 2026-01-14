@@ -1,0 +1,28 @@
+{
+  "name": "South Road Encounters",
+  "description": "Random encounters for the road South of Greyhaven",
+  "img": "icons/encounters/south_road.png",
+  "formula": "1d20",
+  "results": [
+    {"range": [1, 0], "text": "Militia patrol ensuring safe passage."},
+    {"range": [2, 0], "text": "Traveling merchant or wagon offers trade."},
+    {"range": [3, 0], "text": "Farmer needs help repairing a cart."},
+    {"range": [4, 0], "text": "Herd of animals crosses the road."},
+    {"range": [5, 0], "text": "Minor environmental hazard (mudslide, fallen tree)."},
+    {"range": [6, 0], "text": "Lost traveler asks for directions."},
+    {"range": [7, 0], "text": "Small group of bandits tries opportunistic theft."},
+    {"range": [8, 0], "text": "Harper agent discreetly observes road."},
+    {"range": [9, 0], "text": "Animal attack (bear, wolf)."},
+    {"range": [10, 0], "text": "Unusual magical phenomenon (minor)."},
+    {"range": [11, 0], "text": "Roadside shrine with potential quest."},
+    {"range": [12, 0], "text": "Signs of Blight encroachment at road edges."},
+    {"range": [13, 0], "text": "Friendly caravan traveling south."},
+    {"range": [14, 0], "text": "Wounded traveler found, needs aid."},
+    {"range": [15, 0], "text": "Trader hides illegal goods (Zhentarim), adventurers notice."},
+    {"range": [16, 0], "text": "Lost animal from farm wanders onto road."},
+    {"range": [17, 0], "text": "Encounter a wandering bard or storyteller."},
+    {"range": [18, 0], "text": "Small environmental obstacle (fallen branches, rockslide)."},
+    {"range": [19, 0], "text": "Orc patrol spotted at a distance."},
+    {"range": [20, 0], "text": "Mysterious footprints leading into the woods."}
+  ]
+}

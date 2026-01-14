@@ -1,0 +1,28 @@
+{
+  "name": "North Road Encounters",
+  "description": "Random encounters for the road North of Greyhaven",
+  "img": "icons/encounters/north_road.png",
+  "formula": "1d20",
+  "results": [
+    {"range": [1, 0], "text": "Highwaymen ambush (minor, opportunity for negotiation or combat)."},
+    {"range": [2, 0], "text": "Traveling merchant caravan passes; potential trade or rumors."},
+    {"range": [3, 0], "text": "A wounded traveler needs assistance."},
+    {"range": [4, 0], "text": "Forest animal attack (wolves, dire wolves)."},
+    {"range": [5, 0], "text": "Harper agent observes suspicious activity."},
+    {"range": [6, 0], "text": "Bandit scouting party sighted ahead."},
+    {"range": [7, 0], "text": "Caravan horses spooked by strange noise."},
+    {"range": [8, 0], "text": "Abandoned campsite shows signs of a fight."},
+    {"range": [9, 0], "text": "Traveling bard offers news or rumors."},
+    {"range": [10, 0], "text": "Orc scouts spotted nearby."},
+    {"range": [11, 0], "text": "Strange magical phenomenon observed (minor)."},
+    {"range": [12, 0], "text": "Lost traveler or child needs help finding road."},
+    {"range": [13, 0], "text": "Fallen tree blocks part of the road; climb or clear."},
+    {"range": [14, 0], "text": "Small group of bandits demands toll."},
+    {"range": [15, 0], "text": "Merchant hides contraband (Zhentarim), adventurers notice."},
+    {"range": [16, 0], "text": "Militia patrol passes heading north."},
+    {"range": [17, 0], "text": "Strange tracks (undead or Blight creatures) spotted."},
+    {"range": [18, 0], "text": "Sudden rainstorm makes travel difficult."},
+    {"range": [19, 0], "text": "Lost pack animal wanders onto road."},
+    {"range": [20, 0], "text": "Rival adventuring party crosses paths."}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Gloomwaste Encounters",
+  "description": "Random encounters for the Gloomwaste",
+  "img": "icons/encounters/blight_region.png",
+  "formula": "1d20",
+  "results": [
+    {"range": [1, 1], "text": "Orc encampment patrol spotted."},
+    {"range": [2, 2], "text": "Blight-creature ambush (unique undead/plant hybrid)."},
+    {"range": [3, 3], "text": "Collapsed wall of ruins blocks path."},
+    {"range": [4, 4], "text": "Signs of sorcerer's magic: runes, energy residue."},
+    {"range": [5, 5], "text": "Undead lie in ambush."},
+    {"range": [6, 6], "text": "Blight terrain hazard: poison spores or choking fog."},
+    {"range": [7, 7], "text": "Abandoned ruin or keep sighted."},
+    {"range": [8, 8], "text": "Harper scouting party observes Blight activity."},
+    {"range": [9, 9], "text": "Zhentarim expedition cautiously examines the area."},
+    {"range": [10, 10], "text": "Blighted animal herd attacks."},
+    {"range": [11, 11], "text": "Mysterious magical surge causes temporary effects."},
+    {"range": [12, 12], "text": "Ruins puzzle or trap encountered."},
+    {"range": [13, 13], "text": "Orc or Blight creature corpse suggests ongoing danger."},
+    {"range": [14, 14], "text": "Fog or mist obscures vision and pathfinding."},
+    {"range": [15, 15], "text": "Twisted trees create natural obstacle."},
+    {"range": [16, 16], "text": "Hollow sounds hint at nearby ruin chambers."},
+    {"range": [17, 17], "text": "Blight-infested water or soil causes hazard."},
+    {"range": [18, 18], "text": "Ancient magical wards glow faintly."},
+    {"range": [19, 19], "text": "Hidden cave system discovered."},
+    {"range": [20, 20], "text": "Small group of adventurers or NPCs lost in Blight."}
+  ]
+}

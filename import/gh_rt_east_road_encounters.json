@@ -1,0 +1,28 @@
+{
+  "name": "East Road Encounters (Blighted)",
+  "description": "Random encounters for the road East of Greyhaven",
+  "img": "icons/encounters/east_road.png",
+  "formula": "1d20",
+  "results": [
+    {"range": [1, 1], "text": "Bandit ambush in overgrown path."},
+    {"range": [2, 2], "text": "Strange Blight creature attacks (unique 5e creature)."},
+    {"range": [3, 3], "text": "Collapsed bridge blocks path, requires ingenuity."},
+    {"range": [4, 4], "text": "Orc scouts spotted nearby."},
+    {"range": [5, 5], "text": "Mysterious magical aura distorts the path."},
+    {"range": [6, 6], "text": "Abandoned campsite with signs of struggle."},
+    {"range": [7, 7], "text": "Blight-infested animal attacks."},
+    {"range": [8, 8], "text": "Zhentarim patrols cautiously through the woods."},
+    {"range": [9, 9], "text": "Harper agent observes distant threat."},
+    {"range": [10, 10], "text": "Path collapses, forcing reroute."},
+    {"range": [11, 11], "text": "Wandering undead related to Blight."},
+    {"range": [12, 12], "text": "Fungal growths or twisted plants impede travel."},
+    {"range": [13, 13], "text": "Blighted corpse of animal or humanoid found."},
+    {"range": [14, 14], "text": "Orc raid signs (ruined cart or corpses)."},
+    {"range": [15, 15], "text": "Strange whispers or illusions in forest."},
+    {"range": [16, 16], "text": "Travelers from the town warn adventurers of dangers."},
+    {"range": [17, 17], "text": "Collapsed tree creates ambush opportunity."},
+    {"range": [18, 18], "text": "Ghastly footprints or signs of the sorcerer's magic."},
+    {"range": [19, 19], "text": "Hidden cave or small ruin discovered."},
+    {"range": [20, 20], "text": "Blight-infected water source encountered."}
+  ]
+}

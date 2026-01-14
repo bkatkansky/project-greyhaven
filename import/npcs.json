@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Lord Mayor Alden Rutherford",
+    "type": "character",
+    "img": "icons/npcs/mayor.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 10 },
+        "dex": { "value": 10 },
+        "con": { "value": 10 },
+        "int": { "value": 12 },
+        "wis": { "value": 12 },
+        "cha": { "value": 14 }
+      },
+      "attributes": {
+        "ac": { "calc": "default", "flat": null },
+        "hp": { "max": 110, "value": 110 }
+      },
+      "details": {
+        "biography": {
+          "value": "Pragmatic Lord Mayor of Grayhaven who quietly tolerates criminal elements to prevent civil collapse.",
+          "public": "Lord Mayor of Grayhaven"
+        },
+        "alignment": "LN",
+        "ideal": "Order must endure",
+        "bond": "The city of Grayhaven",
+        "flaw": "Compromised by smuggling interests",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human" },
+        "cr": 1
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "languages": { "value": ["common"], "custom": "" },
+        "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Highstone",
+        "triggers": ["Faction Clock", "Political Intrigue"],
+        "visualMotif": "Polished stone, civic banners, sealed ledgers",
+        "faction": "Grayhaven Leadership"
+      }
+    }
+  },
+
+  {
+    "name": "Captain Elira Voss",
+    "type": "character",
+    "img": "icons/npcs/guard_female.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 12, "ep": 0, "sp": 18, "cp": 0 },
+      "abilities": {
+        "str": { "value": 14 },
+        "dex": { "value": 13 },
+        "con": { "value": 14 },
+        "int": { "value": 12 },
+        "wis": { "value": 14 },
+        "cha": { "value": 11 }
+      },
+      "attributes": {
+        "hp": { "max": 85, "value": 85 }
+      },
+      "details": {
+        "biography": {
+          "value": "Commander of the Grayhaven Watch and covert Harper agent monitoring undead activity.",
+          "public": "Captain of the Town Guard"
+        },
+        "alignment": "NG",
+        "ideal": "Truth over comfort",
+        "bond": "The Harpers",
+        "flaw": "Operates without approval",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human" },
+        "cr": 2
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "languages": { "value": ["common"], "custom": "thieves' cant" },
+        "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Highstone",
+        "triggers": ["Harper Operations", "Militia Escalation"],
+        "visualMotif": "Well-kept armor, alert posture",
+        "faction": "Harpers"
+      }
+    }
+  },
+
+  {
+    "name": "Brother Halven",
+    "type": "character",
+    "img": "icons/npcs/priest.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 20, "ep": 0, "sp": 40, "cp": 0 },
+      "abilities": {
+        "str": { "value": 9 },
+        "dex": { "value": 10 },
+        "con": { "value": 12 },
+        "int": { "value": 11 },
+        "wis": { "value": 15 },
+        "cha": { "value": 13 }
+      },
+      "attributes": {
+        "hp": { "max": 55, "value": 55 }
+      },
+      "details": {
+        "biography": {
+          "value": "Caretaker priest of the Old Chapel who senses the dead stirring beneath the Gloomwaste.",
+          "public": "Local priest and spiritual guide"
+        },
+        "alignment": "LG",
+        "ideal": "Faith is vigilance",
+        "bond": "The Chapel",
+        "flaw": "Terrified of necromancy",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human" },
+        "cr": 1
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "languages": { "value": ["common", "celestial"], "custom": "" },
+        "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Old Quarter",
+        "triggers": ["Undead Omen", "Sanctified Ground"],
+        "visualMotif": "Cracked stone, incense smoke, guttering candles",
+        "faction": "Church of the Light"
+      }
+    }
+  },
+
+  {
+    "name": "Mara Thornbottle",
+    "type": "character",
+    "img": "icons/npcs/tavern_female.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 55, "ep": 0, "sp": 120, "cp": 30 },
+      "abilities": {
+        "str": { "value": 11 },
+        "dex": { "value": 12 },
+        "con": { "value": 13 },
+        "int": { "value": 13 },
+        "wis": { "value": 14 },
+        "cha": { "value": 15 }
+      },
+      "attributes": {
+        "hp": { "max": 45, "value": 45 }
+      },
+      "details": {
+        "biography": {
+          "value": "Proprietor of the Rusty Tankard and primary rumor broker in Grayhaven.",
+          "public": "Tavern keeper"
+        },
+        "alignment": "CN",
+        "ideal": "Information is leverage",
+        "bond": "Her tavern",
+        "flaw": "Knows when to lie",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human" },
+        "cr": 0
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "languages": { "value": ["common"], "custom": "" },
+        "important": false
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Market Green",
+        "triggers": ["Rumors", "Side Quests"],
+        "visualMotif": "Low ceilings, pipe smoke, scarred oak",
+        "faction": "Independent"
+      }
+    }
+  },
+
+  {
+    "name": "Dora Bramblefoot",
+    "type": "character",
+    "img": "icons/npcs/halfling_matriarch.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 240, "ep": 0, "sp": 300, "cp": 0 },
+      "abilities": {
+        "str": { "value": 8 },
+        "dex": { "value": 12 },
+        "con": { "value": 11 },
+        "int": { "value": 14 },
+        "wis": { "value": 15 },
+        "cha": { "value": 16 }
+      },
+      "attributes": {
+        "hp": { "max": 50, "value": 50 }
+      },
+      "details": {
+        "biography": {
+          "value": "Matriarch of the Bramblefoot family whose lineage is tied to the ancient lich.",
+          "public": "Prominent merchant matron"
+        },
+        "alignment": "LN",
+        "ideal": "Legacy endures",
+        "bond": "The Bramblefoot bloodline",
+        "flaw": "Fears what sleeps in her ancestry",
+        "race": "halfling",
+        "type": { "value": "humanoid", "subtype": "Halfling" },
+        "cr": 1
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "sm",
+        "languages": { "value": ["common", "halfling"], "custom": "" },
+        "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Market Green",
+        "triggers": ["Hidden Bloodline", "Ancient Lore"],
+        "visualMotif": "Warm smiles, guarded eyes",
+        "faction": "Bramblefoot Family"
+      }
+    }
+  },
+
+  {
+    "name": "Roderick Smithson",
+    "type": "character",
+    "img": "icons/npcs/drunk_merc.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 7, "cp": 19 },
+      "abilities": {
+        "str": { "value": 13 },
+        "dex": { "value": 11 },
+        "con": { "value": 12 },
+        "int": { "value": 10 },
+        "wis": { "value": 9 },
+        "cha": { "value": 8 }
+      },
+      "attributes": {
+        "hp": { "max": 60, "value": 60 }
+      },
+      "details": {
+        "biography": {
+          "value": "Former adventurer who survived the Gloomwaste ruins and drinks to forget.",
+          "public": "Local drunk"
+        },
+        "alignment": "CN",
+        "ideal": "Truth hurts",
+        "bond": "Fallen companions",
+        "flaw": "Alcoholic",
+        "race": "human",
+        "type": { "value": "humanoid", "subtype": "Human" },
+        "cr": 1
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "languages": { "value": ["common"], "custom": "" },
+        "important": true
+      }
+    },
+    "items": [],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Market Green",
+        "triggers": ["Ruins Revelation", "Gloomwaste Lore"],
+        "visualMotif": "Shaking hands, haunted stare",
+        "faction": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Wilderness Encounters",
+  "description": "Random encounters for the wilderness near Greyhaven",
+  "img": "icons/encounters/wilderness.png",
+  "formula": "1d20",
+  "results": [
+    {"range": [1, 1], "text": "Pack of wolves crosses path."},
+    {"range": [2, 2], "text": "Stray bear or wild animal spotted."},
+    {"range": [3, 3], "text": "Bandit patrol on trade road."},
+    {"range": [4, 4], "text": "Lost traveler or merchant wagon."},
+    {"range": [5, 5], "text": "Stvalue magical phenomenon observed."},
+    {"range": [6, 6], "text": "Blight-tainted plant or fungus hazard."},
+    {"range": [7, 7], "text": "Orc scout patrol spotted."},
+    {"range": [8, 8], "text": "Harper agent gathers intel."},
+    {"range": [9, 9], "text": "Signs of wildlife or adventurers recently passed."},
+    {"range": [10, 10], "text": "Hidden cave, hollow tree, or abandoned cabin discovered."},
+    {"range": [11, 11], "text": "Storm or sudden weather hazard."},
+    {"range": [12, 12], "text": "Treant or forest guardian appears."},
+    {"range": [13, 13], "text": "Animal attack: boar, giant spider, or dire wolves."},
+    {"range": [14, 14], "text": "Fallen log or river obstacle blocks path."},
+    {"range": [15, 15], "text": "Group of adventurers crossed path."},
+    {"range": [16, 16], "text": "Poisonous plants or Blight remnants cause hazard."},
+    {"range": [17, 17], "text": "Strange footprints (undead, animal, or humanoid)."},
+    {"range": [18, 18], "text": "Magical aura hints at nearby ruins or treasure."},
+    {"range": [19, 19], "text": "Birds scatter suddenly, signaling danger."},
+    {"range": [20, 20], "text": "Wandering merchant or supply caravan passes."}  ]
+}
