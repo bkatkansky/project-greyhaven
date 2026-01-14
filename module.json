@@ -14,5 +14,67 @@
   },
   "scripts": [
     "scripts/hello.js"
+  ],
+  "packs": [
+    {
+      "name": "npcs",
+      "label": "Greyhaven NPCs",
+      "system": "dnd5e",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Greyhaven Journals",
+      "system": "dnd5e",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "factions",
+      "label": "Greyhaven Factions",
+      "system": "dnd5e",
+      "path": "packs/factions",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "blight",
+      "label": "Greyhaven Blight",
+      "system": "dnd5e",
+      "path": "packs/blight",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Greyhaven Roll Tables",
+      "system": "dnd5e",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ]
 }
