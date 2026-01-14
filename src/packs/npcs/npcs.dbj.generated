@@ -2,7 +2,7 @@
   {
     "name": "Lord Mayor Alden Rutherford",
     "type": "character",
-    "img": "icons/npcs/mayor.png",
+    "img": "icons/packs.npcs/mayor.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -165,7 +165,7 @@
   {
     "name": "Captain Elira Voss",
     "type": "character",
-    "img": "icons/npcs/guard-captain.png",
+    "img": "icons/packs.npcs/guard-captain.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -328,7 +328,7 @@
   {
     "name": "High Priestess Selene Dawnbreak",
     "type": "character",
-    "img": "icons/npcs/priestess.png",
+    "img": "icons/packs.npcs/priestess.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -492,7 +492,7 @@
   {
     "name": "Brother Harun of the Dawn",
     "type": "character",
-    "img": "icons/npcs/acolyte.png",
+    "img": "icons/packs.npcs/acolyte.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -655,7 +655,7 @@
   {
     "name": "Dora Bramblefoot",
     "type": "character",
-    "img": "icons/npcs/halfling-matriarch.png",
+    "img": "icons/packs.npcs/halfling-matriarch.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -818,7 +818,7 @@
   {
     "name": "Roderick Smithson",
     "type": "character",
-    "img": "icons/npcs/drunk.png",
+    "img": "icons/packs.npcs/drunk.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -981,7 +981,7 @@
   {
     "name": "Zhentarim Handler Varron Dusk",
     "type": "character",
-    "img": "icons/npcs/zhent.png",
+    "img": "icons/packs.npcs/zhent.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -1144,7 +1144,7 @@
   {
     "name": "Zhentarim Cutter Vesk",
     "type": "character",
-    "img": "icons/npcs/thug.png",
+    "img": "icons/packs.npcs/thug.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -1307,7 +1307,7 @@
   {
     "name": "Gildon Farrow",
     "type": "character",
-    "img": "icons/npcs/merchant.png",
+    "img": "icons/packs.npcs/merchant.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -1470,7 +1470,7 @@
   {
     "name": "Bessa Wainwright",
     "type": "character",
-    "img": "icons/npcs/carpenter.png",
+    "img": "icons/packs.npcs/carpenter.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -1633,7 +1633,7 @@
   {
     "name": "Cyril “Crowsong” Mott",
     "type": "character",
-    "img": "icons/npcs/bard.png",
+    "img": "icons/packs.npcs/bard.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -1796,7 +1796,7 @@
   {
     "name": "Sergeant Brinna Holt",
     "type": "character",
-    "img": "icons/npcs/sergeant.png",
+    "img": "icons/packs.npcs/sergeant.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -1959,7 +1959,7 @@
   {
     "name": "Watchman Pell Tarrow",
     "type": "character",
-    "img": "icons/npcs/watchman.png",
+    "img": "icons/packs.npcs/watchman.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -2122,7 +2122,7 @@
   {
     "name": "Hilda Greenbottle",
     "type": "character",
-    "img": "icons/npcs/grocer.png",
+    "img": "icons/packs.npcs/grocer.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -2285,7 +2285,7 @@
   {
     "name": "Odo Stoutheart",
     "type": "character",
-    "img": "icons/npcs/farmer.png",
+    "img": "icons/packs.npcs/farmer.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -2448,7 +2448,7 @@
   {
     "name": "Kellan Pike",
     "type": "character",
-    "img": "icons/npcs/child.png",
+    "img": "icons/packs.npcs/child.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -2611,7 +2611,7 @@
   {
     "name": "Caravan Master Sorn Dellik",
     "type": "character",
-    "img": "icons/npcs/caravan.png",
+    "img": "icons/packs.npcs/caravan.png",
     "system": {
       "currency": {
         "pp": 0,
@@ -2774,7 +2774,7 @@
   {
     "name": "Roadwarden ‘Old’ Sera Lann",
     "type": "character",
-    "img": "icons/npcs/scout.png",
+    "img": "icons/packs.npcs/scout.png",
     "system": {
       "currency": {
         "pp": 0,

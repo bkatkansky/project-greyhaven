@@ -280,7 +280,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p>Pick 2:</p><ul><li>Hilda complains about tainted spices</li><li>Sorn offers escort work</li><li>Dora Bramblefoot eyes the PCs</li><li>Zhent runner delivers a package</li><li>A blight-tainted animal is found</li></ul>"
+          "content": "<p>Pick 2:</p><ul><li>Hilda complains about tainted spices</li><li>Sorn offers escort work</li><li>Dora Bramblefoot eyes the PCs</li><li>Zhent runner delivers a package</li><li>A packs.blight-tainted animal is found</li></ul>"
         },
         "video": {
           "controls": true,
@@ -701,7 +701,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p>When PCs interfere:</p><ul><li>Send blight-tainted creatures</li><li>Offer a bargain through an NPC</li><li>Corrupt a faction asset</li></ul>"
+          "content": "<p>When PCs interfere:</p><ul><li>Send packs.blight-tainted creatures</li><li>Offer a bargain through an NPC</li><li>Corrupt a faction asset</li></ul>"
         },
         "video": {
           "controls": true,
@@ -739,7 +739,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p>When a clock hits a milestone, run the matching scene prompt from the clock consequence journals. Apply outcomes and adjust related clocks.</p>"
+          "content": "<p>When a clock hits a milestone, run the matching scene prompt from the clock consequence packs.journals. Apply outcomes and adjust related clocks.</p>"
         },
         "video": {
           "controls": true,
@@ -1644,7 +1644,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Secret:</b> ledger margins suggest a will behind the blight.</p>"
+          "content": "<p><b>Secret:</b> ledger margins suggest a will behind the packs.blight.</p>"
         },
         "video": {
           "controls": true,
