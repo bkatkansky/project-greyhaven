@@ -1,0 +1,44 @@
+{
+  "name": "grayhaven",
+  "title": "Grayhaven: Blight and Intrigue",
+  "description": "A fully populated Foundry VTT module for the Forgotten Realms town of Grayhaven, including all NPCs, districts with visual motifs and triggers, encounter tables, full faction clocks, quests, and Blight mechanics.",
+  "version": "1.1.0",
+  "author": "Brant Katkansky / GPT-5 mini",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "npcs",
+      "label": "Grayhaven NPCs",
+      "path": "packs/npcs.dbj",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "Grayhaven Journals",
+      "path": "packs/journals.dbj",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "tables",
+      "label": "Grayhaven Encounter Tables",
+      "path": "packs/tables.dbj",
+      "entity": "RollTable"
+    },
+    {
+      "name": "factions",
+      "label": "Faction Clocks",
+      "path": "packs/factions.dbj",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "blight",
+      "label": "Blight Mechanics",
+      "path": "packs/blight.dbj",
+      "entity": "JournalEntry"
+    }
+  ]
+}
