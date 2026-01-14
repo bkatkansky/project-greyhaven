@@ -20,7 +20,7 @@
       "name": "gh-npcs",
       "label": "Greyhaven NPCs",
       "system": "dnd5e",
-      "path": "packs/npcs",
+      "path": "packs/gh-npcs",
       "type": "Actor",
       "ownership": {
         "PLAYER": "NONE",
@@ -32,7 +32,7 @@
       "name": "gh-journals",
       "label": "Greyhaven Journals",
       "system": "dnd5e",
-      "path": "packs/journals",
+      "path": "packs/gh-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -44,7 +44,7 @@
       "name": "gh-factions",
       "label": "Greyhaven Factions",
       "system": "dnd5e",
-      "path": "packs/factions",
+      "path": "packs/gh-factions",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -56,7 +56,7 @@
       "name": "gh-blight",
       "label": "Greyhaven Blight",
       "system": "dnd5e",
-      "path": "packs/blight",
+      "path": "packs/gh-blight",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -68,7 +68,7 @@
       "name": "gh-tables",
       "label": "Greyhaven Roll Tables",
       "system": "dnd5e",
-      "path": "packs/tables",
+      "path": "packs/gh-tables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "NONE",
