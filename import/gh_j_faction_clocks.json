@@ -1,0 +1,370 @@
+[
+  {
+    "name": "FACTIONS: Overview & Clock Index (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "How to Use Clocks",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>Clocks</b> are tracked in <code>flags.grayhaven.clocks</code> on each faction journal. When a trigger fires (noted on NPCs, locations, or outcomes), advance the appropriate clock by 1–3 segments.</p><p><b>Rule of thumb:</b> 1 segment for minor info/actions, 2 for meaningful wins/losses, 3 for dramatic turning points.</p><p><b>When a clock fills:</b> apply the listed consequence immediately, then either (a) reset with escalation, or (b) replace it with a new clock.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": { "grayhaven": { "gmOnly": true } },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Grayhaven Leadership (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Grayhaven Stability",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": {
+          "format": 1,
+          "content": "<p><b>What it represents:</b> Food, order, morale, trust in leadership.</p><p><b>Advance when:</b> bandit attacks go unanswered, shortages worsen, public humiliations turn ugly, a scandal leaks.</p><p><b>Reduce when:</b> PCs solve a local crisis, secure trade, expose a threat cleanly, or deliver supplies.</p><p><b>When full:</b> curfew, rationing, mass arrests, and vigilantism. Spellcasting punishments become harsher.</p>"
+        },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_grayhaven_stability",
+            "name": "Grayhaven Stability",
+            "segments": 8,
+            "current": 3,
+            "type": "pressure",
+            "triggers": [
+              "North Road robbery succeeds",
+              "Food theft at granary",
+              "Public humiliation escalates to injury",
+              "Rumor: Mayor-Zhentarim deal confirmed"
+            ],
+            "milestones": [
+              { "at": 4, "effect": "Rationing begins; militia patrols double." },
+              { "at": 6, "effect": "Curfew enforced; outsiders searched; spellcasting punishments escalate." },
+              { "at": 8, "effect": "Town crisis: riot OR martial law OR scapegoat purge (GM choice)." }
+            ],
+            "resetOnFill": false
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Town Militia (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Militia Authority",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> The militia’s ability to act decisively without political interference.</p><p><b>When full:</b> aggressive stop-and-search, harsher sentencing, and a ‘special unit’ devoted to rooting out magic and smugglers.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_militia_authority",
+            "name": "Militia Authority",
+            "segments": 6,
+            "current": 2,
+            "type": "power",
+            "triggers": [
+              "PCs assist patrols successfully",
+              "Bandit leader captured",
+              "Spellcasting arrest handled publicly",
+              "Mayor grants emergency powers"
+            ],
+            "milestones": [
+              { "at": 3, "effect": "Checkpoints appear at gates; papers requested." },
+              { "at": 5, "effect": "Militia raids suspected Zhent fronts (may be misdirected)." },
+              { "at": 6, "effect": "Militia splinters: loyalists vs reformists; Captain forced to choose." }
+            ],
+            "resetOnFill": true,
+            "resetTo": 2
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Zhentarim (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Black Network Grip",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> Smuggling capacity, leverage over officials, control of rumor and supply.</p><p><b>When full:</b> the Zhentarim effectively run Grayhaven’s trade. They can ‘buy’ arrests or disappearances.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_zhent_grip",
+            "name": "Black Network Grip",
+            "segments": 8,
+            "current": 3,
+            "type": "influence",
+            "triggers": [
+              "Contraband shipment succeeds",
+              "PCs accept Zhent job",
+              "Harper courier intercepted",
+              "Mayor covers for Zhent"
+            ],
+            "milestones": [
+              { "at": 4, "effect": "Zhent introduce ‘protection fees’ to merchants." },
+              { "at": 6, "effect": "A key NPC is blackmailed or framed (GM chooses target)." },
+              { "at": 8, "effect": "Zhent attempt a soft coup: replace magistrate or install ‘advisor’ to Mayor." }
+            ],
+            "resetOnFill": false
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Harpers (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Harper Intelligence",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> Confirmed intel on Zhent operations and the Gloomwaste’s true cause.</p><p><b>When full:</b> the Harpers can act: expose the Mayor’s deal, cripple a smugglers’ route, or mount an expedition toward the ruins.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_harpers_intel",
+            "name": "Harper Intelligence",
+            "segments": 6,
+            "current": 1,
+            "type": "progress",
+            "triggers": [
+              "PCs deliver proof",
+              "Zhent route discovered",
+              "Gloomwaste artifact recovered",
+              "Secret meeting succeeds"
+            ],
+            "milestones": [
+              { "at": 2, "effect": "Harpers provide safehouse access and coded contacts." },
+              { "at": 4, "effect": "Harpers reveal the lich hypothesis; request a targeted strike." },
+              { "at": 6, "effect": "Harpers move openly: attempted exposure + coordinated raid." }
+            ],
+            "resetOnFill": true,
+            "resetTo": 1
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Bloodcrust Orcs (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Bloodcrust Raiding Season",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> Orc cohesion and frequency of raids outside the Gloomwaste.</p><p><b>When full:</b> a major raid targets farms or an outlying hamlet, possibly as a distraction for the lich’s agents.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_bloodcrust_raids",
+            "name": "Bloodcrust Raiding Season",
+            "segments": 6,
+            "current": 2,
+            "type": "threat",
+            "triggers": [
+              "Orc camp survives",
+              "Lich agent gifts weapons",
+              "PCs ignore raid signs",
+              "Food stores run low in camps"
+            ],
+            "milestones": [
+              { "at": 3, "effect": "Small raid: 1 farm burned; survivors flee to town." },
+              { "at": 5, "effect": "Ambush on road: militia casualties; trade worsens." },
+              { "at": 6, "effect": "Major raid event (session centerpiece)." }
+            ],
+            "resetOnFill": true,
+            "resetTo": 1
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Bramblefoot Family (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Bramblefoot Leverage",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> The family’s ability to steer policy, prices, and public opinion.</p><p><b>When full:</b> the Bramblefoots can force the Mayor’s hand or shield someone from law.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_bramblefoot_leverage",
+            "name": "Bramblefoot Leverage",
+            "segments": 6,
+            "current": 2,
+            "type": "influence",
+            "triggers": [
+              "PCs do family favors",
+              "Trade deal secured",
+              "Stoutheart scandal spreads",
+              "Hidden bloodline secret threatened"
+            ],
+            "milestones": [
+              { "at": 3, "effect": "Family offers discounts, hirelings, and social cover." },
+              { "at": 5, "effect": "Family pushes new ordinance (tightens spellcasting ban)." },
+              { "at": 6, "effect": "Family makes a drastic move: exile, bribery, or political purge." }
+            ],
+            "resetOnFill": false
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  },
+
+  {
+    "name": "FACTION: Stoutheart Family (GM)",
+    "pages": [
+      {
+        "sort": 100000,
+        "name": "Clock: Stoutheart Resentment",
+        "type": "text",
+        "system": {},
+        "title": { "show": true, "level": 1 },
+        "image": {},
+        "text": { "format": 1, "content": "<p><b>What it represents:</b> Rising anger at elites, especially Bramblefoots and leadership.</p><p><b>When full:</b> sabotage, strikes, and a ‘neighborhood justice’ incident.</p>" },
+        "video": { "controls": true, "volume": 0.5 },
+        "src": null,
+        "category": null,
+        "flags": {}
+      }
+    ],
+    "folder": null,
+    "categories": [],
+    "flags": {
+      "grayhaven": {
+        "gmOnly": true,
+        "clocks": [
+          {
+            "id": "clock_stoutheart_resentment",
+            "name": "Stoutheart Resentment",
+            "segments": 6,
+            "current": 1,
+            "type": "pressure",
+            "triggers": [
+              "Rationing hits Lowstone first",
+              "Bramblefoot policy benefits their own",
+              "Militia abuses a halfling",
+              "Rumor: Mayor deal confirmed"
+            ],
+            "milestones": [
+              { "at": 2, "effect": "Lowstone refuses taxes/fees; rumor mill intensifies." },
+              { "at": 4, "effect": "Strike/slowdown: deliveries delayed; tempers flare." },
+              { "at": 6, "effect": "Flashpoint: mob confrontation or sabotage of a key asset." }
+            ],
+            "resetOnFill": true,
+            "resetTo": 1
+          }
+        ]
+      }
+    },
+    "ownership": { "default": 0 }
+  }
+]
