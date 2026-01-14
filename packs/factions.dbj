@@ -14,7 +14,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p>Advance clocks by 1–3 segments when triggers occur. When a clock hits a milestone, run the matching Clock Consequence scene.</p>"
+          "content": "<p>Advance clocks when triggers occur. When full, apply consequence, then reset or replace.</p>"
         },
         "video": {
           "controls": true,
@@ -41,7 +41,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Greyhaven Stability",
         "type": "text",
         "system": {},
         "title": {
@@ -51,7 +51,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Greyhaven Stability</b> (8 segments). Current: 3.</p><p><b>Triggers:</b> North Road robbery succeeds, Food theft at granary, Public humiliation escalates, Rumor: Mayor-Zhent deal confirmed</p><p><b>Milestones:</b></p><ul><li>@4: Rationing begins; militia patrols double.</li><li>@6: Curfew enforced; outsiders searched; punishments escalate.</li><li>@8: Town crisis: riot OR martial law OR scapegoat purge.</li></ul>"
+          "content": "<p><b>What it represents:</b> Food, order, morale, trust in leadership.</p><p><b>When full:</b> Curfew, rationing, mass arrests, vigilantism.</p>"
         },
         "video": {
           "controls": true,
@@ -78,22 +78,25 @@
               "North Road robbery succeeds",
               "Food theft at granary",
               "Public humiliation escalates",
-              "Rumor: Mayor-Zhent deal confirmed"
+              "Rumor: Mayor-Zhentarim deal confirmed"
             ],
             "milestones": [
               {
                 "at": 4,
-                "effect": "Rationing begins; militia patrols double."
+                "effect": "Rationing begins; patrols double."
               },
               {
                 "at": 6,
-                "effect": "Curfew enforced; outsiders searched; punishments escalate."
+                "effect": "Curfew; searches; harsher punishments."
               },
               {
                 "at": 8,
-                "effect": "Town crisis: riot OR martial law OR scapegoat purge."
+                "effect": "Riot OR martial law OR scapegoat purge."
               }
-            ]
+            ],
+            "resetOnFill": false,
+            "rep": "Food, order, morale, trust in leadership.",
+            "full": "Curfew, rationing, mass arrests, vigilantism."
           }
         ]
       }
@@ -107,7 +110,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Militia Authority",
         "type": "text",
         "system": {},
         "title": {
@@ -117,7 +120,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Militia Authority</b> (6 segments). Current: 2.</p><p><b>Triggers:</b> PCs assist patrols, Bandit leader captured, Spellcasting arrest handled publicly, Mayor grants emergency powers</p><p><b>Milestones:</b></p><ul><li>@3: Checkpoints at gates; papers requested.</li><li>@5: Raids on suspected fronts.</li><li>@6: Militia splinters; captain chooses.</li></ul>"
+          "content": "<p><b>What it represents:</b> Ability to act decisively without interference.</p><p><b>When full:</b> Special unit; internal split.</p>"
         },
         "video": {
           "controls": true,
@@ -149,7 +152,7 @@
             "milestones": [
               {
                 "at": 3,
-                "effect": "Checkpoints at gates; papers requested."
+                "effect": "Checkpoints at gates."
               },
               {
                 "at": 5,
@@ -157,9 +160,13 @@
               },
               {
                 "at": 6,
-                "effect": "Militia splinters; captain chooses."
+                "effect": "Militia splinters."
               }
-            ]
+            ],
+            "resetOnFill": true,
+            "resetTo": 2,
+            "rep": "Ability to act decisively without interference.",
+            "full": "Special unit; internal split."
           }
         ]
       }
@@ -173,7 +180,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Black Network Grip",
         "type": "text",
         "system": {},
         "title": {
@@ -183,7 +190,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Black Network Grip</b> (8 segments). Current: 3.</p><p><b>Triggers:</b> Contraband shipment succeeds, PCs accept Zhent job, Harper courier intercepted, Mayor covers for Zhent</p><p><b>Milestones:</b></p><ul><li>@4: Protection fees begin.</li><li>@6: A key NPC is framed/blackmailed.</li><li>@8: Soft coup attempt.</li></ul>"
+          "content": "<p><b>What it represents:</b> Smuggling capacity and leverage.</p><p><b>When full:</b> Zhent effectively run trade and enforcement.</p>"
         },
         "video": {
           "controls": true,
@@ -215,17 +222,20 @@
             "milestones": [
               {
                 "at": 4,
-                "effect": "Protection fees begin."
+                "effect": "Protection fees."
               },
               {
                 "at": 6,
-                "effect": "A key NPC is framed/blackmailed."
+                "effect": "Key NPC framed."
               },
               {
                 "at": 8,
-                "effect": "Soft coup attempt."
+                "effect": "Soft coup move."
               }
-            ]
+            ],
+            "resetOnFill": false,
+            "rep": "Smuggling capacity and leverage.",
+            "full": "Zhent effectively run trade and enforcement."
           }
         ]
       }
@@ -239,7 +249,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Harper Intelligence",
         "type": "text",
         "system": {},
         "title": {
@@ -249,7 +259,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Harper Intelligence</b> (6 segments). Current: 1.</p><p><b>Triggers:</b> PCs deliver proof, Zhent route discovered, Gloomwaste artifact recovered, Secret meeting succeeds</p><p><b>Milestones:</b></p><ul><li>@2: Safehouse access and coded contacts.</li><li>@4: Reveal lich hypothesis; request strike.</li><li>@6: Coordinated raid/exposure.</li></ul>"
+          "content": "<p><b>What it represents:</b> Confirmed intel on Zhents and Gloomwaste cause.</p><p><b>When full:</b> Coordinated action and exposure.</p>"
         },
         "video": {
           "controls": true,
@@ -281,17 +291,21 @@
             "milestones": [
               {
                 "at": 2,
-                "effect": "Safehouse access and coded contacts."
+                "effect": "Safehouse access."
               },
               {
                 "at": 4,
-                "effect": "Reveal lich hypothesis; request strike."
+                "effect": "Lich hypothesis revealed."
               },
               {
                 "at": 6,
-                "effect": "Coordinated raid/exposure."
+                "effect": "Open move."
               }
-            ]
+            ],
+            "resetOnFill": true,
+            "resetTo": 1,
+            "rep": "Confirmed intel on Zhents and Gloomwaste cause.",
+            "full": "Coordinated action and exposure."
           }
         ]
       }
@@ -305,7 +319,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Bloodcrust Raiding Season",
         "type": "text",
         "system": {},
         "title": {
@@ -315,7 +329,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Bloodcrust Raiding Season</b> (6 segments). Current: 2.</p><p><b>Triggers:</b> Orc camp survives, Lich agent gifts weapons, PCs ignore raid signs, Food runs low in camps</p><p><b>Milestones:</b></p><ul><li>@3: Small raid; 1 farm burned.</li><li>@5: Road ambush; trade worsens.</li><li>@6: Major raid event.</li></ul>"
+          "content": "<p><b>What it represents:</b> Cohesion and frequency of raids.</p><p><b>When full:</b> Major raid targets farms/hamlet.</p>"
         },
         "video": {
           "controls": true,
@@ -342,22 +356,26 @@
               "Orc camp survives",
               "Lich agent gifts weapons",
               "PCs ignore raid signs",
-              "Food runs low in camps"
+              "Food stores run low"
             ],
             "milestones": [
               {
                 "at": 3,
-                "effect": "Small raid; 1 farm burned."
+                "effect": "Small raid."
               },
               {
                 "at": 5,
-                "effect": "Road ambush; trade worsens."
+                "effect": "Road ambush."
               },
               {
                 "at": 6,
                 "effect": "Major raid event."
               }
-            ]
+            ],
+            "resetOnFill": true,
+            "resetTo": 1,
+            "rep": "Cohesion and frequency of raids.",
+            "full": "Major raid targets farms/hamlet."
           }
         ]
       }
@@ -371,7 +389,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Bramblefoot Leverage",
         "type": "text",
         "system": {},
         "title": {
@@ -381,7 +399,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Bramblefoot Leverage</b> (6 segments). Current: 2.</p><p><b>Triggers:</b> PCs do family favors, Trade deal secured, Stoutheart scandal spreads, Bloodline secret threatened</p><p><b>Milestones:</b></p><ul><li>@3: Discounts, hirelings, social cover.</li><li>@5: Push new ordinance.</li><li>@6: Drastic move: exile/bribery/purge.</li></ul>"
+          "content": "<p><b>What it represents:</b> Ability to steer policy and prices.</p><p><b>When full:</b> Forces the Mayor’s hand or shields someone from law.</p>"
         },
         "video": {
           "controls": true,
@@ -405,7 +423,7 @@
             "current": 2,
             "type": "influence",
             "triggers": [
-              "PCs do family favors",
+              "PCs do favors",
               "Trade deal secured",
               "Stoutheart scandal spreads",
               "Bloodline secret threatened"
@@ -413,17 +431,20 @@
             "milestones": [
               {
                 "at": 3,
-                "effect": "Discounts, hirelings, social cover."
+                "effect": "Discounts and cover."
               },
               {
                 "at": 5,
-                "effect": "Push new ordinance."
+                "effect": "Ordinance push."
               },
               {
                 "at": 6,
-                "effect": "Drastic move: exile/bribery/purge."
+                "effect": "Drastic move."
               }
-            ]
+            ],
+            "resetOnFill": false,
+            "rep": "Ability to steer policy and prices.",
+            "full": "Forces the Mayor’s hand or shields someone from law."
           }
         ]
       }
@@ -437,7 +458,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Clock Summary",
+        "name": "Clock: Stoutheart Resentment",
         "type": "text",
         "system": {},
         "title": {
@@ -447,7 +468,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Stoutheart Resentment</b> (6 segments). Current: 1.</p><p><b>Triggers:</b> Rationing hits Lowstone first, Policy benefits Bramblefoots, Militia abuses halfling, Mayor deal rumor confirmed</p><p><b>Milestones:</b></p><ul><li>@2: Lowstone refuses taxes; rumor intensifies.</li><li>@4: Strike/slowdown.</li><li>@6: Flashpoint confrontation.</li></ul>"
+          "content": "<p><b>What it represents:</b> Rising anger at elites and leadership.</p><p><b>When full:</b> Sabotage, strikes, neighborhood justice.</p>"
         },
         "video": {
           "controls": true,
@@ -472,14 +493,14 @@
             "type": "pressure",
             "triggers": [
               "Rationing hits Lowstone first",
-              "Policy benefits Bramblefoots",
-              "Militia abuses halfling",
-              "Mayor deal rumor confirmed"
+              "Bramblefoot policy benefits their own",
+              "Militia abuses a halfling",
+              "Rumor: deal confirmed"
             ],
             "milestones": [
               {
                 "at": 2,
-                "effect": "Lowstone refuses taxes; rumor intensifies."
+                "effect": "Refusal and rumors."
               },
               {
                 "at": 4,
@@ -487,9 +508,13 @@
               },
               {
                 "at": 6,
-                "effect": "Flashpoint confrontation."
+                "effect": "Flashpoint."
               }
-            ]
+            ],
+            "resetOnFill": true,
+            "resetTo": 1,
+            "rep": "Rising anger at elites and leadership.",
+            "full": "Sabotage, strikes, neighborhood justice."
           }
         ]
       }

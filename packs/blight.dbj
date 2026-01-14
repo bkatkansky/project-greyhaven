@@ -4,7 +4,7 @@
     "pages": [
       {
         "sort": 100000,
-        "name": "Index",
+        "name": "Use with Gloomwaste",
         "type": "text",
         "system": {},
         "title": {
@@ -14,7 +14,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p>This module includes Gloomwaste horror tools and an influence tracker. Add your full Blight mechanics journal here if desired.</p><p>See: <b>Gloomwaste: Entry Horror Pack (GM)</b></p>"
+          "content": "<p>Use <b>Gloomwaste: Entry Horror Pack (GM)</b> plus your Blight Affliction rules. Add exposure checks hourly and escalate per Lich Awareness.</p>"
         },
         "video": {
           "controls": true,

@@ -1,44 +1,41 @@
 {
-  "name": "grayhaven",
-  "title": "Grayhaven: Blight and Intrigue",
-  "description": "A fully populated Foundry VTT module for the Forgotten Realms town of Grayhaven, including all NPCs, districts with visual motifs and triggers, encounter tables, full faction clocks, quests, and Blight mechanics.",
-  "version": "1.1.0",
-  "author": "Brant Katkansky / GPT-5 mini",
+  "name": "grayhaven-all",
+  "title": "Grayhaven: Blight and Intrigue (All Current JSON)",
+  "description": "A JSON-pack module containing all Grayhaven content generated in this chat: Session 1 kit, spellcasting enforcement, clocks, consequences, Gloomwaste horror, lich influence tracker, faction clocks, NPC dossiers, and core NPC actors.",
+  "version": "1.0.0",
+  "author": "ChatGPT",
   "minimumCoreVersion": "13",
   "compatibleCoreVersion": "13",
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
   "packs": [
     {
       "name": "npcs",
-      "label": "Grayhaven NPCs",
+      "label": "Grayhaven NPCs (JSON)",
       "path": "packs/npcs.dbj",
       "entity": "Actor"
     },
     {
       "name": "journals",
-      "label": "Grayhaven Journals",
+      "label": "Grayhaven Journals (JSON)",
       "path": "packs/journals.dbj",
       "entity": "JournalEntry"
     },
     {
-      "name": "tables",
-      "label": "Grayhaven Encounter Tables",
-      "path": "packs/tables.dbj",
-      "entity": "RollTable"
-    },
-    {
       "name": "factions",
-      "label": "Faction Clocks",
+      "label": "Grayhaven Factions & Clocks (JSON)",
       "path": "packs/factions.dbj",
       "entity": "JournalEntry"
     },
     {
       "name": "blight",
-      "label": "Blight Mechanics",
+      "label": "Grayhaven Blight (JSON)",
       "path": "packs/blight.dbj",
       "entity": "JournalEntry"
+    },
+    {
+      "name": "tables",
+      "label": "Grayhaven Tables (JSON)",
+      "path": "packs/tables.dbj",
+      "entity": "RollTable"
     }
   ]
 }
