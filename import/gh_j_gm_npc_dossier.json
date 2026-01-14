@@ -156,7 +156,7 @@
         "image": {},
         "text": {
           "format": 1,
-          "content": "<p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Gildon completes a ‘quiet’ shipment, PCs accept his ‘no questions’ job, or he reports PCs to Zhentarim.</p><p><b>Reduce</b> <i>Grayhaven Stability</i> risk by -1 when: PCs secure a caravan deal via Gildon or stop a price spike.</p>"
+          "content": "<p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Gildon completes a ‘quiet’ shipment, PCs accept his ‘no questions’ job, or he reports PCs to Zhentarim.</p><p><b>Reduce</b> <i>Greyhaven Stability</i> risk by -1 when: PCs secure a caravan deal via Gildon or stop a price spike.</p>"
         },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
@@ -166,7 +166,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Gildon Farrow", "links": ["Clock:Black Network Grip", "Clock:Grayhaven Stability"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Gildon Farrow", "links": ["Clock:Black Network Grip", "Clock:Greyhaven Stability"] } },
     "ownership": { "default": 0 }
   },
 
@@ -205,7 +205,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Bessa Wainwright", "links": ["Clock:Grayhaven Stability"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Bessa Wainwright", "links": ["Clock:Greyhaven Stability"] } },
     "ownership": { "default": 0 }
   },
 
@@ -244,7 +244,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Cyril “Crowsong” Mott", "links": ["Clock:Harper Intelligence", "Clock:Black Network Grip"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Cyril “Crowsong” Mott", "links": ["Clock:Harper Intelligence", "Clock:Black Network Grip"] } },
     "ownership": { "default": 0 }
   },
 
@@ -283,7 +283,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Sergeant Brinna Holt", "links": ["Clock:Militia Authority", "Clock:Stoutheart Resentment"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Sergeant Brinna Holt", "links": ["Clock:Militia Authority", "Clock:Stoutheart Resentment"] } },
     "ownership": { "default": 0 }
   },
 
@@ -313,7 +313,7 @@
         "system": {},
         "title": { "show": true, "level": 2 },
         "image": {},
-        "text": { "format": 1, "content": "<p>If Pell is mocked or dismissed repeatedly, he stops reporting. The next east-gate incident becomes worse (missing child, tainted animal, or fog surge). Advance <i>Grayhaven Stability</i> +1.</p>" },
+        "text": { "format": 1, "content": "<p>If Pell is mocked or dismissed repeatedly, he stops reporting. The next east-gate incident becomes worse (missing child, tainted animal, or fog surge). Advance <i>Greyhaven Stability</i> +1.</p>" },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
         "category": null,
@@ -322,7 +322,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Watchman Pell Tarrow", "links": ["Clock:Grayhaven Stability"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Watchman Pell Tarrow", "links": ["Clock:Greyhaven Stability"] } },
     "ownership": { "default": 0 }
   },
 
@@ -352,7 +352,7 @@
         "system": {},
         "title": { "show": true, "level": 2 },
         "image": {},
-        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Harper Intelligence</i> by +1 when: Harun provides ledger pages or old testimonies.</p><p><b>Advance</b> <i>Grayhaven Stability</i> by +1 when: a shrine scandal breaks or a public humiliation occurs outside the shrine doors.</p>" },
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Harper Intelligence</i> by +1 when: Harun provides ledger pages or old testimonies.</p><p><b>Advance</b> <i>Greyhaven Stability</i> by +1 when: a shrine scandal breaks or a public humiliation occurs outside the shrine doors.</p>" },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
         "category": null,
@@ -361,7 +361,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Brother Harun of the Dawn", "links": ["Clock:Harper Intelligence", "Clock:Grayhaven Stability"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Brother Harun of the Dawn", "links": ["Clock:Harper Intelligence", "Clock:Greyhaven Stability"] } },
     "ownership": { "default": 0 }
   },
 
@@ -400,7 +400,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Hilda Greenbottle", "links": ["Clock:Stoutheart Resentment"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Hilda Greenbottle", "links": ["Clock:Stoutheart Resentment"] } },
     "ownership": { "default": 0 }
   },
 
@@ -430,7 +430,7 @@
         "system": {},
         "title": { "show": true, "level": 2 },
         "image": {},
-        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Stoutheart Resentment</i> by +1 when: Odo’s traps injure someone or militia dismisses farm losses.</p><p><b>Reduce</b> <i>Grayhaven Stability</i> risk by -1 when: PCs solve the owlbear or protect farms.</p>" },
+        "text": { "format": 1, "content": "<p><b>Advance</b> <i>Stoutheart Resentment</i> by +1 when: Odo’s traps injure someone or militia dismisses farm losses.</p><p><b>Reduce</b> <i>Greyhaven Stability</i> risk by -1 when: PCs solve the owlbear or protect farms.</p>" },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
         "category": null,
@@ -439,7 +439,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Odo Stoutheart", "links": ["Clock:Stoutheart Resentment", "Clock:Grayhaven Stability"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Odo Stoutheart", "links": ["Clock:Stoutheart Resentment", "Clock:Greyhaven Stability"] } },
     "ownership": { "default": 0 }
   },
 
@@ -478,7 +478,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Kellan Pike", "links": ["Clock:Harper Intelligence"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Kellan Pike", "links": ["Clock:Harper Intelligence"] } },
     "ownership": { "default": 0 }
   },
 
@@ -508,7 +508,7 @@
         "system": {},
         "title": { "show": true, "level": 2 },
         "image": {},
-        "text": { "format": 1, "content": "<p><b>Reduce</b> <i>Grayhaven Stability</i> risk by -1 when: PCs escort Sorn successfully.</p><p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Sorn is forced to buy ‘protection’.</p>" },
+        "text": { "format": 1, "content": "<p><b>Reduce</b> <i>Greyhaven Stability</i> risk by -1 when: PCs escort Sorn successfully.</p><p><b>Advance</b> <i>Black Network Grip</i> by +1 when: Sorn is forced to buy ‘protection’.</p>" },
         "video": { "controls": true, "volume": 0.5 },
         "src": null,
         "category": null,
@@ -517,7 +517,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Caravan Master Sorn Dellik", "links": ["Clock:Grayhaven Stability", "Clock:Black Network Grip"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Caravan Master Sorn Dellik", "links": ["Clock:Greyhaven Stability", "Clock:Black Network Grip"] } },
     "ownership": { "default": 0 }
   },
 
@@ -556,7 +556,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Roadwarden ‘Old’ Sera Lann", "links": ["Clock:Grayhaven Stability"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Roadwarden ‘Old’ Sera Lann", "links": ["Clock:Greyhaven Stability"] } },
     "ownership": { "default": 0 }
   },
 
@@ -595,7 +595,7 @@
     ],
     "folder": null,
     "categories": [],
-    "flags": { "grayhaven": { "gmOnly": true, "npc": "Zhentarim Cutter Vesk", "links": ["Clock:Black Network Grip"] } },
+    "flags": { "greyhaven": { "gmOnly": true, "npc": "Zhentarim Cutter Vesk", "links": ["Clock:Black Network Grip"] } },
     "ownership": { "default": 0 }
   }
 ]
