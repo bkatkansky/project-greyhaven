@@ -1,0 +1,182 @@
+{
+  "name": "Maelis Cairn, the Gloom Regent",
+  "type": "character",
+  "img": "icons/npcs/undead/maelis-gloom-regent.png",
+  "system": {
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "abilities": {
+      "str": { "value": 11 },
+      "dex": { "value": 16 },
+      "con": { "value": 18 },
+      "int": { "value": 22 },
+      "wis": { "value": 18 },
+      "cha": { "value": 20 }
+    },
+    "bonuses": {},
+    "skills": {},
+    "attributes": {
+      "ac": { "calc": "default", "flat": 19 },
+      "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+      "movement": { "units": "ft", "hover": true, "ignoredDifficultTerrain": [] },
+      "attunement": { "max": 3 },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": 120,
+        "units": "ft",
+        "special": "Telepathy 120 ft."
+      },
+      "hp": { "max": 255, "temp": null, "tempmax": null, "value": 255, "formula": "" }
+    },
+    "details": {
+      "biography": {
+        "value": "Maelis Cairn is the lich sovereign of the Gloomwaste. She governs decay as policy, not accident. Calm, evaluative, and monstrously convinced of her superiority.",
+        "public": "A pale, robed figure with eyes like ink in lamplight. The air around her feels organized."
+      },
+      "alignment": "lawful evil",
+      "ideal": "Inferiority is structural.",
+      "bond": "Continuity of dominion across planes.",
+      "flaw": "Cannot tolerate repeated inefficiency; compelled to correct.",
+      "race": "",
+      "type": { "value": "undead", "subtype": "Lich", "swarm": "", "custom": "" },
+      "habitat": { "value": [], "custom": "Gloomwaste; Ruined Fortress Keep" },
+      "cr": 21,
+      "treasure": { "value": [] }
+    },
+    "resources": {
+      "legact": { "max": 3, "spent": 0 },
+      "legres": { "max": 3, "spent": 0 },
+      "lair": { "value": true, "initiative": 20, "inside": true }
+    },
+    "source": { "revision": 1, "rules": "2024" },
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "custom": "", "bypasses": [] },
+      "dr": { "value": ["cold", "lightning", "necrotic"], "custom": "", "bypasses": [] },
+      "dv": { "value": ["poison"], "custom": "", "bypasses": [] },
+      "dm": { "amount": {}, "bypasses": [] },
+      "ci": { "value": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"], "custom": "" },
+      "languages": {
+        "value": ["common", "draconic", "infernal", "elvish"],
+        "custom": "Telepathy 120 ft.",
+        "communication": {}
+      },
+      "important": true
+    }
+  },
+  "items": [
+    {
+      "name": "Regnal Presence",
+      "type": "feat",
+      "img": "icons/magic/control/control-influence-rally-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Regnal Presence.</strong> Creatures hostile to Maelis that start their turn within 60 ft. must succeed on a DC 19 Wisdom saving throw or lose their reaction until the start of their next turn. Inside the Gloomwaste or her keep, Maelis cannot be surprised and hostile creatures do not gain advantage from being unseen when attacking her.</p>"
+        }
+      }
+    },
+    {
+      "name": "Correction, Not Cruelty",
+      "type": "feat",
+      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Correction, Not Cruelty.</strong> When Maelis reduces a creature to 0 hit points, she may stabilize it and apply a <em>Correction Mark</em> instead of killing it.</p><p><strong>Correction Mark (Curse).</strong> The marked creature has disadvantage on one ability score of Maelis’s choice; it is always aware when Maelis is observing it (within the Gloomwaste); removed only by <em>Greater Restoration</em> or destroying Maelis’s phylactery.</p>"
+        }
+      }
+    },
+    {
+      "name": "Distributed Phylactery",
+      "type": "feat",
+      "img": "icons/magic/symbols/runes-circle-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Distributed Phylactery.</strong> Destroying Maelis’s body does not destroy her. If reduced to 0 HP, her body collapses and reforms in 1d10 days unless the keep’s governing geometry is disrupted and the phylactery lattice is destroyed. While her body is destroyed, the Gloomwaste becomes erratic and encounters in the region escalate by one step.</p>"
+        }
+      }
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "description": { "value": "<p><strong>Legendary Resistance (3/Day).</strong> If Maelis fails a saving throw, she can choose to succeed instead.</p>" }
+      }
+    },
+    {
+      "name": "Spellcasting (18th-level, Int)",
+      "type": "feat",
+      "img": "icons/magic/symbols/rune-sigil-black-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Spellcasting.</strong> Maelis is an 18th-level spellcaster. Intelligence is her spellcasting ability (spell save DC 21, +13 to hit). She requires no material components.</p><p><strong>At will:</strong> <em>mage hand</em>, <em>detect magic</em>, <em>chill touch</em>, <em>minor illusion</em></p><p><strong>3/day each:</strong> <em>blight</em> (Regent’s Assessment), <em>wall of force</em>, <em>counterspell</em></p><p><strong>1/day each:</strong> <em>disintegrate</em> (Structural Correction; usually terrain), <em>finger of death</em>, <em>power word stun</em>, <em>plane shift</em> (self only)</p><p><strong>Regent’s Assessment.</strong> Maelis’s <em>blight</em> deals maximum damage to creatures that have spent 24+ hours in the Gloomwaste.</p>"
+        }
+      }
+    },
+    {
+      "name": "Regent’s Touch",
+      "type": "feat",
+      "img": "icons/magic/death/hand-energy-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Regent’s Touch.</strong> Melee Spell Attack: +13 to hit, reach 5 ft., one target. Hit: 6d6 necrotic. The target must succeed on a DC 19 Constitution saving throw or gain 1 level of exhaustion.</p>"
+        }
+      }
+    },
+    {
+      "name": "Evaluate (Recharge 5–6)",
+      "type": "feat",
+      "img": "icons/sundries/documents/scroll-sealed-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Evaluate (Recharge 5–6).</strong> Maelis studies one creature she can see within 60 ft. That creature has disadvantage on saving throws against Maelis’s spells until the end of her next turn. Maelis learns the creature’s lowest ability score.</p>"
+        }
+      }
+    },
+    {
+      "name": "Metric Shift (Reaction)",
+      "type": "feat",
+      "img": "icons/magic/control/memory-wipe-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Metric Shift (Reaction).</strong> When a creature makes a saving throw against one of Maelis’s spells, Maelis may change which ability score governs that saving throw.</p>"
+        }
+      }
+    },
+    {
+      "name": "Legendary Actions (3/round)",
+      "type": "feat",
+      "img": "icons/magic/time/arrows-circling-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Legendary Actions.</strong> Maelis can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn.</p><p><strong>Correct Position.</strong> Move one creature Maelis can see up to 20 ft. to an unoccupied space.</p><p><strong>Suppress.</strong> One creature Maelis can see has disadvantage on its next attack roll or saving throw.</p><p><strong>Cast Cantrip.</strong> Maelis casts a cantrip.</p>"
+        }
+      }
+    },
+    {
+      "name": "Lair Actions (Initiative 20)",
+      "type": "feat",
+      "img": "icons/magic/nature/fog-rolling-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Lair Actions.</strong> On initiative count 20 (losing ties), Maelis can take one of the following lair actions (in the Gloomwaste or her keep):</p><ul><li><strong>Seal/Open.</strong> Seal or open a corridor, door, or passage (as the environment allows).</li><li><strong>Necrotic Fog.</strong> Create heavy obscurement in a 20-ft. radius area Maelis can see until the next lair action.</li><li><strong>Environmental Pressure.</strong> Hostile creatures must succeed on a DC 18 Wisdom saving throw or be restrained by oppressive force until the end of their next turn.</li></ul>"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "grayhaven": {
+      "district": "Ruined Keep (Inner Geometry)",
+      "triggers": [
+        "Lich Awareness",
+        "Gloomwaste Escalation",
+        "Endgame Confrontation",
+        "Phylactery Lattice"
+      ],
+      "visualMotif": "Perfect symmetry; ink-dark runes that pulse like a heartbeat; fog that pauses to listen",
+      "faction": "Gloom Regent"
+    }
+  }
+}
