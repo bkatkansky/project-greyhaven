@@ -1,0 +1,25 @@
+{
+  "name": "SESSION 1: Welcome to Greyhaven",
+  "_id": "w1fi1bmRu4wWaoWn",
+  "pages": [],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435162812,
+    "modifiedTime": 1768435162812,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!w1fi1bmRu4wWaoWn"
+}

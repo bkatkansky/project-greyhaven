@@ -1,0 +1,25 @@
+{
+  "name": "FACTION: Harpers (GM)",
+  "_id": "PkzqTfmrl7Pp7im0",
+  "pages": [],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435051671,
+    "modifiedTime": 1768435051671,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!PkzqTfmrl7Pp7im0"
+}

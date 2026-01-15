@@ -1,0 +1,25 @@
+{
+  "name": "NPC DOSSIER (GM): Cyril “Crowsong” Mott",
+  "_id": "VetMtMCr5wBCg1bl",
+  "pages": [],
+  "folder": "o4E5RE95KE5xZj40",
+  "categories": [],
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435522388,
+    "modifiedTime": 1768435683780,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!VetMtMCr5wBCg1bl"
+}

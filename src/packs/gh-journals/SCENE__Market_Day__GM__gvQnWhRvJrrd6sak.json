@@ -1,0 +1,25 @@
+{
+  "name": "SCENE: Market Day (GM)",
+  "_id": "gvQnWhRvJrrd6sak",
+  "pages": [],
+  "folder": "TbUrZBqxvzowAZzg",
+  "categories": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768434871970,
+    "modifiedTime": 1768435764318,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!gvQnWhRvJrrd6sak"
+}

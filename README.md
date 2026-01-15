@@ -14,3 +14,25 @@ B) If you use a JSON compendium importer module, point it at the *.dbj files.
 
 NOTE
 Foundry's native compendiums typically use LevelDB (*.db). These packs are JSON for portability.
+
+
+TOOLS REQUIRED:
+
+bunx:
+
+    See https://bun.com/docs 
+    To install: "curl -fsSL https://bun.sh/install | bash" as foundry user.
+
+Foundry VTT CLI (fvtt):
+
+    See https://github.com/foundryvtt/foundryvtt-cli
+    To install: "sudo npm install -g @foundryvtt/foundryvtt-cli" 
+
+    Create ~/.fvttrc
+        /usr/bin/fvtt configure set installPath <path to Foundry VTT>
+        /usr/bin/fvtt configure set dataPath <path to Foundry Data>
+
+    Add to ~/.bashrc
+        . ~/.fvttrc
+ 
+

@@ -1,0 +1,25 @@
+{
+  "name": "NPC DOSSIER (GM): Zhentarim Handler Varron Dusk",
+  "_id": "RK6RqQh57ddm65KA",
+  "pages": [],
+  "folder": "o4E5RE95KE5xZj40",
+  "categories": [],
+  "sort": 100004,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435484959,
+    "modifiedTime": 1768435777157,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!RK6RqQh57ddm65KA"
+}

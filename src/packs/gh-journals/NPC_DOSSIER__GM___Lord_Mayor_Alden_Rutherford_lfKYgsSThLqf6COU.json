@@ -1,0 +1,25 @@
+{
+  "name": "NPC DOSSIER (GM): Lord Mayor Alden Rutherford",
+  "_id": "lfKYgsSThLqf6COU",
+  "pages": [],
+  "folder": "o4E5RE95KE5xZj40",
+  "categories": [],
+  "sort": 100391,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435428382,
+    "modifiedTime": 1768435697581,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!lfKYgsSThLqf6COU"
+}

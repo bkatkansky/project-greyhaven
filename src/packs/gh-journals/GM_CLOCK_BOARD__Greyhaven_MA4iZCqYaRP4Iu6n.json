@@ -1,0 +1,25 @@
+{
+  "name": "GM CLOCK BOARD: Greyhaven",
+  "_id": "MA4iZCqYaRP4Iu6n",
+  "pages": [],
+  "folder": "xNfRjmJThgya1bad",
+  "categories": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435267619,
+    "modifiedTime": 1768435739591,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!MA4iZCqYaRP4Iu6n"
+}

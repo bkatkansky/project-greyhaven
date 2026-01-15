@@ -1,0 +1,25 @@
+{
+  "name": "SYSTEM: Spellcasting Enforcement (GM)",
+  "_id": "nSdiuhrHFw6gIbYt",
+  "pages": [],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435242995,
+    "modifiedTime": 1768435242995,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!nSdiuhrHFw6gIbYt"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "JournalEntry",
+  "folder": null,
+  "name": "Scenes",
+  "color": null,
+  "sorting": "a",
+  "_id": "TbUrZBqxvzowAZzg",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435720907,
+    "modifiedTime": 1768435720907,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!folders!TbUrZBqxvzowAZzg"
+}

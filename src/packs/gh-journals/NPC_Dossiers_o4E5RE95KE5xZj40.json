@@ -1,0 +1,23 @@
+{
+  "type": "JournalEntry",
+  "folder": null,
+  "name": "NPC Dossiers",
+  "color": null,
+  "sorting": "a",
+  "_id": "o4E5RE95KE5xZj40",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435642278,
+    "modifiedTime": 1768435642278,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!folders!o4E5RE95KE5xZj40"
+}

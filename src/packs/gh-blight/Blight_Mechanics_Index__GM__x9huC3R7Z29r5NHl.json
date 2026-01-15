@@ -1,0 +1,49 @@
+{
+  "name": "Blight Mechanics Index (GM)",
+  "_id": "x9huC3R7Z29r5NHl",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Use with Gloomwaste",
+      "_id": "6rzz9UO387Q1rxlF",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Use <b>Gloomwaste: Entry Horror Pack (GM)</b> plus your Blight Affliction rules. Add exposure checks hourly and escalate per Lich Awareness.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768434972856,
+    "modifiedTime": 1768434972856,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!x9huC3R7Z29r5NHl"
+}

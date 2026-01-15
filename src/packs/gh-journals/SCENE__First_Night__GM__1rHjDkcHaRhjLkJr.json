@@ -1,0 +1,25 @@
+{
+  "name": "SCENE: First Night (GM)",
+  "_id": "1rHjDkcHaRhjLkJr",
+  "pages": [],
+  "folder": "TbUrZBqxvzowAZzg",
+  "categories": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768434844553,
+    "modifiedTime": 1768435761963,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!1rHjDkcHaRhjLkJr"
+}

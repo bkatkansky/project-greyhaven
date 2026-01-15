@@ -1,0 +1,25 @@
+{
+  "name": "SYSTEM: Spellcasting Fallout Rumors (GM)",
+  "_id": "SsoR3Joa11gecKpg",
+  "pages": [],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435253420,
+    "modifiedTime": 1768435253420,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!SsoR3Joa11gecKpg"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "NPC DOSSIER (GM): Captain Elira Voss",
+  "_id": "yo8zIfPqAON7wV9y",
+  "pages": [],
+  "folder": "o4E5RE95KE5xZj40",
+  "categories": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435439019,
+    "modifiedTime": 1768435676930,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!yo8zIfPqAON7wV9y"
+}

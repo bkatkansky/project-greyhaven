@@ -1,0 +1,25 @@
+{
+  "name": "CLOCK CONSEQUENCES: Bloodcrust Raiding Season (GM)",
+  "_id": "WrAUSJJ5yD3jZuJ5",
+  "pages": [],
+  "folder": "xNfRjmJThgya1bad",
+  "categories": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "wigY7uJWRkdedHZW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768435361648,
+    "modifiedTime": 1768435743200,
+    "lastModifiedBy": "wigY7uJWRkdedHZW"
+  },
+  "_key": "!journal!WrAUSJJ5yD3jZuJ5"
+}
