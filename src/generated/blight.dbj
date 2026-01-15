@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Blighted Region Overview",
+    "type": "journal",
+    "img": "icons/locations/blight_region.png",
+    "data": {
+      "description": "A corrupted wasteland maintained by a lich formerly a powerful sorcerer. Dead trees, twisted plants, and corrupted animals dominate. Eastern road passes through, but few survive the journey.",
+      "triggers": ["Random Blight Encounter", "Exploration Hazard", "Lore Discovery"],
+      "mechanics": {
+        "environmentalHazard": {
+          "description": "Exposure to the Blight causes 1d6 poison damage per hour and requires a DC 15 Constitution saving throw at the end of each hour. On a failed save, adventurers gain the 'Blight Affliction' condition.",
+          "blightAffliction": {
+            "effects": [
+              "Disadvantage on ability checks and attack rolls",
+              "Hit point reduction by 5% per day if untreated",
+              "Discoloration or deformity in visible limbs"
+            ],
+            "cure": "Remove Curse or Greater Restoration"
+          }
+        },
+        "terrainEffects": [
+          "Thick brambles slow movement (half speed unless slashing through)",
+          "Toxic pools require DC 14 Dexterity saving throw to avoid slipping",
+          "Magical corruption interferes with spellcasting (arcana check DC 15 to avoid wild magic surge)"
+        ]
+      },
+      "visualMotif": "Twisted, leafless trees; gray-green fog; faint glowing runes; shriveled corpses and animals",
+      "rumors": [
+        "The Blight grows slowly but steadily eastward (true)",
+        "Nothing lives long here (true)",
+        "The Blight is punishment from the gods (false)",
+        "Powerful sorcerer-turned-lich maintains this region (true)"
+      ]
+    }
+  },
+  {
+    "name": "Blight Encounters",
+    "type": "RollTable",
+    "img": "icons/encounters/blight_region.png",
+    "data": {
+      "formula": "1d20",
+      "results": [
+        {"type": 0, "text": "Orc scouting party (Bloodcrust Clan) attacks.", "weight": 1},
+        {"type": 0, "text": "Blight creature ambush: twisted plant/undead hybrid.", "weight": 1},
+        {"type": 0, "text": "Undead patrol or guardian (unique to lich's lair).", "weight": 1},
+        {"type": 0, "text": "Environmental hazard: poisonous fog causes 1d6 poison damage.", "weight": 1},
+        {"type": 0, "text": "Collapsed ruins block path; DC 15 Athletics or Acrobatics to navigate.", "weight": 1},
+        {"type": 0, "text": "Signs of magical activity: glowing runes or arcane residue.", "weight": 1},
+        {"type": 0, "text": "Lost adventurer or Zhentarim agent spotted.", "weight": 1},
+        {"type": 0, "text": "Blighted animal herd attacks (wolves, boars, or owlbears).", "weight": 1},
+        {"type": 0, "text": "Fungal spores cause exhaustion (DC 15 Constitution save or gain 1 level of exhaustion).", "weight": 1},
+        {"type": 0, "text": "Hidden cave with minor treasure and traps.", "weight": 1},
+        {"type": 0, "text": "Harper scout observing Blight creatures for intel.", "weight": 1},
+        {"type": 0, "text": "Strange illusions create confusion (DC 15 Wisdom save).", "weight": 1},
+        {"type": 0, "text": "Orc raiding remnants suggest nearby lair.", "weight": 1},
+        {"type": 0, "text": "Blight-tainted water pool: touch requires DC 14 Constitution save or take 1d8 poison damage.", "weight": 1},
+        {"type": 0, "text": "Small group of undead animated by lingering lich magic.", "weight": 1},
+        {"type": 0, "text": "Falling twisted tree blocks path.", "weight": 1},
+        {"type": 0, "text": "Mysterious whispering voices (illusory, DC 15 Insight to recognize).", "weight": 1},
+        {"type": 0, "text": "Corrupted wildlife flees, attracting attention.", "weight": 1},
+        {"type": 0, "text": "Blight grows rapidly in patches, requiring pathfinding check DC 15.", "weight": 1},
+        {"type": 0, "text": "Glowing rune circle on ground, potentially a trap or magical effect.", "weight": 1}
+      ]
+    }
+  },
+  {
+    "name": "Blight Unique Creature",
+    "type": "npc",
+    "img": "icons/creatures/blight_creature.png",
+    "data": {
+      "details": {"type": {"value": "aberration"}},
+      "attributes": {
+        "ac": 14,
+        "hp": {"value": 45, "max": 45},
+        "speed": 30
+      },
+      "abilities": {
+        "strength": 14,
+        "dexterity": 12,
+        "constitution": 13,
+        "intelligence": 6,
+        "wisdom": 10,
+        "charisma": 6
+      },
+      "attacks": [
+        {"name": "Blight Claw", "attack": "+4 to hit", "damage": "1d8+2 slashing"},
+        {"name": "Toxic Breath", "attack": "Recharge 5-6", "damage": "2d6 poison in 15ft cone, DC 13 Constitution save for half"}
+      ],
+      "traits": ["Blight Affliction: creatures hit must make DC 13 Constitution save or gain 1 level of exhaustion"],
+      "flags": {"greyhaven": {"region": "Blighted Region", "visualMotif": "Twisted, semi-humanoid plant monster with glowing veins"}}
+    }
+  }
+]

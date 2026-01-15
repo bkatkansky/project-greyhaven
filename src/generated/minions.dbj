@@ -1,0 +1,792 @@
+[
+  {
+    "name": "The Census Warden",
+    "type": "character",
+    "img": "icons/npcs/undead/census-warden.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 10 },
+        "dex": { "value": 14 },
+        "con": { "value": 18 },
+        "int": { "value": 16 },
+        "wis": { "value": 14 },
+        "cha": { "value": 12 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 16 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": true, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": {
+          "darkvision": 60,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "hp": { "max": 110, "temp": null, "tempmax": null, "value": 110, "formula": "" }
+      },
+      "details": {
+        "biography": {
+          "value": "Lieutenant of Maelis Cairn, the Gloom Regent. Overseer of population, disappearances, and \"reclassification\".",
+          "public": "A tall, robed undead with a floating ledger that writes by itself."
+        },
+        "alignment": "lawful evil",
+        "ideal": "Order through enumeration.",
+        "bond": "Serves Maelis Cairn’s regnal calculus.",
+        "flaw": "Overconfident in its measures; can be baited into proving a point.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Lich Lieutenant", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Gloomwaste; Ruined Fortress Approaches" },
+        "cr": 6,
+        "treasure": { "value": [] }
+      },
+      "resources": {
+        "legact": { "max": 0, "spent": 0 },
+        "legres": { "max": 0, "spent": 0 },
+        "lair": { "value": false, "initiative": null, "inside": false }
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["charmed", "frightened", "poisoned"], "custom": "" },
+        "languages": { "value": ["common", "infernal"], "custom": "", "communication": {} },
+        "important": true
+      }
+    },
+    "items": [
+      {
+        "name": "Ledger Lash",
+        "type": "feat",
+        "img": "icons/skills/melee/strike-whip-purple.webp",
+        "system": {
+          "description": { "value": "<p><strong>Melee Spell Attack:</strong> +6 to hit, reach 10 ft., one target. <strong>Hit:</strong> 4d6+3 necrotic. Target makes DC 15 Con save or its max HP is reduced by the necrotic damage until a long rest.</p>" }
+        }
+      },
+      {
+        "name": "Mark for Reclassification (Recharge 5–6)",
+        "type": "feat",
+        "img": "icons/magic/symbols/runes-triangle-blue.webp",
+        "system": {
+          "description": { "value": "<p>One creature within 60 ft. must make a DC 15 Wis save or be <em>Marked</em> for 1 minute. Marked creatures cannot benefit from invisibility; undead have advantage on attacks against them; the target leaves faint necrotic footprints (no Stealth). Target repeats save at end of each turn.</p>" }
+        }
+      },
+      {
+        "name": "Enumerate the Living",
+        "type": "feat",
+        "img": "icons/sundries/documents/ledger-simple-brown.webp",
+        "system": {
+          "description": { "value": "<p>At the start of combat, the Warden records the current HP of all visible creatures. Whenever a creature regains HP, the Warden immediately knows its location until the end of its next turn.</p>" }
+        }
+      },
+      {
+        "name": "Administrative Authority",
+        "type": "feat",
+        "img": "icons/magic/control/control-influence-rally-purple.webp",
+        "system": {
+          "description": { "value": "<p>Undead allies within 30 ft. have advantage on saving throws.</p>" }
+        }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Gloomwaste Fringe",
+        "triggers": ["Lich Awareness", "Gloomwaste Escalation", "Faction Clock"],
+        "visualMotif": "Ink-black fog filaments; floating ledger pages; tally marks carved into bone",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "The Surveyor of Decay",
+    "type": "character",
+    "img": "icons/npcs/undead/surveyor-of-decay.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 20 },
+        "dex": { "value": 10 },
+        "con": { "value": 20 },
+        "int": { "value": 12 },
+        "wis": { "value": 16 },
+        "cha": { "value": 8 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 17 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": {
+          "darkvision": null,
+          "blindsight": 30,
+          "tremorsense": 60,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "hp": { "max": 168, "temp": null, "tempmax": null, "value": 168, "formula": "" }
+      },
+      "details": {
+        "biography": {
+          "value": "Lieutenant of Maelis Cairn. Controls terrain hostility and blight advance; a living anchor to the Gloomwaste’s growth.",
+          "public": "A fused corpse-root mass crowned with deadwood antlers. The ground sickens where it steps."
+        },
+        "alignment": "neutral evil",
+        "ideal": "Rewrite the land into compliance.",
+        "bond": "Serves the Regent’s boundary and expansion policies.",
+        "flaw": "Single-minded: prioritizes territory over pursuit.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Undead (Plant)", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Gloomwaste; Forest margins" },
+        "cr": 10,
+        "treasure": { "value": [] }
+      },
+      "resources": {
+        "legact": { "max": 0, "spent": 0 },
+        "legres": { "max": 0, "spent": 0 },
+        "lair": { "value": false, "initiative": null, "inside": false }
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "lg",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic", "poison"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["exhaustion", "poisoned"], "custom": "" },
+        "languages": { "value": [], "custom": "Understands Common and Druidic; cannot speak", "communication": {} },
+        "important": true
+      }
+    },
+    "items": [
+      {
+        "name": "Multiattack",
+        "type": "feat",
+        "img": "icons/skills/melee/strike-hammer-green.webp",
+        "system": { "description": { "value": "<p>The Surveyor makes two Slam attacks.</p>" } }
+      },
+      {
+        "name": "Slam",
+        "type": "feat",
+        "img": "icons/skills/melee/unarmed-punch-fist-green.webp",
+        "system": {
+          "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +9 to hit, reach 10 ft., one target. <strong>Hit:</strong> 3d8+5 bludgeoning plus 3d6 necrotic. Target makes DC 16 Con save or gains 1 level of exhaustion.</p>" }
+        }
+      },
+      {
+        "name": "Land Correction (Recharge 5–6)",
+        "type": "feat",
+        "img": "icons/magic/nature/root-vines-entangle.webp",
+        "system": {
+          "description": {
+            "value": "<p>Corrupts a 20-ft. radius area within 60 ft. Non-undead make DC 16 Con save or take 6d6 necrotic and gain 1 level of exhaustion. Undead in the area gain 20 temp HP. Area becomes blighted difficult terrain for 1 minute.</p>"
+          }
+        }
+      },
+      {
+        "name": "Blight Anchor",
+        "type": "feat",
+        "img": "icons/magic/nature/leaf-drip-poison-green.webp",
+        "system": { "description": { "value": "<p>While the Surveyor lives, the Gloomwaste expands twice as fast. Blighted terrain counts as lair terrain for undead.</p>" } }
+      },
+      {
+        "name": "Corrupting Presence",
+        "type": "feat",
+        "img": "icons/magic/nature/terrain-stone.webp",
+        "system": { "description": { "value": "<p>The ground within 20 ft. is difficult terrain for non-undead.</p>" } }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Gloomwaste Interior",
+        "triggers": ["Gloomwaste Expansion", "Wilderness Escalation", "Faction Clock"],
+        "visualMotif": "Gray-green fog hugging roots; deadwood antlers; soil that looks bruised",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "The Proctor of Continuity",
+    "type": "character",
+    "img": "icons/npcs/undead/proctor-continuity.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 18 },
+        "dex": { "value": 14 },
+        "con": { "value": 20 },
+        "int": { "value": 18 },
+        "wis": { "value": 16 },
+        "cha": { "value": 14 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 19 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": {
+          "darkvision": 120,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "hp": { "max": 225, "temp": null, "tempmax": null, "value": 225, "formula": "" }
+      },
+      "details": {
+        "biography": {
+          "value": "Lieutenant of Maelis Cairn. Executor of continuity systems; hunts threats that disrupt the Regent’s immortality geometry.",
+          "public": "A skeletal knight in black segmented armor etched with repeating sigils."
+        },
+        "alignment": "lawful evil",
+        "ideal": "Order must survive loss.",
+        "bond": "Bound to the Regent’s contingency protocols.",
+        "flaw": "Overcommits to punishing repetition; can be baited into predictable counters.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Regnal Knight", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Keep; inner ruins; planar nodes" },
+        "cr": 15,
+        "treasure": { "value": [] }
+      },
+      "resources": {
+        "legact": { "max": 0, "spent": 0 },
+        "legres": { "max": 0, "spent": 0 },
+        "lair": { "value": false, "initiative": null, "inside": false }
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["charmed", "frightened", "paralyzed"], "custom": "" },
+        "languages": { "value": ["common", "infernal"], "custom": "Telepathy 60 ft.", "communication": {} },
+        "important": true
+      }
+    },
+    "items": [
+      {
+        "name": "Multiattack",
+        "type": "feat",
+        "img": "icons/skills/melee/sword-slash-blue.webp",
+        "system": { "description": { "value": "<p>The Proctor makes three Continuum Blade attacks.</p>" } }
+      },
+      {
+        "name": "Continuum Blade",
+        "type": "feat",
+        "img": "icons/weapons/swords/sword-guard-blue.webp",
+        "system": {
+          "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +9 to hit, reach 5 ft., one target. <strong>Hit:</strong> 2d8+4 slashing plus 3d8 necrotic.</p>" }
+        }
+      },
+      {
+        "name": "Adaptive Defense",
+        "type": "feat",
+        "img": "icons/magic/defensive/shield-barrier-blue.webp",
+        "system": { "description": { "value": "<p>At end of each round, gains resistance to the last damage type that hit it.</p>" } }
+      },
+      {
+        "name": "Continuity Protocol",
+        "type": "feat",
+        "img": "icons/magic/symbols/runes-circle-blue.webp",
+        "system": { "description": { "value": "<p>The first time reduced to 0 HP, instead drops to 1 HP and becomes immune to the triggering damage type for 1 minute.</p>" } }
+      },
+      {
+        "name": "Failure Escalation (Reaction)",
+        "type": "feat",
+        "img": "icons/magic/control/bindings-chain-link-purple.webp",
+        "system": {
+          "description": {
+            "value": "<p>When a creature repeats the same action or tactic on consecutive turns, it has disadvantage on the second attempt, and the Proctor may make one Continuum Blade attack against it.</p>"
+          }
+        }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Keep Geometry",
+        "triggers": ["Phylactery Defense", "Endgame Escalation", "Faction Clock"],
+        "visualMotif": "Repeating sigils; corridor symmetry; cold air like held breath",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "Ledger Dead",
+    "type": "character",
+    "img": "icons/npcs/undead/ledger-dead.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 12 },
+        "dex": { "value": 10 },
+        "con": { "value": 10 },
+        "int": { "value": 6 },
+        "wis": { "value": 8 },
+        "cha": { "value": 5 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 12 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": {
+          "darkvision": 60,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "hp": { "max": 22, "temp": null, "tempmax": null, "value": 22, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Reanimated townsfolk with tally marks carved into bone.", "public": "A shambling corpse with numbers etched into its ribs." },
+        "alignment": "lawful evil",
+        "ideal": "Obey the count.",
+        "bond": "Bound to the Census Warden’s mark.",
+        "flaw": "Single-minded; easily lured by marked prey.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Minion", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Gloomwaste fringe; roads" },
+        "cr": 0.25,
+        "treasure": { "value": [] }
+      },
+      "resources": {
+        "legact": { "max": 0, "spent": 0 },
+        "legres": { "max": 0, "spent": 0 },
+        "lair": { "value": false, "initiative": null, "inside": false }
+      },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["poisoned"], "custom": "" },
+        "languages": { "value": [], "custom": "Understands Common; cannot speak", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [
+      {
+        "name": "Tally Strike",
+        "type": "feat",
+        "img": "icons/skills/melee/strike-hammer-gray.webp",
+        "system": { "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +3 to hit, reach 5 ft. <strong>Hit:</strong> 1d6+1 bludgeoning plus 1d6 necrotic.</p>" } }
+      },
+      {
+        "name": "Marked Priority",
+        "type": "feat",
+        "img": "icons/magic/symbols/runes-triangle-purple.webp",
+        "system": { "description": { "value": "<p>Has advantage on attack rolls against creatures affected by Mark for Reclassification or Correction Mark.</p>" } }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Gloomwaste Fringe",
+        "triggers": ["Census Pressure", "Lich Awareness"],
+        "visualMotif": "Chalky bone tally marks; dry whispering counts",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "Tithe Walker",
+    "type": "character",
+    "img": "icons/npcs/undead/tithe-walker.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 16 },
+        "dex": { "value": 8 },
+        "con": { "value": 16 },
+        "int": { "value": 5 },
+        "wis": { "value": 10 },
+        "cha": { "value": 6 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 14 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 45, "temp": null, "tempmax": null, "value": 45, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Slow armored undead bearing chained tithe boxes. Drains life as \"payment\".", "public": "A dragging figure with chain and rusted coffer." },
+        "alignment": "lawful evil",
+        "ideal": "Debt is destiny.",
+        "bond": "Collect for the Regent’s ledger.",
+        "flaw": "Predictable: advances in straight lines, obsessed with the nearest debtor.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Minion", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Roads; farm lanes; outskirts" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["poisoned"], "custom": "" },
+        "languages": { "value": [], "custom": "Understands Common; cannot speak", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [
+      {
+        "name": "Chain Slam",
+        "type": "feat",
+        "img": "icons/skills/melee/strike-chain-gray.webp",
+        "system": { "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +5 to hit, reach 5 ft. <strong>Hit:</strong> 2d6+3 bludgeoning plus 1d8 necrotic.</p>" } }
+      },
+      {
+        "name": "Extract Tithe",
+        "type": "feat",
+        "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+        "system": { "description": { "value": "<p>When it hits, target makes DC 13 Con save or its max HP is reduced by 5 until a long rest.</p>" } }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Outskirts & Farms",
+        "triggers": ["Farm Pressure", "Census Pressure"],
+        "visualMotif": "Rust chains; rattling coinless coffer; wet footprints that fade to dust",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "Blightbound Thrall",
+    "type": "character",
+    "img": "icons/npcs/undead/blightbound-thrall.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 14 },
+        "dex": { "value": 12 },
+        "con": { "value": 12 },
+        "int": { "value": 6 },
+        "wis": { "value": 10 },
+        "cha": { "value": 6 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 13 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 38, "temp": null, "tempmax": null, "value": 38, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "A creature partially overtaken by the Gloomwaste. Bursts into spores on death.", "public": "Skin mottled with gray-green rot; eyes filmed over." },
+        "alignment": "neutral evil",
+        "ideal": "Spread the boundary.",
+        "bond": "Anchored to the Surveyor’s terrain command.",
+        "flaw": "Explodes on death, harming allies if clustered.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Minion", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Gloomwaste; forest margins" },
+        "cr": 1,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic", "poison"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["poisoned"], "custom": "" },
+        "languages": { "value": [], "custom": "Understands Common; cannot speak", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [
+      {
+        "name": "Blighted Claws",
+        "type": "feat",
+        "img": "icons/skills/melee/claw-slash-green.webp",
+        "system": { "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +4 to hit, reach 5 ft. <strong>Hit:</strong> 2d6+2 slashing plus 1d8 necrotic.</p>" } }
+      },
+      {
+        "name": "Sporeburst Death",
+        "type": "feat",
+        "img": "icons/magic/nature/plant-spore-mushroom-green.webp",
+        "system": { "description": { "value": "<p>When reduced to 0 HP, explodes: creatures within 5 ft. make DC 13 Con save or take 2d6 poison and the area becomes difficult terrain for 1 round.</p>" } }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Gloomwaste Fringe",
+        "triggers": ["Gloomwaste Hazard", "Wilderness Encounter"],
+        "visualMotif": "Spore haze; rustling dead leaves with no wind; bruised soil",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "Root Sentinel",
+    "type": "character",
+    "img": "icons/npcs/undead/root-sentinel.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 18 },
+        "dex": { "value": 6 },
+        "con": { "value": 16 },
+        "int": { "value": 5 },
+        "wis": { "value": 12 },
+        "cha": { "value": 6 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 15 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 75, "temp": null, "tempmax": null, "value": 75, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Immobile undead-plant guardian that punishes lingering and restrains intruders.", "public": "A stump-like mass of bone and root that wakes when you stop moving." },
+        "alignment": "neutral evil",
+        "ideal": "Punish delay.",
+        "bond": "Anchored to Surveyor nodes and ruin thresholds.",
+        "flaw": "Cannot pursue; can be bypassed with speed and coordination.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Undead (Plant)", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Ruin approaches; chokepoints" },
+        "cr": 3,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "lg",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["poisoned", "prone"], "custom": "Immune to prone; cannot be knocked prone", "communication": {} },
+        "languages": { "value": [], "custom": "", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [
+      {
+        "name": "Root Slam",
+        "type": "feat",
+        "img": "icons/magic/nature/root-vine-entangle-green.webp",
+        "system": { "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +6 to hit, reach 15 ft. <strong>Hit:</strong> 2d8+4 bludgeoning and target is restrained (DC 14 Str save to end).</p>" } }
+      },
+      {
+        "name": "Punish Lingering",
+        "type": "feat",
+        "img": "icons/magic/death/fog-ghost-gray.webp",
+        "system": { "description": { "value": "<p>Creatures that start their turn within 10 ft. make DC 14 Con save or take 2d6 necrotic.</p>" } }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Ruin Thresholds",
+        "triggers": ["Anti-Linger Hazard", "Ruin Defense"],
+        "visualMotif": "Roots like knotted fingers; bark that looks like old scars",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "Continuance Knight",
+    "type": "character",
+    "img": "icons/npcs/undead/continuance-knight.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 18 },
+        "dex": { "value": 12 },
+        "con": { "value": 20 },
+        "int": { "value": 8 },
+        "wis": { "value": 14 },
+        "cha": { "value": 10 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 18 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": false, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 95, "temp": null, "tempmax": null, "value": 95, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "Elite undead guard that intercepts damage and holds lines for the Proctor.", "public": "A plate-armored corpse whose joints move with unsettling precision." },
+        "alignment": "lawful evil",
+        "ideal": "Hold the line.",
+        "bond": "Protect continuity nodes and keep geometry.",
+        "flaw": "Rigid tactics; can be outmaneuvered.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Elite Minion", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Keep; deep ruins; phylactery lattice" },
+        "cr": 5,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["charmed", "frightened"], "custom": "" },
+        "languages": { "value": [], "custom": "", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [
+      {
+        "name": "System Blade",
+        "type": "feat",
+        "img": "icons/weapons/swords/sword-guard-silver.webp",
+        "system": { "description": { "value": "<p><strong>Melee Weapon Attack:</strong> +7 to hit, reach 5 ft. <strong>Hit:</strong> 2d8+4 slashing plus 2d8 necrotic.</p>" } }
+      },
+      {
+        "name": "Shield the System (Reaction)",
+        "type": "feat",
+        "img": "icons/magic/defensive/shield-barrier-gray.webp",
+        "system": { "description": { "value": "<p>When an ally within 5 ft. is hit, the knight can use its reaction to take half the damage.</p>" } }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Keep Geometry",
+        "triggers": ["Endgame Defense", "Phylactery Protection"],
+        "visualMotif": "Symmetric armor etching; cold sparks when steel meets stone",
+        "faction": "Gloom Regent"
+      }
+    }
+  },
+
+  {
+    "name": "Archivist Wraith",
+    "type": "character",
+    "img": "icons/npcs/undead/archivist-wraith.png",
+    "system": {
+      "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+      "abilities": {
+        "str": { "value": 6 },
+        "dex": { "value": 16 },
+        "con": { "value": 16 },
+        "int": { "value": 18 },
+        "wis": { "value": 14 },
+        "cha": { "value": 12 }
+      },
+      "bonuses": {},
+      "skills": {},
+      "attributes": {
+        "ac": { "calc": "default", "flat": 15 },
+        "init": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+        "movement": { "units": "ft", "hover": true, "ignoredDifficultTerrain": [] },
+        "attunement": { "max": 3 },
+        "senses": { "darkvision": 60, "blindsight": null, "tremorsense": null, "truesight": null, "units": "ft", "special": "" },
+        "hp": { "max": 90, "temp": null, "tempmax": null, "value": 90, "formula": "" }
+      },
+      "details": {
+        "biography": { "value": "A wraith that records failures by draining resources. It’s not killing you; it’s cataloging you.", "public": "A hovering shadow wrapped in torn parchment and whispering ink." },
+        "alignment": "lawful evil",
+        "ideal": "Failure is a resource.",
+        "bond": "Bound to the Proctor’s punitive doctrine.",
+        "flaw": "Overconfident; prefers draining to finishing.",
+        "race": "",
+        "type": { "value": "undead", "subtype": "Elite Minion", "swarm": "", "custom": "" },
+        "habitat": { "value": [], "custom": "Keep; sealed libraries; corridor nodes" },
+        "cr": 6,
+        "treasure": { "value": [] }
+      },
+      "resources": { "legact": { "max": 0, "spent": 0 }, "legres": { "max": 0, "spent": 0 }, "lair": { "value": false, "initiative": null, "inside": false } },
+      "source": { "revision": 1, "rules": "2024" },
+      "traits": {
+        "size": "med",
+        "di": { "value": [], "custom": "", "bypasses": [] },
+        "dr": { "value": ["necrotic"], "custom": "", "bypasses": [] },
+        "dv": { "value": [], "custom": "", "bypasses": [] },
+        "dm": { "amount": {}, "bypasses": [] },
+        "ci": { "value": ["charmed", "frightened", "grappled", "prone", "restrained"], "custom": "", "communication": {} },
+        "languages": { "value": [], "custom": "Understands Common; telepathic whispers to marked targets", "communication": {} },
+        "important": false
+      }
+    },
+    "items": [
+      {
+        "name": "Archivist’s Touch",
+        "type": "feat",
+        "img": "icons/magic/death/hand-energy-gray.webp",
+        "system": { "description": { "value": "<p><strong>Melee Spell Attack:</strong> +7 to hit, reach 5 ft. <strong>Hit:</strong> 4d8 necrotic.</p>" } }
+      },
+      {
+        "name": "Memory Drain",
+        "type": "feat",
+        "img": "icons/magic/control/memory-wipe-purple.webp",
+        "system": {
+          "description": {
+            "value": "<p>When the wraith hits, target makes DC 15 Wis save or loses either (a) one spell slot (highest available) or (b) one limited-use class feature until a short rest.</p>"
+          }
+        }
+      }
+    ],
+    "effects": [],
+    "flags": {
+      "grayhaven": {
+        "district": "Keep Archives",
+        "triggers": ["Knowledge Pressure", "Endgame Defense"],
+        "visualMotif": "Torn parchment drifting in air; ink that moves like worms; whispering page-turn sounds",
+        "faction": "Gloom Regent"
+      }
+    }
+  }
+]
